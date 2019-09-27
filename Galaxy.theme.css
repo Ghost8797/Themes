@@ -6185,3 +6185,9 @@ div.reply-item {
     background-color: transparent;
     background: var(--BG-image-set);
 }
+	
+/* Game Panel above User info fix */
+.panels-j1Uci_ {
+    background-color: var(--bgImage);
+}
+	
