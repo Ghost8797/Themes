@@ -1126,8 +1126,7 @@ svg[name*="Checkmark"] {
 
 #app-mount .acronym-2mOFsV {
     background-color: transparent;
-    border: 2px solid var(--main-color);
-    box-sizing: border-box;
+    border: none;
     transition: all 200ms ease-in-out;
 }
 
