@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       
  * @website      
  */
@@ -6180,3 +6180,9 @@ div.reply-item {
 #app-mount .bda-slist li, #app-mount .emptyApplications-3GTmw-, #app-mount .emptyUsers--hiToV {
     background-color: var(--secondary-color);
     border-color: var(--main-color);
+
+/* User Profile Background Fix */
+.inner-1ilYF7 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+}
