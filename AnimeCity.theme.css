@@ -767,3 +767,9 @@ body {
 .sidebar-2K8pFh {
 	background: var(--BG-left-brightness);
 }
+
+/* User Profile Background Fix */
+.inner-1ilYF7 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+}
