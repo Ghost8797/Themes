@@ -6179,6 +6179,7 @@ div.reply-item {
 #app-mount .bda-slist li, #app-mount .emptyApplications-3GTmw-, #app-mount .emptyUsers--hiToV {
     background-color: var(--secondary-color);
     border-color: var(--main-color);
+}
 
 /* User Profile Background Fix */
 .inner-1ilYF7 {
