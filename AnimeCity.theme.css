@@ -773,3 +773,13 @@ body {
     background-color: transparent;
     background: var(--BG-image-set);
 }
+
+/* nitro fix */
+#app-mount .modal-yWgWj-, #app-mount .root-1gCeng {
+    background: var(--main-bg);
+
+}
+
+.footer-3rDWdC {
+    background: var(--main-bg);
+}
