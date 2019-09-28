@@ -3338,10 +3338,6 @@ pre {
     background-color: var(--main-color);
 }
 
-
-
-
-
 /* =================================== SLIDE INS ================================== */
 /* 15. Popouts */
 /* 15.a. Pinned Messages and Recent Mentions*/
@@ -3375,7 +3371,6 @@ pre {
 
 #app-mount .header-ykumBX,
 #app-mount .footer-1kmXd4 {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3383,7 +3378,6 @@ pre {
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3391,7 +3385,6 @@ pre {
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3399,7 +3392,6 @@ pre {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3408,7 +3400,6 @@ pre {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3423,7 +3414,6 @@ pre {
 }
 
 .jumpButton-3DTcS_ {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -3431,7 +3421,6 @@ pre {
 }
 
 .hasMoreButton-1MELpI {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -6152,15 +6141,34 @@ div.reply-item {
 }
 
 /* Background fixes */
-#app-mount .scroller-2FKFPG {
-    background-color: var(--BG-image-set);
+.membersWrap-2h-GB4 {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
-.scroller-2TZvBN {
-    background-color: var(--BG-left-brightness);
+.messages-3amgkR {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
-.container-21gZY8 {
-	background-color: var(--BG-popout-brightness);
+
+#app-mount .scroller-2FKFPG {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.members-1998pB {
+       background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
 }	
 
 .theme-dark {
