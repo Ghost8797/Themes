@@ -1741,7 +1741,7 @@ svg[name*="Checkmark"] {
 /* 7.a. Main Member List */
 .membersWrap-2h-GB4 {
     z-index: 1;
-    background-color: var(--bgImage);
+    background-color: var(--BG-image-set);
 }
 
 .member-3W1lQa {
@@ -1825,7 +1825,7 @@ a,
 }
 
 .messages-3amgkR {
-    background: var(--bgImage);
+    background: var(--BG-image-set);
 }
 
 .containerCompactBounded-cYR5cW:last-child {
@@ -6140,7 +6140,7 @@ div.reply-item {
 
 /* Background fixes */
 #app-mount .scroller-2FKFPG {
-    background-color: var(--bgImage);
+    background-color: var(--BG-image-set);
 }
 
 .scroller-2TZvBN {
