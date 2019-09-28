@@ -5146,7 +5146,7 @@ pre {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
+
 }
 
 #app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"] {
@@ -6163,27 +6163,42 @@ div.reply-item {
 }
 
 .members-1998pB {
-       background: var(--BG-image-set);
+    background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
-}	
-
 .theme-dark {
---background-primary: rgba(0, 0, 0, 0);
---background-secondary: rgba(0, 0, 0, 0);
---background-tertiary: rgba(0, 0, 0, 0);
---deprecated-store-bg: rgba(0, 0, 0, 0);
+    --background-primary: rgba(0, 0, 0, 0);
+    --background-secondary: rgba(0, 0, 0, 0);
+    --background-tertiary: rgba(0, 0, 0, 0);
+    --deprecated-store-bg: rgba(0, 0, 0, 0);
 }
 
 .sidebar-2K8pFh {
-	background: var(--BG-left-brightness);
+    background: var(--BG-left-brightness);
+}
+
+#app-mount .container-1r6BKw {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-98HsJk {
+      background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
 }
 
 /* nitro fix */
-#app-mount .modal-yWgWj-, #app-mount .root-1gCeng {
+#app-mount .modal-yWgWj-,
+#app-mount .root-1gCeng {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
@@ -6200,7 +6215,9 @@ div.reply-item {
 }
 
 /* theme page fix */
-#app-mount .bda-slist li, #app-mount .emptyApplications-3GTmw-, #app-mount .emptyUsers--hiToV {
+#app-mount .bda-slist li,
+#app-mount .emptyApplications-3GTmw-,
+#app-mount .emptyUsers--hiToV {
     background-color: var(--secondary-color);
     border-color: var(--main-color);
 }
@@ -6213,8 +6230,8 @@ div.reply-item {
     background-position: center;
     background-size: cover;
 }
-	
+
 /* Game Panel above User info fix */
 .panels-j1Uci_ {
     background-color: var(--bgImage);
-}	
+}
