@@ -5152,17 +5152,30 @@ pre {
 #app-mount .subscriptionDuration-3WXA_o,
 #app-mount .tierPill-1yRO48,
 #app-mount .info-3UT5_W {
-    background-color: var(--BG-image-set) !important;
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 #app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"] {
-    background-image: var(--BG-image-set) !important;
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 #app-mount .info-3NKfPL,
 #app-mount .tierHeaderLocked-1a2opw,
 #app-mount .tierHeaderLocked-1s2JJz {
-    background-color: var(--BG-image-set);
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 #app-mount .background-3xPPFc {
@@ -6163,7 +6176,19 @@ div.reply-item {
 
 /* nitro fix */
 #app-mount .modal-yWgWj-, #app-mount .root-1gCeng {
-    background: var(--bgImage);
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark .modal-yWgWj- {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 /* theme page fix */
