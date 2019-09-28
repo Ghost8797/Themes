@@ -1741,6 +1741,7 @@ svg[name*="Checkmark"] {
 /* 7.a. Main Member List */
 .membersWrap-2h-GB4 {
     z-index: 1;
+    background-color: var(--bgImage);
 }
 
 .member-3W1lQa {
@@ -1823,9 +1824,8 @@ a,
     color: var(--hover-color) !important;
 }
 
-.messages-3amgkR.scroller-2FKFPG {
-    padding-bottom: 10px;
-    background: transparent;
+.messages-3amgkR {
+    background: var(--bgImage);
 }
 
 .containerCompactBounded-cYR5cW:last-child {
@@ -6140,12 +6140,9 @@ div.reply-item {
 
 /* Background fixes */
 #app-mount .scroller-2FKFPG {
+    background-color: var(--bgImage);
 }
 
-.messages-3amgkR {
-    background-color: var(--BG-right-brightness); 
-}
-	
 .scroller-2TZvBN {
     background-color: var(--BG-left-brightness);
 }
@@ -6184,5 +6181,4 @@ div.reply-item {
 /* Game Panel above User info fix */
 .panels-j1Uci_ {
     background-color: var(--bgImage);
-}
-	
+}	
