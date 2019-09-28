@@ -6201,6 +6201,9 @@ div.reply-item {
 .inner-1ilYF7 {
     background-color: transparent;
     background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 	
 /* Game Panel above User info fix */
