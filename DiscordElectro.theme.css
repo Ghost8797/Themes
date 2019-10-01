@@ -1758,3 +1758,25 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     border: 2px solid var(--primary) !important;
     border-radius: 5px;
 }
+
+.container-2ax-kl {
+    color: #000 !important;
+    background-image: linear-gradient(120deg, var(--primary2) 80%, transparent 80%);
+    height: 28px !important;
+    line-height: 28px !important;
+    padding: 0 0 0 10px !important;  
+}
+
+.searchPopout-1vUlP3, .container-3ayLPN {
+    background-color: var(--medium) !important;
+    border: 2px solid var(--primary) !important;
+    border-radius: 5px;  
+}
+
+.searchHeader-1l-wpR {
+    background-color: var(--medium) !important; 
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    background-color: var(--medium) !important; 
+}
