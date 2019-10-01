@@ -1681,3 +1681,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     background-color: var(--medium) !important;
     border-bottom: 1px solid var(--primary) !important; 
 }
+
+.search-2oPWTC {
+    background-color: var(--medium) !important;
+    border: 2px solid var(--primary) !important;
+    border-radius: 5px; 
+}
