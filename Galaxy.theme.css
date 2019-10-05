@@ -6229,3 +6229,10 @@ div.reply-item {
 .panels-j1Uci_ {
     background-color: var(--bgImage);
 }
+
+/* Channel Hover/Border */
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
+  border: 1px solid var(--main-color);
+  transition: all 200ms; 
+}
+
