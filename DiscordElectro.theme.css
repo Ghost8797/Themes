@@ -1988,7 +1988,7 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 .avatarWrapper-3H_478 {border-radius: 0;}
 foreignObject[mask*="round-80"] {mask: none!important;}
 
-/* Channel Hover */
+/* Channel Hover/Border */
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
   background: var(--primaryT);
   border: 1px solid var(--primary2);
