@@ -1130,3 +1130,21 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     width: 12px;
     background-color: var(--main-color);
 }
+
+/* Upload Popout Settings */
+.uploadModal-2ifh8j {
+       background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
