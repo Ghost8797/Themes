@@ -1994,3 +1994,95 @@ foreignObject[mask*="round-80"] {mask: none!important;}
   border: 1px solid var(--primary2);
   transition: all 200ms;
 }
+
+/* Dm Select/Hover Settings */
+.layout-2DM8Md:hover {
+    background: var(--primaryT);
+    border: 1px solid var(--primary);
+    transition: all 200ms;
+}
+
+.clickable-1JJAn8.container-2Pjhx-:active,
+.selected-aXhQR6.container-2Pjhx- {
+    background: var(--primaryT);
+    border: 1px solid var(--primary);
+    transition: all 200ms;
+}
+
+/* Search Popout Settings */
+popoutBottom-2GAFPg.noArrow-2foL9g {
+    margin-top: 0px !important;
+}
+
+.popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm[style*="top: 37px;"] {
+    top: 46px !important;
+}
+
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    background-color: transparent;
+    background: var(--BG-image-set) center/cover no-repeat;
+}
+
+.searchPopout-1vUlP3 .resultsGroup-r_nuzN,
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+    transform-origin: 50% -10%;
+    box-sizing: content-box;
+    background-color: var(--BG-image-set);
+}
+
+.resultsGroup-r_nuzN .header-2N-gMV {
+    background-color: var(--BG-image-set);
+    padding: 10px 20px;
+}
+
+.resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
+    top: 17px;
+}
+
+.option-96V44q,
+.result-2S5Awv {
+    border-left: 2px solid var(--BG-image-set);
+    border-radius: 0px;
+}
+
+.option-96V44q:after,
+.option-96V44q.selected-rZcOL-:after {
+    display: none;
+}
+
+.queryContainer-RKFJW- {
+    background-color: var(--hover-color) !important;
+}
+
+.option-96V44q.selected-rZcOL-,
+.result-2S5Awv.focused-1Yu0L3 {
+    background-color: var(--hover-color) !important;
+    border-color: var(--BG-image-set);
+}
+
+.option-96V44q.searchQuery-1B7rtx.selected-rZcOL-,
+.queryContainer-RKFJW- {
+    border-color: var(--BG-image-set);
+}
+
+.dim-1l4L4y span {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.option-96V44q span {
+    overflow: visible;
+}
+
+.dim-1l4L4y span {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.option-96V44q span {
+    overflow: visible;
+}
