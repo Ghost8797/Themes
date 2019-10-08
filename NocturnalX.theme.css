@@ -1,0 +1,1213 @@
+//META{"name":"Nocturnal","description":"A simple & clean dark theme for thoses who live at night, made to be easy on the eye","author":"Spectra#7698","version":"1.0","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
+/*███╗ ██╗ ██████╗ ██████╗████████╗██╗ ██╗██████╗ ███╗ ██╗ █████╗ ██╗████╗ ██║██╔═══██╗██╔════╝╚══██╔══╝██║ ██║██╔══██╗████╗ ██║██╔══██╗██║██╔██╗ ██║██║ ██║██║ ██║ ██║ ██║██████╔╝██╔██╗ ██║███████║██║██║╚██╗██║██║ ██║██║ ██║ ██║ ██║██╔══██╗██║╚██╗██║██╔══██║██║██║ ╚████║╚██████╔╝╚██████╗ ██║ ╚██████╔╝██║ ██║██║ ╚████║██║ ██║███████╗╚═╝ ╚═══╝ ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝╚═╝ ╚═╝╚══════╝###################################################################################################Nocturnal Theme for Better DiscordThe author (Spectra#7698) retains full rights of this code.You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.You are allowed to edit the theme for personal use only.If you enjoy using the theme, help spread the word!This theme is meant to be used with the dark version of discord###################################################################################################*/
+@import url(https://codedotspectra.github.io/themes/mini-themes/statusRounded.css);
+@import url(https://codedotspectra.github.io/themes/mini-themes/hljs.css);
+@import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
+
+/*###################################################################################################*/
+:root {
+    --primaryGradient1: #008ae6;
+    --primaryGradient2: #00e68a;
+    /* Images */
+    --bgImage: url('https://i.imgur.com/wJShtUj.png');
+    --BG-image-set: var(--bgImage, var(--bgImage));
+}
+
+/* Background Settings */
+#friends,
+.activityFeed-1C0EmJ,
+.appMount-3VJmYg,
+.applicationStore-1pNvnv,
+.article-3kb3qm,
+.body-3ND3kc,
+.body-3iLsc4,
+.channels-Ie2l6A,
+.chat-3bRxxu,
+.chat-3bRxxu form,
+.container-1UB9sr,
+.container-2Thooq,
+.container-3ayLPN,
+.container-PNkimc,
+.content-yTz4x3,
+.footer-1fjuF6,
+.gameLibrary-TTDw4Y,
+.guildsWrapper-5TJh6A,
+.header-2o-2hj,
+.header-39GIC8,
+.headerBar-UHpsPw,
+.members-1998pB,
+.messagesWrapper-3lZDfY,
+.root-1BQpZw,
+.root-26DmKJ,
+.title-3qD0b-,
+.typeWindows-1za-n7,
+.video-1FfuMD {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-1BJsBx[aria-label=Home] {
+    transition: all .3s ease;
+    background-image: linear-gradient(to left, var(--primaryGradient1), var(--primaryGradient2));
+    -webkit-mask-image: url(https://i.imgur.com/lYXFpXr.png);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain
+}
+
+.wrapper-1BJsBx[aria-label=Home] .childWrapper-anI2G9 {
+    display: none
+}
+
+.layout-2DM8Md {
+    position: relative
+}
+
+.layout-2DM8Md:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
+    transform: translateX(110%);
+    transition: all .2s ease
+}
+
+.channel-2QD9_O .layout-2DM8Md:after {
+    transform: translateX(-110%)
+}
+
+.layout-2DM8Md:hover {
+    background-color: rgba(0, 0, 0, .15) !important
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.layout-2DM8Md:hover:after,
+.selected-aXhQR6 .layout-2DM8Md:after {
+    transform: translateX(0)
+}
+
+.selected-aXhQR6 .layout-2DM8Md .name-uJV0GL {
+    color: #fff
+}
+
+.content-3at_AU::after,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after {
+    content: "";
+    height: 2px;
+    width: 98.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 7.5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background-color: rgba(0, 0, 0, .45) !important
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover::after,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ::after,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
+.wrapper-1ucjTd:hover .content-3at_AU::after {
+    transform: translateX(0)
+}
+
+.scroller-1JbKMe {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.panels-j1Uci_ {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroller-2TZvBN {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroller-2FKFPG {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-zqa7da {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.searchBar-6Kv8R2,
+.searchBarComponent-32dTOx input {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.expandedFolderBackground-2sPsd- {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-37u8Mj {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.option-1l2vXE {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-3rDWdC {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-1TOWci {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-3Xdcic {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 15.b. Emoji Picker and Reactions */
+.emojiPicker-3m1S-j,
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
+.diversitySelector-tmmMv0 .popout-2nUePc {
+    background: var(--BG-image-set) !important;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px !important;
+}
+
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
+    opacity: 0.7;
+}
+
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
+    background-color: var(--BG-image-set);
+    opacity: 0.8
+}
+
+.emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA {
+    background-size: contain !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+}
+
+.emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA.disabled-1H1CfW {
+    cursor: not-allowed;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+    opacity: .4;
+    border: none !important;
+    transition: all 50ms ease
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    opacity: 1
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA {
+    border: 2px solid transparent;
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    background-color: var(--BG-image-set) !important;
+    border-color: var(--hover-color);
+}
+
+.emojiPicker-3m1S-j .category-2U57w6 {
+    color: rgba(2555, 255, 255, 0.5);
+    background: transparent !important;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/custom.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
+    background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
+}
+
+.emojiPicker-3m1S-j .no-search-results .sad-discord {
+    background-image: url(../assets/svgs/sadDiscord.svg);
+}
+
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    width: 98% !important;
+    background: var(--BG-image-set) !important;
+}
+
+.emojiPicker-3m1S-j .search-bar input {
+    color: #fff !important;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    padding-bottom: 3px;
+    padding-right: 25px;
+    height: 30px
+}
+
+.emojiPicker-3m1S-j .search-bar input:focus {
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+    background-color: var(--BG-image-set);
+    color: var(--white10) !important
+}
+
+.reactionDefault-GBA58K,
+.reactionSelected-1pqISm {
+    border: 1px solid var(--BG-image-set);
+    transition: all .2s ease-in-out;
+}
+
+.reactionDefault-GBA58K:hover {
+    background-color: transparent !important;
+    border-color: var(--hover-color);
+}
+
+.reactionSelected-1pqISm {
+    background-color: transparent !important;
+    border-color: var(--BG-image-set);
+}
+
+.inner-3ErfOT {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bda-dark #bda-qem {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bda-dark #bda-qem button {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 15.d. User Popout */
+.headerNormal-T_seeN {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerPlaying-j0WQBV {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerFill-adLl4x .top-28JiJ- .itemDefault-3Jdr52:hover {
+    color: #d1d1d3 !important;
+    border-bottom-color: #d1d1d3 !important
+}
+
+#app-mount .bodyInner-245q0L {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-3iLsc4,
+.footer-1fjuF6 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bodyTitle-Y0qMQz {
+    color: #d1d1d3;
+}
+
+.footer-1fjuF6 {
+    border-top: 2px solid var(--main-color) !important;
+}
+
+.rolesList-22qj2L {
+    max-height: 14vh;
+    overflow-y: auto;
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.role-2irmRk {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    height: 16px;
+    margin: 3px;
+    padding: 2px;
+    position: relative;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    overflow: visible;
+}
+
+.role-2irmRk::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1px;
+    height: 100%;
+    width: calc(100% + 1px);
+    border-top: 21px solid;
+    border-color: inherit;
+    opacity: 0.5;
+}
+
+.roleName-32vpEy {
+    margin: 0 4px;
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.roleCircleButton-377y0l {
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    height: 22px;
+    top: -1px;
+    left: -1px;
+    border-radius: 2px 0 0 2px;
+    width: 0px;
+    display: flex !important;
+    transition: width 0.2s;
+}
+
+.roleCircle-3xAZ1j {
+    display: none;
+}
+
+.addButton-pcyyf6 {
+    line-height: 10px;
+    width: 22px;
+    box-sizing: border-box;
+    height: 22px;
+}
+
+.roleRemoveIcon-2-TeGW {
+    display: block;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.role-2irmRk:hover .roleCircleButton-377y0l {
+    transition: width 0.2s;
+    width: 22px;
+}
+
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW {
+    opacity: 1;
+}
+
+.addButtonIcon-1NMJ8u {
+    height: 7px;
+    width: 7px;
+}
+
+.note-3kmerW textarea:focus {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.quickMessage-1yeL4E {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-color: var(--main-color) !important;
+    border-radius: 0px !important;
+}
+
+.gameIcon-_0rmMm[style*="/assets/a5eba102f5b5e413df2b65c73f288afa.svg"] {
+    background-image: url(https://monstrousdev.github.io/themes/assets/svgs/no-game.svg) !important;
+    border: 2px solid rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+}
+
+/* 16.a. Context Menu */
+.contextMenu-HLZMGh {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    padding: 10px 0px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.4) !important;
+    animation: opacity 100ms ease, context-open-new 300ms cubic-bezier(0, 0, 0, 1);
+    transform-origin: top;
+    border: 1px solid var(--quaternary-color) !important;
+}
+
+.contextMenu-HLZMGh .itemGroup-1tL0uz:not(:first-child):not(:empty) {
+    border-color: var(--quaternary-color) !important;
+}
+
+.theme-dark.contextMenu-HLZMGh .itemGroup-1tL0uz,
+.theme-light.contextMenu-HLZMGh .itemGroup-1tL0uz {
+    border-color: rgba(255, 255, 255, .03) !important
+}
+
+.contextMenu-HLZMGh .itemBase-tz5SeC {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px;
+    transition: all 80ms ease;
+    cursor: pointer;
+    margin: 0px;
+    padding: 7px 15px;
+    color: #fff;
+    animation: opacity 200ms 100ms backwards;
+}
+
+.contextMenu-HLZMGh .itemBase-tz5SeC:hover {
+    background: rgba(225, 225, 225, 0.03) !important;
+    color: #fff;
+    transition: all 0ms;
+}
+
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE {
+    color: rgb(180, 43, 43);
+}
+
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE:hover {
+    color: #F04747 !important;
+}
+
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE:active {
+    background: #F04747 !important;
+    color: #fff !important;
+}
+
+.theme-dark.contextMenu-HLZMGh .itemSubMenu-1vN_Yn,
+.theme-light.contextMenu-HLZMGh .itemSubMenu-1vN_Yn {
+    position: relative;
+}
+
+.contextMenu-HLZMGh .slider-1PF9SW .track-11EASc {
+    right: 0px !important;
+    left: 3px !important;
+}
+
+.contextMenu-HLZMGh .slider-1PF9SW .bar-2Qqk5Z {
+    height: 3px
+}
+
+.item-1Yvehc.itemSubMenu-1vN_Yn::after {
+    content: url(https://monstrousdev.github.io/themes/assets/svgs/arrow.svg);
+    position: absolute;
+    right: 5px;
+    opacity: .6;
+    transition: all 100ms ease;
+    top: 5px;
+}
+
+.item-1Yvehc.itemSubMenu-1vN_Yn:hover::after {
+    opacity: 1;
+}
+
+.menu-Sp6bN1 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.popouts-2bnG9Z {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 15.a. Pinned Messages and Recent Mentions*/
+.themedPopout-25DgLi {
+    border-left: 2px solid var(--BG-image-set);
+    border-right: 2px solid var(--BG-image-set);
+    border-bottom: 2px solid var(--BG-image-set);
+    border-top: 0px solid var(--BG-image-set);
+}
+
+#app-mount .themedPopout-25DgLi .header-SsaQ8X {
+    border-radius: 0px;
+}
+
+#app-mount .messagesPopout-24nkyi {
+    background: var(--BG-image-set);
+}
+
+#app-mount .messagesPopoutWrap-1MQ1bW {
+    border-radius: 0 !important;
+    border-left: 2px solid var(--BG-image-set);
+    border-right: 2px solid var(--BG-image-set);
+    border-bottom: 2px solid var(--BG-image-set);
+    border-top: 0;
+    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+    transform-origin: 50% -10%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .4) !important;
+    margin-top: 1px;
+    background-color: var(--BG-image-set);
+}
+
+#app-mount .header-ykumBX,
+#app-mount .footer-1kmXd4 {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow: none !important;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff !important;
+    padding: 2px 7px 3px 7px;
+}
+
+.themedPopout-25DgLi .header-SsaQ8X .subtitle,
+.themedPopout-25DgLi .text {
+    color: #fff !important;
+}
+
+.jumpButton-3DTcS_ {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.hasMoreButton-1MELpI {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Background fixes */
+.membersWrap-2h-GB4 {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.messages-3amgkR {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.members-1998pB {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark {
+    --background-primary: rgba(0, 0, 0, 0);
+    --background-secondary: rgba(0, 0, 0, 0);
+    --background-tertiary: rgba(0, 0, 0, 0);
+    --deprecated-store-bg: rgba(0, 0, 0, 0);
+}
+
+.sidebar-2K8pFh {
+    background: var(--BG-left-brightness);
+}
+
+#app-mount .container-1r6BKw {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-98HsJk {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* theme page fix */
+#app-mount .bda-slist li,
+#app-mount .emptyApplications-3GTmw-,
+#app-mount .emptyUsers--hiToV {
+    background-color: var(--secondary-color);
+    border-color: var(--main-color);
+}
+
+/* 3. User Settings */
+/* 3.a. General Sidebar */
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+    justify-content: flex-start;
+}
+
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
+    -ms-flex: 0;
+    -ms-flex-pack: end;
+    flex: 0;
+    z-index: 1;
+}
+
+/* 3.b. General Content Area */
+#app-mount .contentRegionScroller-26nc1e {
+    background: transparent;
+}
+
+.standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
+    padding: 20px 40px 80px;
+}
+
+.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e {
+    width: 100%;
+}
+
+.standardSidebarView-3F1I7i .contentColumn-2hrIYH,
+.standardSidebarView-3F1I7i .customColumn-Rb6toI {
+    -ms-flex: 1 1 auto;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 460px;
+}
+
+.standardSidebarView-3F1I7i .customScroller-26gWhv > div {
+    max-width: 100%;
+    margin-right: 98px;
+}
+
+.theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+    width: calc(100% - 226px);
+    min-width: 553px;
+    padding: 0;
+}
+
+.sidebarScrollable-1qPI87 {
+    width: 24%;
+}
+
+.scroller-305q3I {
+    background: transparent;
+}
+
+.sidebarScrollable-1qPI87 + .content-1rPSz4 {
+    max-width: 100%;
+    margin-left: 25%;
+}
+
+.standardSidebarView-3F1I7i .noticeRegion-1YviSH {
+    transform: translateX(25%) !important;
+}
+
+.premium-settings .premium-header,
+.premium-settings .features-vNGwn7 {
+    max-width: 98%;
+}
+
+#app-mount .paymentPane-3bwJ6A,
+#app-mount .paymentRow-2e7VM6 {
+    background-color: var(--tertiary-color);
+}
+
+#app-mount .paymentRow-2e7VM6 {
+    border-color: var(--quaternary-color);
+}
+
+.expandedInfo-3kfShd {
+    background: transparent !important;
+}
+
+.hoverablePayment-Yc6mK7:hover {
+    background-color: var(--quaternary-color) !important;
+}
+
+.top-28JiJ- .itemSelected-1qLhcL {
+    border-bottom-color: var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+
+.top-28JiJ- .itemDefault-3Jdr52:hover,
+.top-28JiJ- .itemHover-EnbcjT:hover {
+    border-bottom-color: var(--hover-color) !important;
+    color: var(--hover-color) !important;
+}
+
+.video-27HGyZ {
+    width: auto;
+}
+
+.videoWrapper-3YdgHH {
+    display: flex;
+    justify-content: center;
+}
+
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--secondary-color) !important;
+    border-color: transparent !important;
+}
+
+#app-mount .contentRegionScroller-26nc1e {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 15.f. Search Popout */
+.popoutBottom-2GAFPg.noArrow-2foL9g {
+    margin-top: 0px !important;
+}
+
+.popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm[style*="top: 37px;
+"] {
+top: 46px !important;
+}
+
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 !important;
+    border: none !important;
+    border-left: 2px solid var(--BG-image-set) !important;
+    border-right: 2px solid var(--BG-image-set) !important;
+    border-bottom: 2px solid var(--BG-image-set) !important;
+}
+
+.searchPopout-1vUlP3 .resultsGroup-r_nuzN,
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+    transform-origin: 50% -10%;
+    box-sizing: content-box;
+    background-color: var(--BG-image-set);
+}
+
+.resultsGroup-r_nuzN .header-2N-gMV {
+    background-color: var(--BG-image-set);
+    padding: 10px 20px;
+}
+
+.resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
+    top: 17px;
+}
+
+.option-96V44q,
+.result-2S5Awv {
+    border-left: 2px solid var(--BG-image-set);
+    border-right: 2px solid var(--BG-image-set);
+    border-radius: 0px;
+}
+
+.option-96V44q:after,
+.option-96V44q.selected-rZcOL-:after {
+    display: none;
+}
+
+.queryContainer-RKFJW- {
+    background-color: var(--BG-image-set) !important;
+}
+
+.option-96V44q.selected-rZcOL-,
+.result-2S5Awv.focused-1Yu0L3 {
+    background-color: var(--BG-image-set) !important;
+    border-color: var(--BG-image-set);
+}
+
+.option-96V44q.searchQuery-1B7rtx.selected-rZcOL-,
+.queryContainer-RKFJW- {
+    border-color: var();
+}
+
+.dim-1l4L4y span {
+    background-color: var(--BG-image-set) !important;
+    color: white !important;
+}
+
+.option-96V44q span {
+    overflow: visible;
+}
+
+.popout-2iWAc- {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Dm Select/Hover Settings */
+.layout-2DM8Md:hover {
+    background: var(--primaryT);
+    border: 1px solid var(--primary);
+    transition: all 200ms;
+}
+
+.clickable-1JJAn8.container-2Pjhx-:active,
+.selected-aXhQR6.container-2Pjhx- {
+    background: var(--primaryT);
+    border: 1px solid var(--primary);
+    transition: all 200ms;
+}
+
+/* Search Popout Settings */
+popoutBottom-2GAFPg.noArrow-2foL9g {
+    margin-top: 0px !important;
+}
+
+.popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm[style*="top: 37px;
+"] {
+top: 46px !important;
+}
+
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    background-color: transparent;
+    background: var(--BG-image-set) center/cover no-repeat;
+}
+
+.searchPopout-1vUlP3 .resultsGroup-r_nuzN,
+.searchPopout-1vUlP3,
+.container-3ayLPN {
+    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+    transform-origin: 50% -10%;
+    box-sizing: content-box;
+    background-color: var(--BG-image-set);
+}
+
+.resultsGroup-r_nuzN .header-2N-gMV {
+    background-color: var(--BG-image-set);
+    padding: 10px 20px;
+}
+
+.resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
+    top: 17px;
+}
+
+.option-96V44q,
+.result-2S5Awv {
+    border-left: 2px solid var(--BG-image-set);
+    border-radius: 0px;
+}
+
+.option-96V44q:after,
+.option-96V44q.selected-rZcOL-:after {
+    display: none;
+}
+
+.queryContainer-RKFJW- {
+    background-color: var(--hover-color) !important;
+}
+
+.option-96V44q.selected-rZcOL-,
+.result-2S5Awv.focused-1Yu0L3 {
+    background-color: var(--hover-color) !important;
+    border-color: var(--BG-image-set);
+}
+
+.option-96V44q.searchQuery-1B7rtx.selected-rZcOL-,
+.queryContainer-RKFJW- {
+    border-color: var(--BG-image-set);
+}
+
+.dim-1l4L4y span {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.option-96V44q span {
+    overflow: visible;
+}
+
+.dim-1l4L4y span {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.option-96V44q span {
+    overflow: visible;
+}
+
+/* Scrollbars */
+.emojiPicker-3m1S-j .premiumPromo-yVfLiA,
+#autocomplete-popout .scroller::-webkit-scrollbar,
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
+.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+    display: none;
+    background-color: var(--BG-image-set) !important;
+}
+
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
+    width: 5px;
+}
+
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border-radius: 40px;
+}
+
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-color: var(--BG-image-set) !important;
+    display: initial;
+}
+
+.friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track,
+.sb-menu-scroller:hover::-webkit-scrollbar-track-piece,
+.scrollerWrap-2su1QI::-webkit-scrollbar-track-piece,
+.scrollerWrap-2su1QI::-webkit-scrollbar-track,
+.scroller-2FKFPG::-webkit-scrollbar-track,
+.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--BG-image-set) !important;
+    border-color: transparent !important;
+}
+
+.friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scroller::-webkit-scrollbar-thumb,
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
+.chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb,
+.sb-menu-scroller::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important;
+    border-color: transparent !important;
+    border-radius: 40px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-track,
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border-radius: 0px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 11px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    visibility: hidden !important;
+    transition: .2s visibility linear;
+}
+
+.scroller-wrap .scroller:hover::-webkit-scrollbar-thumb,
+.scroller-wrap .scroller:hover::-webkit-scrollbar-track-piece {
+    visibility: visible !important;
+}
+
+.rolesList-22qj2L::-webkit-scrollbar {
+    height: 8px;
+    width: 12px;
+    background-color: var(--main-color);
+}
