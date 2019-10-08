@@ -2036,7 +2036,7 @@ pre {
     background-color: var(--main-color) !important;
     bottom: 15px;
     border-radius: 20px;
-    right: 50px !important;
+    right: 200px !important;
     width: auto !important;
     box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
     left: auto !important;
@@ -6149,6 +6149,7 @@ div.reply-item {
 }
 
 .messages-3amgkR {
+    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -6183,7 +6184,7 @@ div.reply-item {
 }
 
 .content-98HsJk {
-      background-color: transparent;
+    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -6236,3 +6237,7 @@ div.reply-item {
   transition: all 200ms; 
 }
 
+/* Chat length fix */
+.chat-3bRxxu .contentCozy-3XX413 {
+    margin-right: 200px;
+}
