@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      2.0
+ * @version      2.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -11,7 +11,6 @@
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
 @import "https://www.themonster.xyz/styles/google-fonts.css";
-@import "https://monstrousdev.github.io/themes/addons/libraryGrid.css";
 @import "https://monstrousdev.github.io/themes/addons/chatBubbles.css";
 @import "https://monstrousdev.github.io/themes/addons/categoryNameFlair.css";
 @import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
@@ -45,9 +44,13 @@
 /* Background Settings */
 #app-mount {
     background-color: transparent;
-    background: url('https://i.imgur.com/LnsjwKk.jpg') center/cover 
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 
 }
+
 .content-yTz4x3 {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -56,13 +59,59 @@
     background-size: cover;
 }
 
-/* Search Box Background Settings */
-.searchBar-3dMhjb {
-       background-color: transparent;
+.typeWindows-1za-n7 {
+    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+}
+
+.scroller-9moviB {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-3gCOGc {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -20px;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+    margin-top: -2px;
+    margin-right: -10px;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud:hover {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+
+/* Search Box Background Settings */
+.searchBar-3dMhjb {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Chat Settings */
@@ -479,7 +528,15 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-size: cover;
 }
 
-.activity-11LB_k {
+.activityPanel-28dQGo {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-1giJp5 {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
@@ -632,225 +689,226 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 /* Status Picker */
 .popout-3sVMXz.popoutTop-3uu9vG,
 .popout-3sVMXz.popoutTopLeft-b5Eb3O {
-  overflow: visible !important;
+    overflow: visible !important;
 }
 
 .popout-3sVMXz.popoutTopLeft-b5Eb3O {
-  margin-left: -10px;
+    margin-left: -10px;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 {
-  animation: show-status 300ms linear;
-  border: none;
-  width: 240px;
-  height: 68px;
-  padding: 0;
+    animation: show-status 300ms linear;
+    border: none;
+    width: 240px;
+    height: 68px;
+    padding: 0;
 }
 
 .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="z-index: 1001;"] {
-  left: 70px !important;
-  width: 241px !important;
-  border-radius: 0;
+    left: 70px !important;
+    width: 241px !important;
+    border-radius: 0;
 }
 
 .layer-v9HyYc[style*="; bottom: 82px;"][style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 {
-  position: fixed;
-  left: -10px !important;
-  bottom: -5px !important;
+    position: fixed;
+    left: -10px !important;
+    bottom: -5px !important;
 }
 
 .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="height: 80px;"] {
-  height: 100px !important;
+    height: 100px !important;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 .statusIconText-3b4TkH div {
-  color: transparent;
+    color: transparent;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 .helper-2c73HK {
-  display: none;
+    display: none;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 68px;
-  vertical-align: top;
-  background: transparent;
-  overflow: hidden;
-  transform: perspective(1px) scale(1);
-  animation: status 300ms ease backwards;
-  margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    vertical-align: top;
+    background: transparent;
+    overflow: hidden;
+    transform: perspective(1px) scale(1);
+    animation: status 300ms ease backwards;
+    margin: 0;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(3) {
-  animation-delay: 100ms !important;
+    animation-delay: 100ms !important;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(4) {
-  animation-delay: 200ms !important;
+    animation-delay: 200ms !important;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(5) {
-  animation-delay: 300ms !important;
+    animation-delay: 300ms !important;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
-  background-color: var(--primary-color);
-  width: 100%;
-  transition: color 200ms ease-in;
-  z-index: -1;
-  position: absolute;
-  height: 35px;
-  margin-top: -35px;
-  box-shadow: 0 2px 20px var(--shadow) !important;
-  transform: translateX(0%) translateY(100%) translateZ(0);
-  animation: show-custom 300ms ease forwards 400ms;
-  opacity: 0;
-  pointer-events: none;
+    background-color: var(--primary-color);
+    width: 100%;
+    transition: color 200ms ease-in;
+    z-index: -1;
+    position: absolute;
+    height: 35px;
+    margin-top: -35px;
+    box-shadow: 0 2px 20px var(--shadow) !important;
+    transform: translateX(0%) translateY(100%) translateZ(0);
+    animation: show-custom 300ms ease forwards 400ms;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .customStatusContentIcon-2sionu {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7):hover {
-  background-color: var(--primary-color) !important;
-  color: rgb(var(--BG-gradient-one));
+    background-color: var(--primary-color) !important;
+    color: rgb(var(--BG-gradient-one));
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover .statusIconText-3b4TkH {
-  transform: scale(1.5);
-  transition: all 200ms ease-in-out;
+    transform: scale(1.5);
+    transition: all 200ms ease-in-out;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 .statusIconText-3b4TkH {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto !important;
-  border-radius: 50%;
-  transform: scale(1);
-  transition: all 200ms ease-in-out;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 200ms ease-in-out;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(1) .statusIconText-3b4TkH {
-  background-color: var(--online);
-  border-radius: 50px;
+    background-color: var(--online);
+    border-radius: 50px;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(3) .statusIconText-3b4TkH {
-  background-color: var(--idle);
-  border-radius: 50px;
+    background-color: var(--idle);
+    border-radius: 50px;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(4) .statusIconText-3b4TkH {
-  background-color: var(--dnd);
-  border-radius: 50px;
+    background-color: var(--dnd);
+    border-radius: 50px;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(5) .statusIconText-3b4TkH {
-  background-color: var(--invisible);
-  border-radius: 50px;
+    background-color: var(--invisible);
+    border-radius: 50px;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover [class*="status"].online-2S838R:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover [class*="status"].idle-3DEnRT:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover [class*="status"].dnd-1_xrcq:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover [class*="status"].invisible-1kp8Z0:after {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 [class*="status"].online-2S838R:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 [class*="status"].idle-3DEnRT:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 [class*="status"].dnd-1_xrcq:after,
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 [class*="status"].invisible-1kp8Z0:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto !important;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 200ms ease-in-out;
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease-in-out;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 .statusIconText-3b4TkH:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-position:center;
-  background-size: 30px;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: all 200ms ease-in-out;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:hover .statusIconText-3b4TkH:after {
-  opacity: 1;
+    opacity: 1;
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(1) .statusIconText-3b4TkH:after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/status/online.svg);
+    background-image: url(https://monstrousdev.github.io/themes/assets/status/online.svg);
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(3) .statusIconText-3b4TkH:after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/status/idle.svg);
+    background-image: url(https://monstrousdev.github.io/themes/assets/status/idle.svg);
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(4) .statusIconText-3b4TkH:after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/status/dnd.svg);
+    background-image: url(https://monstrousdev.github.io/themes/assets/status/dnd.svg);
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(5) .statusIconText-3b4TkH:after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/status/invisi.svg);
+    background-image: url(https://monstrousdev.github.io/themes/assets/status/invisi.svg);
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6 .statusIconText-3b4TkH .status-oxiHuE {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  height: 100% !important;
-  width: 100% !important;
-  margin-right: 0px !important;
-  transition: all 200ms ease-in-out;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100% !important;
+    margin-right: 0px !important;
+    transition: all 200ms ease-in-out;
 }
 
 .menu-Sp6bN1 .separator-2zcjq8 {
     display: none;
 }
+
 /* Status Picker */
 
 /* Upload Popout Settings */
 .uploadModal-2ifh8j {
-       background-color: transparent;
+    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D {
@@ -858,5 +916,398 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+}
+
+/* Activity Page */
+.activityFeed-1C0EmJ {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Library Grid */
+/*
+*   ===== BULK CODE CREDIT TO SATORU =====
+*
+*   Animation and refining made by Monster
+*/
+
+.scroller-1IIF0A {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.scroller-5bBood {
+    background-color: transparent;
+    background: var(--BG-image-set) center/cover no-repeat;
+
+}
+
+#app-mount .gameUpdates-2GPqBU {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#app-mount .gameUpdates-2GPqBU .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--main-color)
+}
+
+#app-mount .gameLibrary-TTDw4Y {
+    background-color: transparent
+}
+
+#app-mount .gameLibrary-TTDw4Y .table-1tDS6w {
+    width: 100%;
+    height: calc(100vh - 110px);
+    border-top: 50px solid transparent;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    overflow-y: overlay;
+    justify-content: center
+}
+
+#app-mount .gameLibrary-TTDw4Y .table-1tDS6w:only-child {
+    margin: -10px
+}
+
+#app-mount .gameLibrary-TTDw4Y .table-1tDS6w::-webkit-scrollbar {
+    display: none
+}
+
+#app-mount .gameLibrary-TTDw4Y .header-39GIC8 {
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-size: 1em;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 1000
+}
+
+#app-mount .gameLibrary-TTDw4Y .header-39GIC8 .headerCell-3L6rFG {
+    width: auto;
+    border: none;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    text-transform: capitalize;
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box
+}
+
+#app-mount .gameLibrary-TTDw4Y .header-39GIC8 .headerCell-3L6rFG:nth-child(2) {
+    margin: 0 10px
+}
+
+#app-mount .gameLibrary-TTDw4Y .header-39GIC8 .headerCell-3L6rFG:nth-child(3) {
+    min-width: 125px
+}
+
+#app-mount .gameLibrary-TTDw4Y .header-39GIC8 .headerCell-3L6rFG:last-child {
+    display: none
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 {
+    flex-direction: column;
+    white-space: nowrap;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    left: 10px;
+    width: 304px;
+    height: 150px;
+    margin: 8px;
+    overflow: hidden;
+    background: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--shadow)
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3)
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK {
+    position: absolute;
+    top: 50%;
+    flex-flow: column;
+    left: 0;
+    transform: translate(0, -51%) translateZ(0);
+    z-index: 1
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0:not(.rowWrapperActive-2L7i9f) .nameBodyCell-3JOlnK > * {
+    flex-flow: column
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .row-ZLfFhY {
+    min-height: 101%;
+    border: none !important;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .bodyCell-9xKjWE {
+    min-width: 100%;
+    top: 80px;
+    padding: 0;
+    line-height: normal;
+    align-items: center;
+    justify-content: center
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .bodyCell-9xKjWE > * {
+    min-height: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK > * {
+    align-items: center
+}
+
+#app-mount .nameCellText-1mpqtF {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK .nameCellInfo-11WjkQ,
+.nameCellText-1mpqtF {
+    max-width: 160px;
+    text-shadow: 0 2px 5px #000
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .platformCell-XyBBs6,
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .lastPlayedCell-2arbtc {
+    min-height: 17px;
+    max-height: 17px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .platformCell-XyBBs6 > *,
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .lastPlayedCell-2arbtc > * {
+    font-size: .8em;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .nameCellNew-3SokLB {
+    color: #c034ff;
+    font-size: .75rem;
+    min-height: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .actionsCell-1awtNi {
+    position: relative;
+    left: 8px;
+    top: 60px;
+    visibility: hidden;
+    animation: slidedown ease .6s;
+    transition: visibility .4s ease
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f .actionsCell-1awtNi {
+    top: 25px;
+    left: 10px;
+    visibility: visible;
+    animation: slideup .6s ease
+}
+
+#app-mount .gameLibrary-TTDw4Y .actionIcon-2EtGTr {
+    opacity: 1
+}
+
+#app-mount .gameLibrary-TTDw4Y .settingIcons-3QYa5E {
+    margin-right: 0;
+    min-width: 10px
+}
+
+#app-mount .gameLibrary-TTDw4Y .buttonText-13IoY7 {
+    padding: 2px 6px
+}
+
+#app-mount .gameLibrary-TTDw4Y .actionButtonSize-1Znp1q {
+    height: 22px;
+    min-width: 40px;
+    left: 10px
+}
+
+#app-mount .gameLibrary-TTDw4Y .buttonWrapper-3hUFmE {
+    height: 65%
+}
+
+#app-mount .gameLibrary-TTDw4Y .icon-1IKq3C,
+#app-mount .gameLibrary-TTDw4Y .textCell-1aBIUP {
+    color: #fff;
+    background-image: linear-gradient(90deg, transparent, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), transparent, transparent)
+}
+
+#app-mount .sideBar-2_lxpG .lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: rgba(99, 99, 99, 0.7);
+    color: #fff;
+    width: 0;
+    left: 25px
+}
+
+#app-mount .sideBar-2_lxpG .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: rgba(31, 154, 9, 0.7)
+}
+
+#app-mount .sideBar-2_lxpG .large-1DtyYQ {
+    height: 90px;
+    width: 90px
+}
+
+#app-mount .body-1SVoBw .carouselPagination-30iWH5 {
+    width: 50%;
+    left: 90px
+}
+
+#app-mount .gameName-1W6Ym- {
+    color: #fff;
+    font-size: 1em
+}
+
+#app-mount .publisher-2ZxPEd {
+    border-bottom: none;
+    color: #ddd
+}
+
+#app-mount .gamePreview-9weYR2 {
+    background-color: rgba(0, 0, 0, 0.9)
+}
+
+#app-mount .body-1SVoBw {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#app-mount .summary-2pfBY6 {
+    color: rgb(246, 246, 247);
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#app-mount .news-2KwXHF,
+#app-mount .newsLink-38Naqi:hover {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#app-mount .background-3zYSQO,
+#app-mount .overlay-n52Tzn {
+    -webkit-mask: none;
+    mask: none
+}
+
+#app-mount .background-3zYSQO {
+    height: 100%;
+    opacity: .8
+}
+
+#app-mount .body-3NySJS {
+    text-shadow: 1px 1px 5px #000
+}
+
+.subtitle-rPfx7J,
+.title-1oZsbs,
+.description-13oVu5 {
+    color: #eee
+}
+
+.gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .row-ZLfFhY {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+#app-mount .gameLibrary-TTDw4Y .rowBackground-3MeNoN {
+    filter: none;
+    -webkit-mask: none;
+    width: 304px;
+    animation: backgroundIn .5s forwards !important;
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .nameBodyCell-3JOlnK .nameCellInfo-11WjkQ {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    bottom: -52px;
+    transition: all .4s ease-in-out;
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f .nameBodyCell-3JOlnK .nameCellInfo-11WjkQ {
+    bottom: -60px;
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .gameIcon-gg34Dz {
+    position: absolute;
+    top: -25px;
+    height: 50px;
+    width: 50px;
+    background-size: 100%;
+    border-radius: 4px;
+    margin: 0 5px 5px 0;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+    transform: translateX(0);
+    transition: all .4s ease-in-out;
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f .gameIcon-gg34Dz {
+    transform: translateX(-150%);
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f .settingIcons-3QYa5E {
+    transform: translateY(-180%);
+}
+
+#app-mount .gameLibrary-TTDw4Y .rowWrapperActive-2L7i9f .actionButtonSize-1Znp1q {
+    transform: translateY(-170%);
+}
+
+@keyframes slideup {
+    from {
+        transform: translate(0, 100%)
+    }
+}
+
+@keyframes slidedown {
+    from {
+        transform: translate(0%, -30%)
+    }
+}
+
+@keyframes backgroundIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.8;
+    }
 }
