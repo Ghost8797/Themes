@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      2.2
+ * @version      2.3
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -146,15 +146,82 @@
 }
 
 /* Channel Hover/Border */
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
-.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
-.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
-.theme-dark .wrapper-1ucjTd:hover .content-3at_AU,
-.theme-light .wrapper-1ucjTd:hover .content-3at_AU {
-    background: #095436;
-    border: 1px solid var(--main-color);
-    transition: all 200ms;
+.content-3at_AU {
+    position: relative 
+}
+
+.content-3at_AU:after {
+    content: "";
+    height: 2px;
+    width: 98.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 7.5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--main-color), var(--hover-color));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.content-3at_AU:hover {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background-color: rgba(0, 0, 0, .45) !important
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
+.wrapper-1ucjTd:hover .content-3at_AU::after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--main-color), var(--hover-color));
+    transform: translateY(0);
+}
+
+/* Dm Select/Hover Settings */
+.layout-2DM8Md {
+    position: relative
+}
+
+.layout-2DM8Md:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--main-color), var(--hover-color));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.layout-2DM8Md:hover {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.layout-2DM8Md:hover:after,
+.selected-aXhQR6 .layout-2DM8Md:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--main-color), var(--hover-color));
+    transform: translateX(0)
 }
 
 /* User Panel Settings */
@@ -624,19 +691,6 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
-
-.layout-2DM8Md:hover {
-    background: #095436;
-    border: 1px solid var(--main-color);
-    transition: all 200ms;
-}
-
-.clickable-1JJAn8.container-2Pjhx-:active,
-.selected-aXhQR6.container-2Pjhx- {
-    background: #095436;
-    border: 1px solid var(--main-color);
-    transition: all 200ms;
 }
 
 /* Private Chat Settings */
@@ -1539,6 +1593,8 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     top:40px;
 }
 
+
+/* Fix for Agam */
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
     cursor: pointer;
 	height: 30px !important;
