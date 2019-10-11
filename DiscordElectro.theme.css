@@ -2008,12 +2008,24 @@ foreignObject[mask*="round-80"] {mask: none!important;}
 }
 
 .content-3at_AU:hover {
-    background-color: var(--primaryT) !important
+    background-color: rgba(0, 0, 0, .25) !important
 }
 
-.content-3at_AU:hover:after,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after {
-    transform: translateX(0)
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background-color: rgba(0, 0, 0, .45) !important
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
+.wrapper-1ucjTd:hover .content-3at_AU::after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
+    transform: translateY(0);
 }
 
 /* Dm Select/Hover Settings */
@@ -2036,11 +2048,22 @@ foreignObject[mask*="round-80"] {mask: none!important;}
 }
 
 .layout-2DM8Md:hover {
-    background-color: var(--primaryT) !important
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(0, 0, 0, .25) !important
 }
 
 .layout-2DM8Md:hover:after,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.selected-aXhQR6 .layout-2DM8Md:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
     transform: translateX(0)
 }
 
