@@ -1,4 +1,4 @@
-//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.0.0"}*//{}
+//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.1.0"}*//{}
 /*
 
 ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗██╗     ███████╗ ██████╗████████╗██████╗  ██████╗
@@ -1989,24 +1989,59 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 foreignObject[mask*="round-80"] {mask: none!important;}
 
 /* Channel Hover/Border */
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
-  background: var(--primaryT);
-  border: 1px solid var(--primary2);
-  transition: all 200ms;
+.content-3at_AU {
+    position: relative 
+}
+
+.content-3at_AU:after {
+    content: "";
+    height: 2px;
+    width: 98.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 7.5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.content-3at_AU:hover {
+    background-color: var(--primaryT) !important
+}
+
+.content-3at_AU:hover:after,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:after {
+    transform: translateX(0)
 }
 
 /* Dm Select/Hover Settings */
-.layout-2DM8Md:hover {
-    background: var(--primaryT);
-    border: 1px solid var(--primary);
-    transition: all 200ms;
+.layout-2DM8Md {
+    position: relative
 }
 
-.clickable-1JJAn8.container-2Pjhx-:active,
-.selected-aXhQR6.container-2Pjhx- {
-    background: var(--primaryT);
-    border: 1px solid var(--primary);
-    transition: all 200ms;
+.layout-2DM8Md:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right, var(--primaryT), var(--primary));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.layout-2DM8Md:hover {
+    background-color: var(--primaryT) !important
+}
+
+.layout-2DM8Md:hover:after,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    transform: translateX(0)
 }
 
 /* Search Popout Settings */
