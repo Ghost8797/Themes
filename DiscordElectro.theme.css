@@ -1,4 +1,4 @@
-//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.1.0"}*//{}
+//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.1.1"}*//{}
 /*
 
 ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗██╗     ███████╗ ██████╗████████╗██████╗  ██████╗
@@ -2002,17 +2002,17 @@ foreignObject[mask*="round-80"] {mask: none!important;}
     left: 7.5px;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
+    background-image: linear-gradient(120deg, var(--primary2) 85%, var(--medium) 80%) !important;
     transform: translateX(-250px);
     transition: all .2s ease
 }
 
 .content-3at_AU:hover {
-    background-color: rgba(0, 0, 0, .25) !important
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
-    background-color: rgba(0, 0, 0, .45) !important
+    background-image: linear-gradient(120deg, transparent 85%, var(--medium) 80%) !important;
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
@@ -2024,7 +2024,7 @@ foreignObject[mask*="round-80"] {mask: none!important;}
     left: 0;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
+    background-image: linear-gradient(120deg, var(--primary2) 85%, var(--medium) 80%) !important;
     transform: translateY(0);
 }
 
@@ -2042,17 +2042,17 @@ foreignObject[mask*="round-80"] {mask: none!important;}
     left: 0;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(to right, var(--primaryT), var(--primary));
+    background-image: linear-gradient(120deg, var(--primary2) 85%, var(--medium) 80%) !important;
     transform: translateX(-250px);
     transition: all .2s ease
 }
 
 .layout-2DM8Md:hover {
-    background-color: rgba(0, 0, 0, .25) !important
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
 }
 
 .selected-aXhQR6 .layout-2DM8Md {
-    background-color: rgba(0, 0, 0, .25) !important
+    background-image: linear-gradient(120deg, transparent 85%, var(--medium) 80%) !important;
 }
 
 .layout-2DM8Md:hover:after,
@@ -2063,7 +2063,7 @@ foreignObject[mask*="round-80"] {mask: none!important;}
     bottom: 0;
     left: 0;
     background-color: transparent;
-    background-image: linear-gradient(to right, var(--primaryT), var(--primary2));
+    background-image: linear-gradient(120deg, var(--primary2) 85%, var(--medium) 80%) !important;
     transform: translateX(0)
 }
 
