@@ -1,4 +1,10 @@
-//META{"name":"Radial_Status","description":"Changes status dot to a circle.,"author":"Ghost8797#4706","version":"1.0.0"}*//{}
+/**
+ * @name         Radial Status X
+ * @description  Modified Radial Status
+ * @author       Ghost8797#4706
+ * @version      2.4
+ * @source       https://github.com/Ghost8797/Themes  
+ */
 
 
 :root {
@@ -292,6 +298,3 @@
 .sidebar-2K8pFh {
 	background: var(--BG-left-brightness);
 }
-
-
- 
