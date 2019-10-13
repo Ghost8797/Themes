@@ -1,4 +1,4 @@
-//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.1.1"}*//{}
+//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.2"}*//{}
 /*
 
 ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗██╗     ███████╗ ██████╗████████╗██████╗  ██████╗
@@ -30,6 +30,10 @@
 .container-1UB9sr,
 .container-2Thooq {
     margin: 0
+}
+
+.headerFancy-1AcCLF {
+    background-image:url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),linear-gradient(270deg,var(--primary),var(--primary2))!important
 }
 
 .container-1UB9sr {
@@ -1571,17 +1575,6 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 }
 
 /* background fix */
-#app-mount .scroller-2FKFPG {
-    background-color: var(--medium) !important
-}
-
-.container-1UB9sr,
-.container-2Thooq,
-.container-PNkimc,
-.members-1998pB {
-    background-color: var(--medium) !important
-}
-
 
 .title-3qD0b- {
     background-color: var(--medium) !important;
@@ -1764,7 +1757,7 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     background-image: linear-gradient(120deg, var(--primary2) 80%, transparent 80%);
     height: 25px !important;
     line-height: 28px !important;
-    padding: 0 0 0 10px !important;  
+    padding: 0 0 0 10px !important;
 }
 
 .searchPopout-1vUlP3, .container-3ayLPN {
@@ -2143,4 +2136,59 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 
 .option-96V44q span {
     overflow: visible;
+}
+
+.container-PNkimc {
+    background-color: var(--medium) !important
+}
+
+.scrollerWrap-1IAIlvs {
+    background-color: var(--medium) !important
+}
+
+.privateChannels-1nO12o {
+    background-color: var(--medium) !important 
+}
+
+.messages-3amgkR {
+background-color: var(--medium) !important   
+}
+
+.container-1UB9sr,
+.container-2Thooq,
+.container-PNkimc,
+.members-1998pB {
+    background-color: var(--medium) !important
+}
+
+.scroller-2TZvBN {
+    background-color: transparent;
+    background-color: var(--medium) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.expandedFolderBackground-2sPsd- {
+    background-color: transparent;
+    background-color: var(--medium) !important; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-25eVIn {
+    background-color: transparent;
+    background-color: var(--medium) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#app-mount .wrapper-1BJsBx .childWrapper-anI2G9 {
+    background-color: transparent;
+}
+
+.scroller-1JbKMe {
+     background-color: var(--medium) !important;   
 }
