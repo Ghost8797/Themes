@@ -2,7 +2,7 @@
  * @name         Radial Status X
  * @description  Modified Radial Status
  * @author       Ghost8797#4706
- * @version      2.4
+ * @version      2.5
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -270,30 +270,4 @@
   mask: none !important;
   -webkit-mask: none !important;
   overflow: hidden;
-}
-
-#app-mount .scroller-2FKFPG {
-    background: transparent;
-}
-
-.messages-3amgkR {
-    background-color: var(--BG-right-brightness); 
-}
-	
-.scroller-2TZvBN {
-    background-color: var(--BG-left-brightness);
-}
-.container-21gZY8 {
-	background-color: var(--BG-popout-brightness);
-}	
-
-.theme-neutron {
---background-primary: rgba(0, 0, 0, 0);
---background-secondary: rgba(0, 0, 0, 0);
---background-tertiary: rgba(0, 0, 0, 0);
---deprecated-store-bg: rgba(0, 0, 0, 0);
-}
-
-.sidebar-2K8pFh {
-	background: var(--BG-left-brightness);
 }
