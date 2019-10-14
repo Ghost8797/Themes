@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      2.5
+ * @version      2.6
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -16,11 +16,11 @@
 @import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
-@import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
+
 
 /* Variables */
 :root {
-    --theme-version: "2.0";
+    --theme-version: "2.6";
     --main-color: #10c488;
     --hover-color: #35876c;
     --dark: #0c0e0f;
@@ -88,12 +88,28 @@
     margin-top: -10px;
 }
 
-#app-mount .scroller-2FKFPG {
+.container-PNkimc {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover;  
+}
+
+.guilds-1SWlCJ {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+}
+
+.privateChannels-1nO12o {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
 }
 
 /* Search Box Background Settings */
@@ -112,7 +128,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 .form-2fGMdU {
@@ -129,6 +145,12 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+    margin-right: 130px;
 }
 
 /* Header Settings */
@@ -151,11 +173,11 @@
 
 .header-2o-2hj {
     background-color: transparent;
-    background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
+
 
 /* Channel Hover/Border */
 .content-3at_AU {
@@ -281,7 +303,6 @@
 
 /* Member List Settings */
 .members-1998pB {
-    background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
@@ -568,6 +589,7 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border-top: 2px solid var(--hover-color) !important;
 }
 
 .footer-1fjuF6 {
@@ -576,6 +598,8 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
 }
 
 .contextMenu-HLZMGh {
@@ -600,6 +624,32 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+.rolesList-22qj2L {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.userPopout-3XzG_A {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.quickMessage-1yeL4E {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
 }
 
 /* Scrollbars */
