@@ -193,6 +193,30 @@
     margin-right: 130px;
 }
 
+/* Chat Color */
+.markup-2BOw-j {
+    color: var(--main-color);
+}
+
+.chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa:after {
+content: ' ';
+border: 6.5px solid transparent;
+border-right-color: #111;
+border-right-color: var(--quaternary-color);
+position: absolute;
+margin-top: -75%;
+margin-left: 92%;
+}
+
+.containerCozy-jafyvG .isMentioned-N-h9aa {
+  box-shadow: 0px 0px 5px rgba(250,166,26,.1);
+  box-shadow: 0px 0px 5px var(--main-color);
+}
+
+.containerCozyBounded-1rKFAn {
+  overflow: visible;
+}
+
 /* Header Settings */
 .container-1r6BKw.themed-ANHk51 {
     background-color: transparent;
