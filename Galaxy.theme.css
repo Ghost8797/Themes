@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      2.6
+ * @version      3.0
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -39,9 +39,9 @@
     --shadow: rgba(0, 0, 0, .4);
     --alert-display: block;
     --accent: var(--main-color);
-    --bgImage: url('https://i.imgur.com/LnsjwKk.jpg');
+    --bgImage: url('https://images.wallpaperscraft.com/image/space_open_space_planets_135213_3840x2160.jpg');
     --BG-image-set: var(--bgImage, var(--bgImage));
-    --HomeButtonImg: url("https://media.discordapp.net/attachments/603839638570008576/616050989954367514/Continuum.png");
+    --HomeButtonImg: url("https://images-ext-2.discordapp.net/external/WfTKRzLhXMz2jKScZX91Bo-KLSZASG4lq0C9jXM7uxw/https/media.discordapp.net/attachments/419937643007311885/631106769606934529/ASE_new_Logo.png?width=1275&height=702");
     /* Home Button Image url must end with .jpg or .png */
 }
 
@@ -84,7 +84,7 @@
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     margin-top: -10px;
 }
 
@@ -93,7 +93,7 @@
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
 
 .guilds-1SWlCJ {
@@ -101,7 +101,7 @@
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
 
 .privateChannels-1nO12o {
@@ -109,7 +109,42 @@
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
+}
+
+.autocompleteInner-zh20B_ {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.selector-2IcQBU:hover {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.selectorSelected-1_M1WV {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid var(--main-color); 
+}
+
+.panel-24C3ux {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--main-color); 
 }
 
 /* Search Box Background Settings */
@@ -181,7 +216,7 @@
 
 /* Channel Hover/Border */
 .content-3at_AU {
-    position: relative 
+    position: relative
 }
 
 .content-3at_AU:after {
@@ -374,12 +409,25 @@
     background-size: cover;
 }
 
+.inner-2P4tQO {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
+
 /*Emoji Popout Settings */
 .emojiPicker-3m1S-j {
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border: 1px solid var(--main-color);
 }
 
 .emojiPicker-3m1S-j .category-2U57w6 {
@@ -389,24 +437,26 @@
     background-size: cover;
 }
 
-.emojiPicker-3m1S-j,
-.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
-.diversitySelector-tmmMv0 .popout-2nUePc {
-    background: var(--BG-image-set) !important;
-    border: 1px solid var(--hover-color);
-    border-radius: 3px !important;
+.infoBar-U6oBFk {
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
 }
 
-.bda-dark #bda-qem button {
+.emojiPicker-3m1S-j .categories-1feg4n {
     background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;    
 }
 
-.bda-light #bda-qem button {
+.emojiPicker-3m1S-j .searchBar-2pWH0_ {
     background: var(--BG-image-set);
-}
-
-.inner-3ErfOT {
-    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--main-color); 
 }
 
 /* Pinned Messages and Mentions */
@@ -637,7 +687,7 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .quickMessage-1yeL4E {
@@ -1411,25 +1461,25 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 @import url('http://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 
 
-.friendsTable-133bsv .scroller-2FKFPG>div:not(.friendsRow-2yicud),
+.friendsTable-133bsv .scroller-2FKFPG > div:not(.friendsRow-2yicud),
 .friendsTable-133bsv .scroller-2FKFPG {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .friendsRow-2yicud {
-	position: relative;
-	display: block !important;
-	height: 145px !important;
-	width: 250px;
-	margin: 1.8% !important;
-	padding: 0 !important;
-	border-radius: 3px;
-	box-shadow: 0 0 12px rgba(0,0,0,0.25);
-	animation: friendGridFade .75s ease;
-	transition: 250ms ease all, 350ms ease background-color;
+    position: relative;
+    display: block !important;
+    height: 145px !important;
+    width: 250px;
+    margin: 1.8% !important;
+    padding: 0 !important;
+    border-radius: 3px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+    animation: friendGridFade .75s ease;
+    transition: 250ms ease all, 350ms ease background-color;
 }
 
 .friendsTable-133bsv .friendsTableHeader-32yE7d {
@@ -1441,48 +1491,48 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 }
 
 .friendsRow-2yicud:hover {
-    background-color: rgba(0,0,0,0.3) !important;
-	box-shadow: 0 0 14px rgba(0,0,0,0.5) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5) !important;
 }
 
 .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
-	position: absolute;
-	display: block;
-	top: 30px;
-	left: 64px;
-    color: rgba(255,255,255,0.65);
-	font-size: 13px;
-	overflow: visible;
-	transition: .15s ease color;
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 64px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    overflow: visible;
+    transition: .15s ease color;
 }
 
 .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .username {
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .friendsColumnName-1zBOKm .discriminator {
-	visibility: visible !important;
-	position: absolute;
-	top: 15px;
-	left: 0;
-	color: rgba(255, 255, 255, 0.3);
-	opacity: 1 !important;
-	transition: .15s ease color;
+    visibility: visible !important;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1 !important;
+    transition: .15s ease color;
 }
 
 .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .discriminator {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .friendsColumnName-1zBOKm {
-	width: 100%;
+    width: 100%;
 }
 
 .friendsRow-2yicud .avatarSmall--gkJKA {
-	height: 44px;
-	width: 44px;
-	margin-left: 10px !important;
-	margin-top: 30px !important;
+    height: 44px;
+    width: 44px;
+    margin-left: 10px !important;
+    margin-top: 30px !important;
 }
 
 .friendsRow-2yicud .inner-1W0Bkn::after {
@@ -1490,12 +1540,12 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     position: absolute;
     top: -30px;
     left: -10px;
-	height: 145px;
-	width: 250px;
+    height: 145px;
+    width: 250px;
     z-index: -1;
     background: inherit;
     filter: blur(18px) brightness(.65);
-    transition:500ms ease transform, 350ms ease filter;
+    transition: 500ms ease transform, 350ms ease filter;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .avatarSmall--gkJKA .inner-1W0Bkn::after {
@@ -1503,11 +1553,11 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 }
 
 .friendsColumnActions-1LT3_M {
-	position: absolute;
-	top: 65%;
-	left: 10px;
-	bottom: 0 !important;
-	visibility: visible !important; 
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    bottom: 0 !important;
+    visibility: visible !important;
 }
 
 .friendsColumnGuilds-2we6jb {
@@ -1517,14 +1567,14 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 
 .friendsTable-133bsv .iconSizeSmall-3aWgx9,
 .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
-	height: 20px !important;
-	width: 20px !important;
-	margin: 2px !important;
-	font-size: 9px;
+    height: 20px !important;
+    width: 20px !important;
+    margin: 2px !important;
+    font-size: 9px;
 }
 
-.friendsTable-133bsv .friendsColumnGuilds-2we6jb a+a {
-	margin: 0 !important;
+.friendsTable-133bsv .friendsColumnGuilds-2we6jb a + a {
+    margin: 0 !important;
 }
 
 .friendsColumnActions-1LT3_M .friendsActionRemove-qu8nnl {
@@ -1535,130 +1585,146 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     opacity: 1 !important;
 }
 
-.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
-	margin: 0;
+.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ + .friendsColumn-eVHFqJ {
+    margin: 0;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
-	position: absolute;
-	height: 18px !important;
-	width: 100% !important;
-	top: 0;
-	margin-right: 0 !important;
-	justify-content: center;
-	opacity: .8;
-	border-radius: 3px 3px 0 0 !important;
-    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    position: absolute;
+    height: 18px !important;
+    width: 100% !important;
+    top: 0;
+    margin-right: 0 !important;
+    justify-content: center;
+    opacity: .8;
+    border-radius: 3px 3px 0 0 !important;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
 }
 
 .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
-	position: absolute;
-	color: rgba(255, 255, 255, 075);
-	font-weight: 500 !important;
-	font-size: 11px;
-	line-height: 18px;
-	top: 0;
+    position: absolute;
+    color: rgba(255, 255, 255, 075);
+    font-weight: 500 !important;
+    font-size: 11px;
+    line-height: 18px;
+    top: 0;
 }
 
 .friendsTable-133bsv div[style*="height: 0"]:last-child {
-    height:10% !important;
+    height: 10% !important;
 }
 
 @keyframes friendGridFade {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Online"] {
-    background:#43b581;
+    background: #43b581;
 }
+
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {
-    z-index:100 !important;
-    position:relative;
+    z-index: 100 !important;
+    position: relative;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Online"]:after {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1000%;
-    opacity:.35;
-    background:#43b581;
-    z-index:-1;
-    pointer-events:none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: .35;
+    background: #43b581;
+    z-index: -1;
+    pointer-events: none;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Idle"] {
-    background:#faa61a;
+    background: #faa61a;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Idle"]:after {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1000%;
-    opacity:.35;
-    background:#faa61a;
-    z-index:-1;
-    pointer-events:none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: .35;
+    background: #faa61a;
+    z-index: -1;
+    pointer-events: none;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Do Not Disturb"] {
-    background:#f04747;
+    background: #f04747;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Do Not Disturb"]:after {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1000%;
-    opacity:.35;
-    background:#f04747;
-    z-index:-1;
-    pointer-events:none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: .35;
+    background: #f04747;
+    z-index: -1;
+    pointer-events: none;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Offline"] {
-    background:#636b75;
+    background: #636b75;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Offline"]:after {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1000%;
-    opacity:.35;
-    background:#636b76;
-    z-index:-1;
-    pointer-events:none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: .35;
+    background: #636b76;
+    z-index: -1;
+    pointer-events: none;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Streaming"] {
-    background:#643da7;
+    background: #643da7;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Streaming"]:after {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1000%;
-    opacity:.35;
-    background:#643da7;
-    z-index:-1;
-    pointer-events:none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000%;
+    opacity: .35;
+    background: #643da7;
+    z-index: -1;
+    pointer-events: none;
 }
+
 .friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .discriminator-1Ro5o1 {
-    visibility:visible !important;
-    position:absolute;
-    top:40px;
+    visibility: visible !important;
+    position: absolute;
+    top: 40px;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
     cursor: pointer;
-	height: 30px !important;
-	width: 30px !important;
+    height: 30px !important;
+    width: 30px !important;
     border-radius: 10%;
     color: var(--interactive-normal);
     display: -webkit-box;
@@ -1676,17 +1742,17 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9[aria-label="Remove Friend"] {
     background-color: #6C2929;
     height: 30px !important;
-	width: 30px !important;
+    width: 30px !important;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9[aria-label="Start Voice Call"] {
     background-color: #2E7E5A;
     height: 30px !important;
-	width: 30px !important;
+    width: 30px !important;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9[aria-label="Start Video Call"] {
     background-color: #2E7E5A;
     height: 30px !important;
-	width: 30px !important;
+    width: 30px !important;
 }
