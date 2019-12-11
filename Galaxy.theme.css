@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      3.0
+ * @version      3.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -16,7 +16,7 @@
 @import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
-
+@import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
 
 /* Variables */
 :root {
@@ -44,6 +44,36 @@
     --HomeButtonImg: url("https://images-ext-2.discordapp.net/external/WfTKRzLhXMz2jKScZX91Bo-KLSZASG4lq0C9jXM7uxw/https/media.discordapp.net/attachments/419937643007311885/631106769606934529/ASE_new_Logo.png?width=1275&height=702");
     /* Home Button Image url must end with .jpg or .png */
 }
+
+.typeWindows-1za-n7 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.wordmark-2iDDfm {
+    background-image: url(https://media.discordapp.net/attachments/645353652755759115/646279483128807444/4th_Continuum_PNG.png?width=1442&height=497);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+    display: block;
+}
+
+.wordmarkWindows-1v0lYD {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 9px 3px;
+    color: #72767d00;
+}
+
 
 /* Background Settings */
 #app-mount {
@@ -140,7 +170,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border-bottom: 1px solid var(--main-color); 
+    border-bottom: 1px solid var(--main-color);
 }
 
 .panel-24C3ux {
@@ -149,8 +179,106 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--main-color); 
+    border: 1px solid var(--main-color);
 }
+
+.divider-3gKybi {
+    color: var(--main-color);
+}
+
+.content-2M3n_H {
+    color: var(--main-color);
+}
+
+.content-2M3n_H a {
+    cursor: pointer;
+    color: var(--hover-color);
+}
+
+.inner-3ErfOT {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
+
+.quickswitcher-3JagVE {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
+
+.scroller-zPkAnE {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-2VB9rf {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
+
+
+.content-3QAtGj {
+    color: var(--hover-color);
+}
+
+.avatar-3uk_u9 {
+    color: var(--main-color);
+}
+
+.clickable-3rdHwn .icon-22AiRD {
+    color: var(--hover-color);
+}
+
+.resultsWrapper-hoiXCY {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA {
+       background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;   
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA, .searchResultMessage-2VxO12.sibling-3tUBeh {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;   
+}
+
 
 /* Search Box Background Settings */
 .searchBar-3dMhjb {
@@ -159,6 +287,15 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
+
+.timestampCozy-2hLAPV {
+    color: var(--main-color);
 }
 
 /* Chat Settings */
@@ -190,31 +327,71 @@
     border-bottom: 2px solid var(--hover-color) !important;
     border-left: 2px solid var(--hover-color) !important;
     border-right: 2px solid var(--hover-color) !important;
-    margin-right: 130px;
+    margin-right: 120px;
+}
+
+.scrollableContainer-38zsVD {
+    background-color: transparent;
+}
+
+/* Upload Popout */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
+    color: var(--main-color);
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 2px solid var(--main-color);
+    border-radius: 10px 10px 0 0;
+    margin: 10px;
+    color: #20f7b0;
+}
+
+.white-1VR_aZ {
+    color: #0c291f
+}
+
+.lookLink-9FtZy-.colorWhite-rEQuAQ {
+   color: var(--main-color) 
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: var(--main-color);
+    background-color: #10523c;
+}
+
+#charcounter {
+    color: var(--main-color);
 }
 
 /* Chat Color */
 .markup-2BOw-j {
-    color: var(--main-color);
+    color: #3dbf94;
+}
+
+.theme-brand .textArea-2Spzkt {
+      color: #10523c;  
 }
 
 .chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa:after {
-content: ' ';
-border: 6.5px solid transparent;
-border-right-color: #111;
-border-right-color: var(--quaternary-color);
-position: absolute;
-margin-top: -75%;
-margin-left: 92%;
+    content: ' ';
+    border: 6.5px solid transparent;
+    border-right-color: #111;
+    border-right-color: var(--quaternary-color);
+    position: absolute;
+    margin-top: -75%;
+    margin-left: 92%;
 }
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
-  box-shadow: 0px 0px 5px rgba(250,166,26,.1);
-  box-shadow: 0px 0px 5px var(--main-color);
+    box-shadow: 0px 0px 5px rgba(250, 166, 26, .1);
+    box-shadow: 0px 0px 5px var(--main-color);
 }
 
 .containerCozyBounded-1rKFAn {
-  overflow: visible;
+    overflow: visible;
 }
 
 /* Header Settings */
@@ -242,6 +419,13 @@ margin-left: 92%;
     background-size: cover;
 }
 
+.name-3_Dsmg {
+    color: var(--main-color);
+}
+
+.modeSelected-1zApJ_ .name-3_Dsmg {
+    color: var(--main-color);
+}
 
 /* Channel Hover/Border */
 .content-3at_AU {
@@ -470,14 +654,14 @@ margin-left: 92%;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n {
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .emojiPicker-3m1S-j .searchBar-2pWH0_ {
@@ -485,7 +669,7 @@ margin-left: 92%;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--main-color); 
+    border: 1px solid var(--main-color);
 }
 
 /* Pinned Messages and Mentions */
@@ -621,13 +805,14 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 }
 
 .queryContainer-RKFJW- {
-    background-color: var(--hover-color) !important;
+    border-bottom: 1px solid var(--hover-color) !important;
 }
 
 .option-96V44q.selected-rZcOL-,
 .result-2S5Awv.focused-1Yu0L3 {
-    background-color: var(--hover-color) !important;
-    border-color: var(--BG-image-set);
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
 }
 
 .option-96V44q.searchQuery-1B7rtx.selected-rZcOL-,
