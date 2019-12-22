@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      3.1
+ * @version      3.3
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -45,6 +45,7 @@
     /* Home Button Image url must end with .jpg or .png */
 }
 
+/* WordMark */
 .typeWindows-1za-n7 {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -279,6 +280,18 @@
     background-size: cover;   
 }
 
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+    border: 1px solid var(--hover-color);
+    border-top: 2px solid var(--hover-color) !important;
+    border-bottom: 2px solid var(--hover-color) !important;
+    border-left: 2px solid var(--hover-color) !important;
+    border-right: 2px solid var(--hover-color) !important;
+}
 
 /* Search Box Background Settings */
 .searchBar-3dMhjb {
@@ -316,13 +329,13 @@
     background-size: cover;
 }
 
-.inner-zqa7da {
+.inner-MADQqc {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
+    border: 2px solid var(--hover-color);
     border-top: 2px solid var(--hover-color) !important;
     border-bottom: 2px solid var(--hover-color) !important;
     border-left: 2px solid var(--hover-color) !important;
@@ -330,7 +343,7 @@
     margin-right: 120px;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
     background-color: transparent;
 }
 
