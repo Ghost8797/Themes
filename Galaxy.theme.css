@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for the 4th Continuum Armada
  * @author       Ghost8797#4706
- * @version      3.3
+ * @version      3.4
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -312,13 +312,31 @@
 }
 
 /* Chat Settings */
-.messages-3amgkR {
+.privateChannelMessages-3f72E- {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin-right: 150px;
+}
+
+.messages-3amgkR {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-right: 150px;    
+}
+
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-right: 150px;  
 }
 
 .form-2fGMdU {
