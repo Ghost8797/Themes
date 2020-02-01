@@ -378,19 +378,6 @@
     border-right: 2px solid var(--hover-color) !important;
 }
 
-.app-2rEoOp button {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
-}
-
 /* Search Box Background Settings */
 .searchBar-3dMhjb {
     background-color: transparent;
