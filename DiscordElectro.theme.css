@@ -1,19 +1,11 @@
-//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.3"}*//{}
-/*
+/**
+ * @name         Electro
+ * @description  Custom Revamp of the Electro theme
+ * @author       Ghost8797#4706
+ * @version      2.2
+ * @source       https://github.com/Ghost8797/Themes  
+ */
 
-██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗██╗     ███████╗ ██████╗████████╗██████╗  ██████╗
-██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗    ██╔════╝██║     ██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗
-██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║    █████╗  ██║     █████╗  ██║        ██║   ██████╔╝██║   ██║
-██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║    ██╔══╝  ██║     ██╔══╝  ██║        ██║   ██╔══██╗██║   ██║
-██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝    ███████╗███████╗███████╗╚██████╗   ██║   ██║  ██║╚██████╔╝
-╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝     ╚══════╝╚══════╝╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝
-
-+ ========================= +
-+ Electro Theme for Dicord   +
-+ Made by Spectra#7698      +
-+ Version 1.0               +
-+ ========================= +
-*/
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 @import url('https://raw.githack.com/codedotspectra/themes/master/mini-themes/settingsIcons.css');
 
