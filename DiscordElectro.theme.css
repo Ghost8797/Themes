@@ -1,4 +1,4 @@
-//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.2"}*//{}
+//META{"name":"Discord Electro","description":"Minimalist & compact","author":"Ghost8797","version":"2.3"}*//{}
 /*
 
 ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗     ███████╗██╗     ███████╗ ██████╗████████╗██████╗  ██████╗
@@ -33,7 +33,7 @@
 }
 
 .headerFancy-1AcCLF {
-    background-image:url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),linear-gradient(270deg,var(--primary),var(--primary2))!important
+    background-image: url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg), linear-gradient(270deg, var(--primary), var(--primary2)) !important
 }
 
 .container-1UB9sr {
@@ -1664,7 +1664,7 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 
 .footer-3rDWdC {
     background-color: var(--medium) !important;
-    border: 1px solid var(--primary) !important;   
+    border: 1px solid var(--primary) !important;
 }
 
 .header-37u8Mj {
@@ -1672,13 +1672,13 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     margin-bottom: 20px;
     padding: 20px;
     background-color: var(--medium) !important;
-    border-bottom: 1px solid var(--primary) !important; 
+    border-bottom: 1px solid var(--primary) !important;
 }
 
 .search-2oPWTC {
     background-color: var(--medium) !important;
     border: 2px solid var(--primary) !important;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .theme-dark .homeIcon-tEMBK1 {
@@ -1760,18 +1760,19 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     padding: 0 0 0 10px !important;
 }
 
-.searchPopout-1vUlP3, .container-3ayLPN {
+.searchPopout-1vUlP3,
+.container-3ayLPN {
     background-color: var(--medium) !important;
     border: 2px solid var(--primary) !important;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
 .searchHeader-1l-wpR {
-    background-color: var(--medium) !important; 
+    background-color: var(--medium) !important;
 }
 
 .searchResultMessage-2VxO12.hit-NLlWXA {
-    background-color: var(--medium) !important; 
+    background-color: var(--medium) !important;
 }
 
 /* Status Border Right */
@@ -1786,17 +1787,34 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
     border-radius: 0;
     border-right: 2.5px solid grey;
 }
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
-.avatarOffline-3GF27z {filter: grayscale(100%);}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {
+    padding-left: 15px;
+}
+
+.avatarOffline-3GF27z {
+    filter: grayscale(100%);
+}
 
 .avatarOffline-3GF27z,
-[role="img"][aria-label] {border-radius: 0;}
+[role="img"][aria-label] {
+    border-radius: 0;
+}
+
 .avatarOffline-3GF27z foreignObject,
-[role="img"][aria-label] foreignObject {mask: none;}
+[role="img"][aria-label] foreignObject {
+    mask: none;
+}
+
 .avatarOffline-3GF27z foreignObject img,
-[role="img"][aria-label] foreignObject img {border-radius: 0;}
-.avatarOffline-3GF27z  svg rect,
-[role="img"][aria-label] svg rect {display: none;}
+[role="img"][aria-label] foreignObject img {
+    border-radius: 0;
+}
+
+.avatarOffline-3GF27z svg rect,
+[role="img"][aria-label] svg rect {
+    display: none;
+}
 
 [role="img"][aria-label*="Online"]:before,
 [role="img"][aria-label*="Conectado"]:before,
@@ -1819,8 +1837,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="オンライン"]:before,
 [role="img"][aria-label*="線上"]:before,
 [role="img"][aria-label*="온라인"]:before {
-  border-right: 2.5px solid #43b581;
+    border-right: 2.5px solid #43b581;
 }
+
 [role="img"][aria-label*="Do Not Disturb"]:before,
 [role="img"][aria-label*="Vil ikke forstyrres"]:before,
 [role="img"][aria-label*="Bitte nicht stören"]:before,
@@ -1849,8 +1868,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="取り込み中"]:before,
 [role="img"][aria-label*="請勿打擾"]:before,
 [role="img"][aria-label*="다른 용무 중"]:before {
-  border-right: 2.5px solid #f04747;
+    border-right: 2.5px solid #f04747;
 }
+
 [role="img"][aria-label*="Idle"]:before,
 [role="img"][aria-label*="Inaktiv"]:before,
 [role="img"][aria-label*="Abwesend"]:before,
@@ -1876,8 +1896,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="退席中"]:before,
 [role="img"][aria-label*="閒置"]:before,
 [role="img"][aria-label*="자리비움"]:before {
-  border-right: 2.5px solid #faa61a;
+    border-right: 2.5px solid #faa61a;
 }
+
 [role="img"][aria-label*="Streaming"]:before,
 [role="img"][aria-label*="Streamer"]:before,
 [role="img"][aria-label*="Transmitiendo"]:before,
@@ -1904,8 +1925,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="配信"]:before,
 [role="img"][aria-label*="直播中"]:before,
 [role="img"][aria-label*="配信"]:before {
-  border-right: 2.5px solid #6441a5;
+    border-right: 2.5px solid #6441a5;
 }
+
 [role="img"][aria-label*="Offline"]:before,
 [role="img"][aria-label*="Hors ligne"]:before,
 [role="img"][aria-label*="Nem elérhető"]:before,
@@ -1927,8 +1949,9 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="Frakoblet"]:before,
 [role="img"][aria-label*="Desconectado"]:before,
 .avatarOffline-3GF27z {
-  border-right: 2.5px solid #747f8d;
+    border-right: 2.5px solid #747f8d;
 }
+
 [role="img"][aria-label*="Invisible"]:before,
 [role="img"][aria-label*="Usynlig"]:before,
 [role="img"][aria-label*="Unsichtbar"]:before,
@@ -1957,33 +1980,40 @@ svg circle[stroke*="rgb(151, 168, 228)"] {
 [role="img"][aria-label*="オンライン状態を隠す"]:before,
 [role="img"][aria-label*="隱形"]:before,
 [role="img"][aria-label*="오프라인 표시"]:before {
-  border-right: 2.5px solid #747f8d;
+    border-right: 2.5px solid #747f8d;
 }
+
 .cursorDefault-dsQJ1n,
 .dots-3Bkt3k {
-    overflow:visible;
+    overflow: visible;
 }
 
 .dots-3Bkt3k [cx="2.5"] {
-    cy:-8;
+    cy: -8;
     cx: -8.5;
 }
 
 .dots-3Bkt3k [cx="8.75"] {
-    cy:-8;
+    cy: -8;
     cx: -2.25;
 }
 
 .dots-3Bkt3k [cx="15"] {
-    cy:-8;
+    cy: -8;
     cx: 4;
 }
-.avatarWrapper-3H_478 {border-radius: 0;}
-foreignObject[mask*="round-80"] {mask: none!important;}
+
+.avatarWrapper-3H_478 {
+    border-radius: 0;
+}
+
+foreignObject[mask*="round-80"] {
+    mask: none !important;
+}
 
 /* Channel Hover/Border */
 .content-3at_AU {
-    position: relative 
+    position: relative
 }
 
 .content-3at_AU:after {
@@ -2045,7 +2075,7 @@ foreignObject[mask*="round-80"] {mask: none!important;}
 }
 
 .selected-aXhQR6 .layout-2DM8Md {
-    background-image: linear-gradient(120deg, transparent 85%, var(--medium) 80%) !important;
+    background-image: linear-gradient(120deg, var(--primaryT) 85%, var(--medium) 80%) !important;
 }
 
 .layout-2DM8Md:hover:after,
@@ -2147,11 +2177,11 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 }
 
 .privateChannels-1nO12o {
-    background-color: var(--medium) !important 
+    background-color: var(--medium) !important
 }
 
 .messages-3amgkR {
-background-color: var(--medium) !important   
+    background-color: var(--medium) !important
 }
 
 .container-1UB9sr,
@@ -2171,7 +2201,7 @@ background-color: var(--medium) !important
 
 .expandedFolderBackground-2sPsd- {
     background-color: transparent;
-    background-color: var(--medium) !important; 
+    background-color: var(--medium) !important;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -2190,5 +2220,50 @@ background-color: var(--medium) !important
 }
 
 .scroller-1JbKMe {
-     background-color: var(--medium) !important;   
+    background-color: var(--medium) !important;
+}
+
+.channelTextArea-rNsIhG {
+    background: #0c0e0f;
+    border-top: 2px solid #e9cb00 !important;
+    border-bottom: 2px solid #e9cb00 !important;
+    border-left: 2px solid #e9cb00 !important;
+    border-right: 2px solid #e9cb00 !important;
+}
+
+.scrollableContainer-2NUZem {
+    background: #0c0e0f;
+}
+
+.peopleColumn-29fq28 {
+    background: var(--dark);
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: var(--dark);
+    border-left: 2px solid var(--primary);
+}
+
+.itemCard-v9viV7 {
+    background: #0c0e0f;
+    border-top: 2px solid #e9cb00 !important;
+    border-bottom: 2px solid #e9cb00 !important;
+    border-left: 2px solid #e9cb00 !important;
+    border-right: 2px solid #e9cb00 !important;
+}
+
+.scroller-9moviB {
+    background: var(--dark);
+}
+
+.scroller-1IIF0A {
+    background: var(--dark);
+}
+
+.rowWrapper-2fB6P0 {
+    background: #0c0e0f;
+    border-top: 2px solid #e9cb00 !important;
+    border-bottom: 2px solid #e9cb00 !important;
+    border-left: 2px solid #e9cb00 !important;
+    border-right: 2px solid #e9cb00 !important; 
 }
