@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      3.5
+ * @version      3.6
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -20,8 +20,8 @@
 /* Variables */
 :root {
     --theme-version: "2.6";
-    --main-color: #10c488;
-    --hover-color: #35876c;
+    --main: #f2b50d;
+    --hover: #35876c;
     --dark: #0c0e0f;
     --medium: #101214;
     --light: #131517;
@@ -36,21 +36,21 @@
     --spoiler-blur: 5px;
     --shadow: rgba(0, 0, 0, .4);
     --alert-display: block;
-    --accent: var(--main-color);
+    --accent: var(--main);
     --bgImage: url('https://2.bp.blogspot.com/-8WU4pAW5P0I/UpQpXhkEnWI/AAAAAAAADNQ/Dgs4Vt4fX78/s1600/Daedalus_MadKoiFish+1.jpg');
     --BG-image-set: var(--bgImage, var(--bgImage));
     --HomeButtonImg: url("https://cdn.discordapp.com/attachments/628294884368973854/702195439868575814/Project_Daedalus.png");
+    --BG-Brightness: 0.8;
     /* Home Button Image url must end with .jpg or .png */
 }
 
 /* Background Settings */
 #app-mount {
     background-color: transparent;
-    background: var(--BG-image-set);
+    background: var(--BG-image-set));
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
 }
 
 .content-yTz4x3 {
@@ -116,11 +116,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .selector-2IcQBU:hover {
@@ -129,7 +129,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main);
 }
 
 .selectorSelected-1_M1WV {
@@ -138,7 +138,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--main);
 }
 
 .panel-24C3ux {
@@ -147,20 +147,20 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main);
 }
 
 .divider-3gKybi {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 .content-2M3n_H {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 .content-2M3n_H a {
     cursor: pointer;
-    color: var(--hover-color);
+    color: var(--hover);
 }
 
 .inner-3ErfOT {
@@ -169,11 +169,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .quickswitcher-3JagVE {
@@ -182,11 +182,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .scroller-zPkAnE {
@@ -203,24 +203,24 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 
 .content-3QAtGj {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 
 .avatar-3uk_u9 {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 .clickable-3rdHwn .icon-22AiRD {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 
 .resultsWrapper-hoiXCY {
@@ -231,47 +231,17 @@
     background-size: cover;
 }
 
-.searchResultMessage-2VxO12.hit-NLlWXA {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.searchResultMessage-2VxO12.hit-NLlWXA,
-.searchResultMessage-2VxO12.sibling-3tUBeh {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
-}
-
 .videoInner-3OR9J2 {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .peopleList-3c4jOR {
@@ -304,11 +274,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .theme-dark .popout-13LQ_3 {
@@ -317,11 +287,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .scroller-1IIF0A {
@@ -338,11 +308,52 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
+}
+
+/* Search Popout Settings */
+.scroller-2UzVJg {
+
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
+    background: var(--medium);
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
+    background: var(--medium);
+    
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    position: relative;
+    z-index: 1;
+    max-height: none;
+    cursor: auto;
+}
+
+.searchResult-3pzFAB:after {
+    bottom: 0;
+}
+
+.searchResult-3pzFAB:before {
+    z-index: 1;
+    top: 0;
+}
+
+.searchHeader-1l-wpR {
+    background: var(--dark);
 }
 
 /* Search Box Background Settings */
@@ -352,15 +363,29 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 .timestampCozy-2hLAPV {
-    color: var(--main-color);
+    color: var(--main);
+}
+
+.theme-dark .container-3ayLPN {
+    background: var(--dark);
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;  
+}
+
+.theme-dark .option-96V44q:after {
+    /* background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),color-stop(80%,#36393f)); */
+    /* background: linear-gradient(90deg,rgba(54,57,63,0),#36393f 80%); */
 }
 
 /* Chat Settings */
@@ -413,24 +438,29 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 2px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 2px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
     margin-right: 120px;
+}
+
+.embedFull-2tM8-- {
+    border-left: 4px solid var(--background-tertiary);
+    background: var(--light);
 }
 
 /* Upload Popout */
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    border: 2px solid var(--main-color);
+    border: 2px solid var(--main);
     border-radius: 10px 10px 0 0;
     margin: 10px;
     color: #20f7b0;
@@ -441,21 +471,21 @@
 }
 
 .lookLink-9FtZy-.colorWhite-rEQuAQ {
-    color: var(--main-color)
+    color: var(--main)
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-    color: var(--main-color);
+    color: var(--main);
     background-color: #10523c;
 }
 
 #charcounter {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 /* Chat Color */
 .markup-2BOw-j {
-    color: #3dbf94;
+    color: var(--main);
     text-shadow: 2px 2px 2px var(--dark);
 }
 
@@ -475,7 +505,7 @@
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
     box-shadow: 0px 0px 5px rgba(250, 166, 26, .1);
-    box-shadow: 0px 0px 5px var(--main-color);
+    box-shadow: 0px 0px 5px var(--main);
 }
 
 .containerCozyBounded-1rKFAn {
@@ -508,11 +538,11 @@
 }
 
 .name-3_Dsmg {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 .modeSelected-1zApJ_ .name-3_Dsmg {
-    color: var(--main-color);
+    color: var(--main);
 }
 
 /* Channel Hover/Border */
@@ -529,7 +559,7 @@
     left: 7.5px;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main-color) 85%, var(--main-color) 80%);
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--main) 80%);
     transform: translateX(-250px);
     transition: all .2s ease
 }
@@ -551,7 +581,7 @@
     left: 0;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main-color) 85%, var(--hover-color) 80%);
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
     transform: translateY(0);
 }
 
@@ -569,7 +599,7 @@
     left: 0;
     position: absolute;
     background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main-color) 85%, var(--hover-color) 80%);
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
     transform: translateX(-250px);
     transition: all .2s ease
 }
@@ -590,7 +620,7 @@
     bottom: 0;
     left: 0;
     background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main-color) 85%, var(--hover-color) 80%);
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
     transform: translateX(0)
 }
 
@@ -715,11 +745,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 /*Emoji Popout Settings */
@@ -728,7 +758,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main);
 }
 
 .emojiPicker-3m1S-j .category-2U57w6 {
@@ -757,7 +787,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--main);
 }
 
 /* Pinned Messages and Mentions */
@@ -773,7 +803,12 @@
 }
 
 #app-mount .messagesPopout-24nkyi {
-    background: var(--BG-image-set);
+    background: var(--medium);
+    border: 2px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW {
@@ -791,28 +826,28 @@
 
 #app-mount .header-ykumBX,
 #app-mount .footer-1kmXd4 {
-    background: var(--BG-image-set);
+    background: var(--medium);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
-    background: var(--BG-image-set);
+    background: var(--medium);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
-    background: var(--BG-image-set);
+    background: var(--light);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
-    background: var(--BG-image-set);
+    background: var(--light);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -834,7 +869,7 @@
 }
 
 .jumpButton-3DTcS_ {
-    background: var(--BG-image-set);
+    background: var(--medium);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -845,85 +880,6 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
-
-/* Search Popout Settings */
-popoutBottom-2GAFPg.noArrow-2foL9g {
-    margin-top: 0px !important;
-}
-
-.popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm[style*="top: 37px;"] {
-    top: 46px !important;
-}
-
-.searchPopout-1vUlP3,
-.container-3ayLPN {
-    background-color: transparent;
-    background: var(--BG-image-set) center/cover no-repeat;
-}
-
-.searchPopout-1vUlP3 .resultsGroup-r_nuzN,
-.searchPopout-1vUlP3,
-.container-3ayLPN {
-    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
-    transform-origin: 50% -10%;
-    box-sizing: content-box;
-    background-color: var(--BG-image-set);
-}
-
-.resultsGroup-r_nuzN .header-2N-gMV {
-    background-color: var(--BG-image-set);
-    padding: 10px 20px;
-}
-
-.resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
-.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
-    top: 17px;
-}
-
-.option-96V44q,
-.result-2S5Awv {
-    border-left: 2px solid var(--BG-image-set);
-    border-radius: 0px;
-}
-
-.option-96V44q:after,
-.option-96V44q.selected-rZcOL-:after {
-    display: none;
-}
-
-.queryContainer-RKFJW- {
-    border-bottom: 1px solid var(--hover-color) !important;
-}
-
-.option-96V44q.selected-rZcOL-,
-.result-2S5Awv.focused-1Yu0L3 {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-}
-
-.option-96V44q.searchQuery-1B7rtx.selected-rZcOL-,
-.queryContainer-RKFJW- {
-    border-color: var(--BG-image-set);
-}
-
-.dim-1l4L4y span {
-    background-color: var(--main-color) !important;
-    color: white !important;
-}
-
-.option-96V44q span {
-    overflow: visible;
-}
-
-.dim-1l4L4y span {
-    background-color: var(--main-color) !important;
-    color: white !important;
-}
-
-.option-96V44q span {
-    overflow: visible;
 }
 
 /*User Popout Settings */
@@ -941,7 +897,7 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border-top: 2px solid var(--hover-color) !important;
+    border-top: 2px solid var(--hover) !important;
 }
 
 .footer-1fjuF6 {
@@ -950,8 +906,8 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
 }
 
 .contextMenu-HLZMGh {
@@ -997,11 +953,11 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 1px solid var(--hover-color);
-    border-top: 2px solid var(--hover-color) !important;
-    border-bottom: 2px solid var(--hover-color) !important;
-    border-left: 2px solid var(--hover-color) !important;
-    border-right: 2px solid var(--hover-color) !important;
+    border: 1px solid var(--hover);
+    border-top: 2px solid var(--hover) !important;
+    border-bottom: 2px solid var(--hover) !important;
+    border-left: 2px solid var(--hover) !important;
+    border-right: 2px solid var(--hover) !important;
 }
 
 /* Scrollbars */
@@ -1055,7 +1011,7 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 .scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
 .chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb,
 .sb-menu-scroller::-webkit-scrollbar-thumb {
-    background-color: var(--main-color) !important;
+    background-color: var(--main) !important;
     border-color: transparent !important;
     border-radius: 40px;
 }
@@ -1087,7 +1043,7 @@ popoutBottom-2GAFPg.noArrow-2foL9g {
 .rolesList-22qj2L::-webkit-scrollbar {
     height: 8px;
     width: 12px;
-    background-color: var(--main-color);
+    background-color: var(--main);
 }
 
 /* Dm List Settings */
