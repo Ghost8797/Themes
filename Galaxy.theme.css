@@ -1,6 +1,6 @@
 /**
  * @name         Galaxy
- * @description  Custom made theme for the 4th Continuum Armada
+ * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
  * @version      3.5
  * @source       https://github.com/Ghost8797/Themes  
@@ -11,7 +11,6 @@
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
 @import "https://www.themonster.xyz/styles/google-fonts.css";
-@import "https://monstrousdev.github.io/themes/addons/chatBubbles.css";
 @import "https://monstrousdev.github.io/themes/addons/categoryNameFlair.css";
 @import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
@@ -34,47 +33,15 @@
     --streaming: #643da7;
     --home-color: var(--HomeButtonImg);
     --home-size: 64px;
-    --roundness: 50px;
     --spoiler-blur: 5px;
     --shadow: rgba(0, 0, 0, .4);
     --alert-display: block;
     --accent: var(--main-color);
-    --bgImage: url('https://images.wallpaperscraft.com/image/space_open_space_planets_135213_3840x2160.jpg');
+    --bgImage: url('https://2.bp.blogspot.com/-8WU4pAW5P0I/UpQpXhkEnWI/AAAAAAAADNQ/Dgs4Vt4fX78/s1600/Daedalus_MadKoiFish+1.jpg');
     --BG-image-set: var(--bgImage, var(--bgImage));
-    --HomeButtonImg: url("https://images-ext-2.discordapp.net/external/WfTKRzLhXMz2jKScZX91Bo-KLSZASG4lq0C9jXM7uxw/https/media.discordapp.net/attachments/419937643007311885/631106769606934529/ASE_new_Logo.png?width=1275&height=702");
+    --HomeButtonImg: url("https://cdn.discordapp.com/attachments/628294884368973854/702195439868575814/Project_Daedalus.png");
     /* Home Button Image url must end with .jpg or .png */
 }
-
-/* WordMark */
-.typeWindows-1za-n7 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.wordmark-2iDDfm {
-    background-image: url(https://media.discordapp.net/attachments/645353652755759115/646279483128807444/4th_Continuum_PNG.png?width=1442&height=497);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px;
-    height: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 0;
-    display: block;
-}
-
-.wordmarkWindows-1v0lYD {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 4px 9px 3px;
-    color: #72767d00;
-}
-
 
 /* Background Settings */
 #app-mount {
@@ -432,6 +399,14 @@
     background-size: cover;
 }
 
+.message-2qnXI6 .container-3FojY8 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;   
+}
+
 .inner-MADQqc {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -444,10 +419,6 @@
     border-left: 2px solid var(--hover-color) !important;
     border-right: 2px solid var(--hover-color) !important;
     margin-right: 120px;
-}
-
-.scrollableContainer-2NUZem {
-    background-color: transparent;
 }
 
 /* Upload Popout */
@@ -485,6 +456,7 @@
 /* Chat Color */
 .markup-2BOw-j {
     color: #3dbf94;
+    text-shadow: 2px 2px 2px var(--dark);
 }
 
 .theme-brand .textArea-2Spzkt {
