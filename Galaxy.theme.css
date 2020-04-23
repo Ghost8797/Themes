@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      3.8
+ * @version      4.0
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -19,9 +19,9 @@
 
 /* Variables */
 :root {
-    --theme-version: "3.8";
+    --theme-version: "4.0";
     --main: #f2b50d;
-    --hover: #35876c;
+    --hover: #daa30b;
     --dark: #0c0e0f;
     --medium: #101214;
     --light: #131517;
@@ -44,360 +44,7 @@
     /* Home Button Image url must end with .jpg or .png */
 }
 
-/* Background Settings */
-#app-mount {
-    background-color: transparent;
-    background: var(--BG-image-set));
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.content-yTz4x3 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.typeWindows-1za-n7 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.scroller-9moviB {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.friendsTable-133bsv .friendsTableBody-1ZhKif {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    margin-top: -10px;
-}
-
-.container-PNkimc {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.guilds-1SWlCJ {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.privateChannels-1nO12o {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.autocompleteInner-zh20B_ {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.selector-2IcQBU:hover {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid var(--main);
-}
-
-.selectorSelected-1_M1WV {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border-bottom: 1px solid var(--main);
-}
-
-.panel-24C3ux {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--main);
-}
-
-.divider-3gKybi {
-    color: var(--main);
-}
-
-.content-2M3n_H {
-    color: var(--main);
-}
-
-.content-2M3n_H a {
-    cursor: pointer;
-    color: var(--hover);
-}
-
-.inner-3ErfOT {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.quickswitcher-3JagVE {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.scroller-zPkAnE {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.input-2VB9rf {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-
-.content-3QAtGj {
-    color: var(--hover);
-}
-
-.avatar-3uk_u9 {
-    color: var(--main);
-}
-
-.clickable-3rdHwn .icon-22AiRD {
-    color: var(--hover);
-}
-
-.resultsWrapper-hoiXCY {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.videoInner-3OR9J2 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.peopleList-3c4jOR {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.nowPlayingColumn-2sl4cE {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.itemCard-v9viV7 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.section-2gLsgF {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.theme-dark .popout-13LQ_3 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.scroller-1IIF0A {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.header-39GIC8 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-/* Search Popout Settings */
-.scroller-2UzVJg {
-
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-    background: var(--medium);
-}
-
-.searchResultMessage-2VxO12.hit-NLlWXA {
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-    background: var(--medium);
-    
-}
-
-.searchResultMessage-2VxO12.hit-NLlWXA {
-    position: relative;
-    z-index: 1;
-    max-height: none;
-    cursor: auto;
-}
-
-.searchResult-3pzFAB:after {
-    bottom: 0;
-}
-
-.searchResult-3pzFAB:before {
-    z-index: 1;
-    top: 0;
-}
-
-.searchHeader-1l-wpR {
-    background: var(--dark);
-}
-
-/* Search Box Background Settings */
-.searchBar-3dMhjb {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-.timestampCozy-2hLAPV {
-    color: var(--main);
-}
-
-.theme-dark .container-3ayLPN {
-    background: var(--dark);
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;  
-}
-
-.theme-dark .option-96V44q:after {
-    /* background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),color-stop(80%,#36393f)); */
-    /* background: linear-gradient(90deg,rgba(54,57,63,0),#36393f 80%); */
-}
-
-/* Chat Settings */
-.privateChannelMessages-3f72E- {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    margin-right: 150px;
-}
-
+/*Chat Background */
 .messages-3amgkR {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -407,15 +54,21 @@
     margin-right: 150px;
 }
 
-.chat-3bRxxu > .content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+
+.content-yTz4x3 {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin-right: 150px;
 }
 
+/* Chat Color */
+.messageContent-2qWWxC {
+    color: var(--main);
+}
+
+/*Message Box */
 .form-2fGMdU {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -424,101 +77,33 @@
     background-size: cover;
 }
 
-.message-2qnXI6 .container-3FojY8 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;   
-}
-
 .inner-MADQqc {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    border: 2px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
     margin-right: 120px;
 }
 
-.embedFull-2tM8-- {
-    border-left: 4px solid var(--background-tertiary);
-    background: var(--light);
-}
-
-/* Upload Popout */
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
-    color: var(--main);
-}
-
-.uploadModal-2ifh8j .inner-3nWsbo {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    border: 2px solid var(--main);
-    border-radius: 10px 10px 0 0;
-    margin: 10px;
-    color: #20f7b0;
-}
-
-.white-1VR_aZ {
-    color: #0c291f
-}
-
-.lookLink-9FtZy-.colorWhite-rEQuAQ {
-    color: var(--main)
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91 {
-    color: var(--main);
-    background-color: #10523c;
-}
-
-#charcounter {
-    color: var(--main);
-}
-
-/* Chat Color */
-.markup-2BOw-j {
-    color: var(--main);
-    text-shadow: 2px 2px 2px var(--dark);
-}
-
-.theme-brand .textArea-2Spzkt {
-    color: #10523c;
-}
-
-.chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa:after {
-    content: ' ';
-    border: 6.5px solid transparent;
-    border-right-color: #111;
-    border-right-color: var(--quaternary-color);
-    position: absolute;
-    margin-top: -75%;
-    margin-left: 92%;
-}
-
-.containerCozy-jafyvG .isMentioned-N-h9aa {
-    box-shadow: 0px 0px 5px rgba(250, 166, 26, .1);
-    box-shadow: 0px 0px 5px var(--main);
-}
-
-.containerCozyBounded-1rKFAn {
-    overflow: visible;
-}
-
-/* Header Settings */
-.container-1r6BKw.themed-ANHk51 {
+.scrollableContainer-2NUZem {
+    overflow-x: hidden;
+    overflow-y: scroll;
     background-color: transparent;
     background: var(--BG-image-set);
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    max-height: 144px;
+    border-radius: 8px;
+}
+
+.channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem {
+    /* opacity: .5; */
 }
 
 /* Channel Settings */
@@ -530,19 +115,13 @@
     background-size: cover;
 }
 
-.header-2o-2hj {
-    background-color: transparent;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.name-3_Dsmg {
+.name-IbjUBS {
     color: var(--main);
-}
-
-.modeSelected-1zApJ_ .name-3_Dsmg {
-    color: var(--main);
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--main), transparent);
+    border-image-slice: 1;
+    margin-top: -7px;
+    text-align: center;
 }
 
 /* Channel Hover/Border */
@@ -624,21 +203,7 @@
     transform: translateX(0)
 }
 
-/* User Panel Settings */
-.container-3baos1 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-/* Game Panel above User info fix */
-.panels-j1Uci_ {
-    background-color: var(--bgImage);
-}
-
-/* Server List Settings */
+/* Server List */
 .scroller-2TZvBN {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -655,7 +220,7 @@
     background-size: cover;
 }
 
-.wrapper-25eVIn {
+.wrapper-21YSNc {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
@@ -667,297 +232,44 @@
     background-color: transparent;
 }
 
-/* Member List Settings */
+#bd-pub-button {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Title Settings */
+.container-1r6BKw.themed-ANHk51 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.clickable-3rdHwn .icon-22AiRD {
+    color: var(--main);
+}
+
+/* Server Name */
+.clickable-2ap7je {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Member List */
 .members-1998pB {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-/* Home Button Settings */
-.homeIcon-tEMBK1 {
-    background: var(--HomeButtonImg) no-repeat;
-    background-color: var(--BG-image-set) center/cover no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
-
-#app-mount .homeIcon-tEMBK1 path {
-    display: none;
-}
-
-/* Nitro Settings */
-#app-mount .modal-yWgWj-,
-#app-mount .root-1gCeng {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
-
-.theme-dark .modal-yWgWj- {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.option-1l2vXE {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.footer-3rDWdC {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-/* Gif Popout Settings */
-.container-2jxBbw {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.header-1TOWci {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.inner-2P4tQO {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-/*Emoji Popout Settings */
-.emojiPicker-3m1S-j {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--main);
-}
-
-.emojiPicker-3m1S-j .category-2U57w6 {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.infoBar-U6oBFk {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.emojiPicker-3m1S-j .searchBar-2pWH0_ {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--main);
-}
-
-/* Pinned Messages and Mentions */
-.themedPopout-25DgLi {
-    border-left: 2px solid var(--BG-image-set);
-    border-right: 2px solid var(--BG-image-set);
-    border-bottom: 2px solid var(--BG-image-set);
-    border-top: 0px solid var(--BG-image-set);
-}
-
-#app-mount .themedPopout-25DgLi .header-SsaQ8X {
-    border-radius: 0px;
-}
-
-#app-mount .messagesPopout-24nkyi {
-    background: var(--medium);
-    border: 2px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
-}
-
-#app-mount .messagesPopoutWrap-1MQ1bW {
-    border-radius: 0 !important;
-    border-left: 2px solid var(--BG-image-set);
-    border-right: 2px solid var(--BG-image-set);
-    border-bottom: 2px solid var(--BG-image-set);
-    border-top: 0;
-    animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
-    transform-origin: 50% -10%;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, .4) !important;
-    margin-top: 1px;
-    background-color: var(--BG-image-set);
-}
-
-#app-mount .header-ykumBX,
-#app-mount .footer-1kmXd4 {
-    background: var(--medium);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
-    background: var(--medium);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover {
-    background: var(--light);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
-    background: var(--light);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    box-shadow: none !important;
-}
-
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    color: #fff !important;
-    padding: 2px 7px 3px 7px;
-}
-
-.themedPopout-25DgLi .header-SsaQ8X .subtitle,
-.themedPopout-25DgLi .text {
-    color: #fff !important;
-}
-
-.jumpButton-3DTcS_ {
-    background: var(--medium);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.hasMoreButton-1MELpI {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-/*User Popout Settings */
-.headerTop-3C2Zn0 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.bodyInner-245q0L {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border-top: 2px solid var(--hover) !important;
-}
-
-.footer-1fjuF6 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-}
-
-.contextMenu-HLZMGh {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.activityPanel-28dQGo {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.container-1giJp5 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.rolesList-22qj2L {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.userPopout-3XzG_A {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.quickMessage-1yeL4E {
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid var(--hover);
-    border-top: 2px solid var(--hover) !important;
-    border-bottom: 2px solid var(--hover) !important;
-    border-left: 2px solid var(--hover) !important;
-    border-right: 2px solid var(--hover) !important;
 }
 
 /* Scrollbars */
@@ -1046,7 +358,39 @@
     background-color: var(--main);
 }
 
-/* Dm List Settings */
+/* Menu Bar */
+
+.typeWindows-1za-n7 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Home Button */
+.homeIcon-tEMBK1 {
+    background: var(--HomeButtonImg) no-repeat;
+    background-color: var(--BG-image-set) center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#app-mount .homeIcon-tEMBK1 path {
+    display: none;
+}
+
+/* Friends List */
+.privateChannels-1nO12o {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .scroller-1JbKMe {
     background-color: transparent;
     background: var(--BG-image-set);
@@ -1055,39 +399,32 @@
     background-size: cover;
 }
 
-.searchBar-6Kv8R2 {
+.layout-2DM8Md {
+    color: var(--main)
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    color: var(--main);
+}
+
+/* User Box */
+.container-3baos1 {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
-
-/* Private Chat Settings */
-.barBase-39XTcM {
-    margin-right: 134px;
-}
-
-/* Settings page Settings */
-.contentRegion-3nDuYy,
-.contentRegionScroller-26nc1e,
-.sidebarRegionScroller-3MXcoP {
-    background: transparent
-}
-
-.standardSidebarView-3F1I7i {
-    background: var(--BG-image-set) center/cover no-repeat
-}
-
-/* Server Menu Settings */
-.menu-Sp6bN1 {
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
 
 /* Status Picker */
 .popout-3sVMXz.popoutTop-3uu9vG,
@@ -1303,8 +640,6 @@
     display: none;
 }
 
-/* Status Picker */
-
 /* Upload Popout Settings */
 .uploadModal-2ifh8j {
     background-color: transparent;
@@ -1320,4 +655,350 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+/* Friends List */
+.scrollerWrap-2lJEkd {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.actionButton-uPB8Fs {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.itemCard-v9viV7 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2gLsgF {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+/* Search Box & Popout */
+.searchBar-3dMhjb {
+    background-color: transparent;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.resultsGroup-r_nuzN {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark .option-96V44q:after {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Mentions Popout */
+.messageContainer-gbhlwo {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.channelHeader-3Gd2xq {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.header-2-Imhb {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.button-1-5Aqk {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.recentMentionsFilterPopout-2q3wa5 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+/* Channel Description Popout */
+.theme-dark .root-1gCeng {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Library Settings */
+.scroller-1IIF0A {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-39GIC8 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.scroller-2XE8rp {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.topPill-30KHOu .item-PXvHYJ {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Nitro Page Settings */
+.scroller-9moviB {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* GIF Popout */
+.theme-dark .header-1TOWci {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.searchBar--fTZYa {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+/* Emote Popout */
+.emojiPicker-3m1S-j .searchBar-2pWH0_ {
+    background-color: transparent;
+    background: var(--medium);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.emojiPicker-3m1S-j .header-1nkwgG {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#bda-qem button {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.infoBar-U6oBFk {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+}
+
+.emojiPicker-3m1S-j {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+#bda-qem button:first-child {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+#bda-qem button {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+#bda-qem-twitch-container,
+#bda-qem-favourite-container {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+/* Linked Message Settings */
+
+.embedFull-2tM8-- {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-left: 4px solid var(--main);
+}
+
+/* Pinned Messages */
+.messagesPopoutWrap-1MQ1bW {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
+
+.header-ykumBX {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.messageGroupWrapper-o-Zw7G {
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border: 2px;
+    border-top: 2px solid var(--main);
+    border-left: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+    border-right: 2px solid var(--main);
 }
