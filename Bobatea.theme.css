@@ -11,7 +11,6 @@
     --BG-image-set: url('https://cdn.discordapp.com/attachments/702702557478256812/702704238136000562/image0.jpg');
     --home: url('https://cdn.discordapp.com/attachments/702702557478256812/702904655885238417/duffy_girl.jpg');
     --brightness: 0.7;
-    --customFont: 'Emilys Candy';
     --Color1: #ffb9df;
     --Color2: #1b0af1;
     --links: #b3ffb5;
@@ -266,6 +265,7 @@
 /* Chat Color */
 .messageContent-2qWWxC {
     color: var(--main);
+    font-family: 'Emilys Candy', cursive; 
 }
 
 
