@@ -2,10 +2,11 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
+@import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
 
 :root {
     --BG-image-set: url('https://cdn.discordapp.com/attachments/702702557478256812/702704238136000562/image0.jpg');
@@ -30,6 +31,8 @@
     --dark: #0c0e0f;
     --medium: #101214;
     --light: #131517;
+    --color3: #efe993;
+    --color4: #FFC0CB;
 }
 
 /* Home Button */
@@ -40,6 +43,16 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+
+/* Channel Categories Underline */
+.name-IbjUBS {
+  color: var(--main-color);
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, transparent, var(--color4), var(--color3), transparent);
+  border-image-slice: 1;
+  margin-top: -7px;
+  text-align: center;
 }
 
 #app-mount .homeIcon-tEMBK1 path {
