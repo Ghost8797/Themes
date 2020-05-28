@@ -9,7 +9,7 @@
 
 :root {
     --BG-image-set: url('https://cdn.discordapp.com/attachments/702702557478256812/715249137028956190/image0.png');
-    --home: url('https://cdn.discordapp.com/attachments/702702557478256812/715358325503557712/home_button.png');
+    --home: url('https://cdn.discordapp.com/attachments/646413439924699136/715245715789447208/image0.png');
     --brightness: 0.7;
     --Color1: #ffb9df;
     --Color2: #1b0af1;
@@ -45,7 +45,6 @@
 }
 
 /* Channel Categories Underline */
-
 .name-IbjUBS {
   color: var(--main-color);
   border-bottom: 3px solid;
