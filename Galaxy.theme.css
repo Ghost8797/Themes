@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      4.0
+ * @version      5.0
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -43,6 +43,22 @@
     --BG-Brightness: 0.8;
     /* Home Button Image url must end with .jpg or .png */
 }
+
+/* Windows Buttons */
+.winButton-iRh8-Z {
+    color: var(--main);
+}
+
+/* Call Background */
+.wrapper-2qzCYF.minimum-28Z35l {
+    height: 240px;
+    background-color: transparent;
+    background: var(--BG-image-set);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*Chat Background */
 .messages-3amgkR {
