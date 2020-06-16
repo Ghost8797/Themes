@@ -39,7 +39,7 @@
     --accent: var(--main);
     --bgImage: url('https://cdn.discordapp.com/attachments/716136044327731211/722274779280965672/assassins-creed-valhalla-game-by-1920x1080.jpg');
     --BG-image-set: var(--bgImage, var(--bgImage));
-    --HomeButtonImg: url("https://cdn.discordapp.com/attachments/628294884368973854/702195439868575814/Project_Daedalus.png");
+    --HomeButtonImg: url("https://cdn.discordapp.com/attachments/716136044327731211/716918666658185221/6408308360013852129.jpg");
     --BG-Brightness: 0.8;
     /* Home Button Image url must end with .jpg or .png */
 }
