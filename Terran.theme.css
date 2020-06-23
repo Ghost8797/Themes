@@ -19,7 +19,7 @@
 
 /* Variables */
 :root {
-    --theme-version: "4.0";
+    --theme-version: "1.0";
     --main: #f4bc25;
     --hover: #daa30b;
     --dark: #0c0e0f;
@@ -37,7 +37,7 @@
     --shadow: rgba(0, 0, 0, .4);
     --alert-display: block;
     --accent: var(--main);
-    --bgImage: url('https://www.linuxbookpro.com/wp-content/uploads/2017/04/Terran_Empire_Logo-revised-stars-red.png');
+    --bgImage: url('https://cdn.discordapp.com/attachments/616501998300299268/724877787076231218/Terran-Logo_2.png');
     --BG-image-set: var(--bgImage, var(--bgImage));
     --HomeButtonImg: url("https://static-cdn.jtvnw.net/jtv_user_pictures/567bff01-fcdf-477c-8b81-c5479ea7db5e-profile_image-70x70.png");
     --BG-Brightness: 0.8;
