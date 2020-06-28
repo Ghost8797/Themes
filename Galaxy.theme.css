@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      5.0
+ * @version      5.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -19,7 +19,7 @@
 
 /* Variables */
 :root {
-    --theme-version: "4.0";
+    --theme-version: "5.1";
     --main: #f2b50d;
     --hover: #daa30b;
     --dark: #0c0e0f;
@@ -39,7 +39,7 @@
     --accent: var(--main);
     --bgImage: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/14742e20-ac3e-4580-b025-163d5b8c6575/d8yjnfe-564fb618-8a29-4859-b3c0-b74994c549e5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8xNDc0MmUyMC1hYzNlLTQ1ODAtYjAyNS0xNjNkNWI4YzY1NzUvZDh5am5mZS01NjRmYjYxOC04YTI5LTQ4NTktYjNjMC1iNzQ5OTRjNTQ5ZTUuanBnIn1dXX0._Ox5N_ZaGmoazbj85ZBua4j7QLuzid3derzH9Po-sHA');
     --BG-image-set: var(--bgImage, var(--bgImage));
-    --HomeButtonImg: url("https://cdn.discordapp.com/attachments/628294884368973854/702195439868575814/Project_Daedalus.png");
+    --HomeButtonImg: url("https://cdn.discordapp.com/attachments/696376899491856437/726779642924498944/concept1.png");
     --BG-Brightness: 0.8;
     /* Home Button Image url must end with .jpg or .png */
 }
