@@ -2,7 +2,7 @@
  * @name         Terran
  * @description  Custom made theme for TerranEctomy
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -280,7 +280,7 @@
 }
 
 /* Member List */
-.members-1998pB {
+.members-1998pB, .members-1998pB>div {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
