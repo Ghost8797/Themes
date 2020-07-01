@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      5.1
+ * @version      5.2
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -19,7 +19,7 @@
 
 /* Variables */
 :root {
-    --theme-version: "5.1";
+    --theme-version: "5.2";
     --main: #f2b50d;
     --hover: #daa30b;
     --dark: #0c0e0f;
@@ -280,7 +280,7 @@
 }
 
 /* Member List */
-.members-1998pB {
+.members-1998pB, .members-1998pB>div {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
