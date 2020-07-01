@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      1.1
+ * @version      1.2
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -215,7 +215,7 @@
 }
 
 /* Members List */
-.members-1998pB {
+.members-1998pB, .members-1998pB>div {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
