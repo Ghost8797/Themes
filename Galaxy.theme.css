@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      6.1
+ * @version      6.2
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -66,7 +66,7 @@
 
   /* Popout & Modal variables */
   --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+  --popout-modal-blur: 0px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
   --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
   --popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
@@ -147,7 +147,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-  content: "Galaxy Version 6.1";
+  content: "Galaxy Version 6.2";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: var(--main);
