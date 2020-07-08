@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      6.0
+ * @version      6.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -147,7 +147,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-  content: "Galaxy Version 6.0";
+  content: "Galaxy Version 6.1";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: var(--main);
@@ -162,6 +162,17 @@
 .messages-3amgkR {
     margin-right: 150px;
 }
+
+/* Windows Buttons */
+.winButton-iRh8-Z {
+    color: var(--main);
+}
+
+/* Title Settings */
+.clickable-3rdHwn .icon-22AiRD {
+    color: var(--main);
+}
+
 
 /* Chat Color */
 .messageContent-2qWWxC {
