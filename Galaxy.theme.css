@@ -89,9 +89,9 @@
     /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
     /* Gradient variables */
-    --gradient-primary: 103, 58, 183;
+    --gradient-primary: 0, 0, 0;
     /* DEFAULT: 103,58,183 */
-    --gradient-secondary: 63, 81, 181;
+    --gradient-secondary: 218, 163, 11;
     /* DEFAULT: 63,81,181 */
     --gradient-direction: 320deg;
     /* DEFAULT: 320deg */
@@ -159,6 +159,12 @@
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
     --text-link: var(--link-colour);
+}
+
+/* Linked Channel Gradient */
+#app-mount .wrapper-3WhCwL {
+    background: var(--gradient);
+    color: var(--text-normal);
 }
 
 /*Version Info/Message Bar */
