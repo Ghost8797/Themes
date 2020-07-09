@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      7.0
+ * @version      7.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -85,7 +85,7 @@
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-    --popout-modal-brightness: 0.75;
+    --popout-modal-brightness: 0.9;
     /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
     /* Gradient variables */
@@ -163,7 +163,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Version 7.0";
+    content: "Galaxy Version 7.1";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
@@ -172,6 +172,25 @@
     box-sizing: border-box;
     background: transparent;
     text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
+}
+
+/* Upload Popout */
+.theme-dark .uploadModal-2ifh8j {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--popout-modal-brightness));
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border: 2px;
+    border-top: 2px solid var(--main);
+}
+
+.fontSize16Padding-3Wk7zP {
+    color: var(--main);
 }
 
 /* Nitro Page */
