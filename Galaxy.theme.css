@@ -1,5 +1,5 @@
 /**
- * @name         GalaxyRevamp
+ * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
  * @version      7.0
@@ -172,6 +172,20 @@
     box-sizing: border-box;
     background: transparent;
     text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
+}
+
+/* Nitro Page */
+.applicationStore-1pNvnv {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+/* Library */
+.container-3Mxszk {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
 /* Settings Background */
