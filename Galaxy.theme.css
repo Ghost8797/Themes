@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      7.1
+ * @version      7.1.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -81,7 +81,7 @@
     /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --left-brightness: 0.8;
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.6;
+    --middle-brightness: 0.65;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
@@ -161,6 +161,8 @@
     --text-link: var(--link-colour);
 }
 
+
+
 /* Linked Channel Gradient */
 #app-mount .wrapper-3WhCwL {
     background: var(--gradient);
@@ -169,7 +171,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Version 7.1";
+    content: "Galaxy Version 7.1.1";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
