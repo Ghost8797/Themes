@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      7.1.1
+ * @version      7.1.2
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -91,7 +91,7 @@
     /* Gradient variables */
     --gradient-primary: 0, 0, 0;
     /* DEFAULT: 103,58,183 */
-    --gradient-secondary: 218, 163, 11;
+    --gradient-secondary: 170, 127, 9;
     /* DEFAULT: 63,81,181 */
     --gradient-direction: 320deg;
     /* DEFAULT: 320deg */
@@ -166,12 +166,12 @@
 /* Linked Channel Gradient */
 #app-mount .wrapper-3WhCwL {
     background: var(--gradient);
-    color: var(--text-normal);
+    color: #00ccff;
 }
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Version 7.1.1";
+    content: "Galaxy Version 7.1.2";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
