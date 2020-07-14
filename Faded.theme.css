@@ -2,7 +2,7 @@
  * @name         Faded
  * @description  Custom made theme for Faded_Jager
  * @author       Ghost8797#4706
- * @version      5.0
+ * @version      5.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -19,7 +19,7 @@
 
 :root {
     --main: #00ccff;
-    --hover: #004d26;
+    --hover: #007a99;
     --dark: #0c0e0f;
     --medium: #101214;
     --light: #131517;
@@ -81,7 +81,7 @@
     /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --left-brightness: 0.8;
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.3;
+    --middle-brightness: 0.65;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
@@ -190,7 +190,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Faded Version 5.0";
+    content: "Faded Version 5.1";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
