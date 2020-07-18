@@ -214,7 +214,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Version 7.4";
+    content: "Galaxy Version 7.5";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--hover);
