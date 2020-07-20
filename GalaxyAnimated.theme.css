@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.3
+ * @version      1.2
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -212,7 +212,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Animated Version 1.3";
+    content: "Galaxy Animated Version 1.2";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
