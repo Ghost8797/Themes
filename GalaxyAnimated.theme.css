@@ -311,12 +311,12 @@
 
 /* Server Menu Background */
 .styleFixed-sX-yHV {
-    background: var(--background-image);
+    background: var(--dark);
 }
 
 /* Pinned Messages Popout */
 .layer-v9HyYc {
-    background: var(--light);
+    background: var(--dark);
 }
 
 .messageGroupWrapper-o-Zw7G {
