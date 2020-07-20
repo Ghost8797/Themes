@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -20,6 +20,7 @@
 :root {
     --main: #f2b50d;
     --hover: #daa30b;
+    --border: #916d08;
     --dark: #0c0e0f;
     --medium: #101214;
     --light: #131517;
@@ -49,7 +50,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/628294884368973854/731187002745159791/StarfieldSimulation.gif');
+    --background-image: url('https://im2.ezgif.com/tmp/ezgif-2-0a526119f075.gif');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -160,6 +161,26 @@
     --deprecated-text-input-prefix: #dcddde;
     --text-link: var(--link-colour);
 }
+/* Server Menu Border*/
+.clickable-2ap7je {
+    border: 2px;
+    border-bottom: 2px solid var(--border);
+    height: 46px;
+}
+
+
+/* Top Bar */
+.container-1r6BKw.themed-ANHk51 {
+    border: 2px;
+    border-bottom: 2px solid var(--border);
+}
+
+.searchBar-6Kv8R2 {
+    border: 2px;
+    border-bottom: 2px solid var(--border); 
+    height: 46px;
+}
+
 /* Unread/New Messages */
 .unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
     position: static;
@@ -182,15 +203,15 @@
     box-sizing: border-box;
 }
 
-/* Linked Channel Gradient */
+/* Linked Channel */
 #app-mount .wrapper-3WhCwL {
-    background: var(--gradient);
-    color: #00ccff;
+    background: transparent;
+    color: #00cc7a;
 }
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Animated Version 1.0";
+    content: "Galaxy Animated Version 1.1";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
@@ -248,7 +269,7 @@
 }
 
 /* Background Settings */
-#app-mount:before {
+#app-mount {
     content: "";
     background: var(--background-image);
     background-position: var(--background-image-position, center);
@@ -556,6 +577,7 @@
 #app-mount .sidebar-2K8pFh {
     border-radius: 0;
     background: rgba(0, 0, 0, var(--left-brightness));
+    border-right: 2px solid var(--border);
 }
 
 #app-mount .sidebar-2K8pFh .container-PNkimc,
