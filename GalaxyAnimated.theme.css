@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.1
+ * @version      1.2
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -50,7 +50,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://im2.ezgif.com/tmp/ezgif-2-0a526119f075.gif');
+    --background-image: url('https://im2.ezgif.com/tmp/ezgif-2-5c3337ed99f3.gif');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -82,12 +82,13 @@
     /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --left-brightness: 0.8;
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.0;
+    --middle-brightness: 0.65;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
     --popout-modal-brightness: 0.9;
     /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+    --top-brightness: 0.9;
 
     /* Gradient variables */
     --gradient-primary: 0, 0, 0;
@@ -104,9 +105,9 @@
     /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
 
     /* Other variables */
-    --window-padding: 20px;
+    --window-padding: 0px;
     /* Spacing around the Discord window | DEFAULT: 20px */
-    --window-roundness: 10px;
+    --window-roundness: 0px;
     /* Roundness of Discord | DEFAULT: 10px */
     --scrollbar-colour: rgba(255, 255, 255, 0.05);
     /* DEFAULT: rgba(255,255,255,0.05) */
@@ -211,14 +212,14 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Animated Version 1.1";
+    content: "Galaxy Animated Version 1.2";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--main);
     text-align: center;
     padding: 1px 0;
     box-sizing: border-box;
-    background: transparent;
+    background: rgba(0, 0, 0, var(--top-brightness));
     text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
 }
 
@@ -315,7 +316,7 @@
 
 /* Pinned Messages Popout */
 .layer-v9HyYc {
-    background: var(--background-image);
+    background: var(--light);
 }
 
 .messageGroupWrapper-o-Zw7G {
