@@ -292,16 +292,16 @@
 
 /* Emoji and GIF popout */
 .drawerSizingWrapper-17Mss4 {
-    background: var(--background-image);
+    background: var(--dark);
 }
 
 /* Nitro Popout */
 .small-3iVZYw {
-    background: var(--background-image);
+    background: var(--dark);
 }
 
 .panningAnimation-38NjY9 {
-    background: var(--background-image);
+    background: var(--dark);
     border: 2px;
     border-left: 2px solid var(--main);
     border-top: 2px solid var(--main);
