@@ -2,7 +2,7 @@
  * @name         Galaxy Minimal
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -150,7 +150,7 @@
 
 /*Version Info/Message Bar */
 #app-mount .app-2rEoOp::before {
-    content: "Galaxy Minimal Version 1.0";
+    content: "Galaxy Minimal Version 1.1";
     white-space: pre-wrap;
     display: var(--update-notice-1, block);
     color: var(--hover);
