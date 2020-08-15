@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      1.2
+ * @version      1.3
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -73,7 +73,7 @@
 }
 
 /* Chat Background */
-.messages-3amgkR {
+.chatContent-a9vAAp {
     background-color: transparent;
     background: var(--BG-image-set);
     background-attachment: fixed;
