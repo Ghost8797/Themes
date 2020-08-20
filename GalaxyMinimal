@@ -16,7 +16,12 @@
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
 @import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
 
+/* Loading Screen */
+@keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading Galaxy Minimal v1.1';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:var(--main);text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 0px 0px var(--hover);transform-origin:left center;background:var(--accent);animation:loader 5.5s linear,loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}
+
 :root {
+    --theme-name: 'Galaxy Minimal';
+	--theme-version: '1.1';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -86,6 +91,17 @@
     --background-mentioned: rgba(250, 166, 26, 0.05);
     --background-mentioned-hover: rgba(250, 166, 26, 0.08);
     --background-message-hover: rgba(4, 4, 5, 0.07);
+    --lv1: #0c0e0f;
+	/*Fonts*/
+	--sizelg:1.25rem;
+	--size0: 1.15rem;
+	--size1: .925rem;
+	--size2: .8rem;
+	--size3: .75rem;
+	--size4: .7rem;
+	--size5: .5rem;
+	--size6: .35rem;
+	--letter-spacing: -.02rem;
 }
 
 /* Top Bar */
@@ -149,17 +165,35 @@
 }
 
 /*Version Info/Message Bar */
-#app-mount .app-2rEoOp::before {
-    content: "Galaxy Minimal Version 1.1";
-    white-space: pre-wrap;
-    display: var(--update-notice-1, block);
-    color: var(--hover);
-    text-align: center;
-    padding: 1px 0;
-    box-sizing: border-box;
-    background: transparent;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
-    margin-left: 20px;
+.wordmark-2iDDfm {
+	opacity: 1;
+	width: 100%;
+	background: var(--lv1);
+	padding: 0;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	padding-left: 12px;
+}
+
+.wordmark-2iDDfm svg {
+	display: none;
+}
+
+.wordmark-2iDDfm:before,
+.wordmark-2iDDfm:after {
+  font-size:var(--size1);
+}
+
+.wordmark-2iDDfm:before {
+	content: var(--theme-name);
+	color: var(--main);
+}
+
+.wordmark-2iDDfm:after {
+	content: 'v' var(--theme-version);
+	color: var(--hover);
+	margin-left: 5px;
 }
 
 /* Upload Popout */
@@ -562,4 +596,177 @@
 
 #app-mount .guilds-1SWlCJ .folder-21wGz3 {
     background: transparent;
+}
+
+/*9.h. Toasts*/
+
+body .bd-toasts {
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100%;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.bd-toasts .bd-toast::before {
+	content: var(--toast-content);
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	top: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	padding: 10px;
+	left: 0;
+	width: 100%;
+	color: var(--main);
+	background: rgba(0, 0, 0, .2);
+	font-size: var(--size1);
+	text-align:left;;
+}
+
+.bd-toasts .bd-toast::after {
+	content: 'This notice will close in a few seconds.';
+	font-size: var(--size2);
+	font-weight:400;
+	padding-top:5px;
+}
+
+.bd-toasts .bd-toast {
+	--toast-content:'Notice';
+	overflow: hidden;
+	padding: 15px;
+	padding-left: 15px;
+	padding-top: 45px;
+	padding-bottom:15px;
+	position: relative;
+	display:flex;
+	flex-direction:column;
+	margin-right: 10px;
+	background-color: var(--lv1) !important;
+	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
+	border: 1px solid var(--lv1);
+	border-left: 2px solid var(--accent);
+	border-radius: 0;
+	height: auto;
+	color: var(--main);
+	font-size: var(--size1);
+	font-weight:500;
+}
+
+.bd-toasts .bd-toast.icon {
+	padding-left:55px !important;
+}
+
+.bd-toasts .bd-toast.icon {
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: 10px 45px;
+}
+
+.bd-toasts .toast-success {
+	border-left: 2px solid var(--success);
+	--toast-content:'Success';
+}
+
+.bd-toasts .toast-info {
+	border-left: 2px solid var(--information);
+	--toast-content:'Information';
+}
+
+.bd-toasts .toast-danger,
+.bd-toasts .toast-error {
+	border-left: 2px solid var(--danger);
+	--toast-content:'Error';
+}
+
+.bd-toasts .toast-warn,
+.bd-toasts .toast-warning {
+	border-left: 2px solid var(--caution);
+	--toast-content:'Warning';
+}
+
+.friendnotifications-dnd-toast,
+.friendnotifications-idle-toast,
+.friendnotifications-mobile-toast,
+.friendnotifications-offline-toast,
+.friendnotifications-online-toast,
+.friendnotifications-streaming-toast {
+	background-color: var(--lv1) !important;
+}
+
+.bd-toasts .friendnotifications-online-toast {
+	border-left-color: var(--success);
+}
+
+.bd-toasts .friendnotifications-offline-toast {
+	border-left-color: var(--unavailable);
+}
+
+.bd-toasts .friendnotifications-idle-toast {
+	border-left-color: var(--caution);
+}
+
+.bd-toasts .friendnotifications-dnd-toast {
+	border-left-color: var(--danger);
+}
+
+.bd-toasts .friendnotifications-streaming-toast {
+	border-left-color: var(--twitch-purple);
+}
+
+.bd-toasts .toast-inner {
+	margin-left: 15px;
+	text-align: left;
+	text-indent: none;
+	padding-bottom: 15px
+}
+
+.bd-toasts .toast-inner .toast-avatar {
+	border-radius: var(--user-roundness);
+	margin-right: -10px;
+}
+
+.powercord-toast {
+	border:none;
+	border-radius:0;
+	bottom:10px;
+	right:10px;
+	border-left:2px solid var(--accent);
+	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
+	z-index:3000;
+}
+
+.powercord-toast[data-toast-type=info] .icon {
+  color:var(--accent) !important;
+}
+
+.powercord-toast .header {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	padding:10px 20px;
+	padding-right:40px;
+	color: rgba(255, 255, 255, .8);
+	background: rgba(0, 0, 0, .2);
+	color: rgba(255, 255, 255, .65);
+	font-size: var(--size1);
+	font-weight:500;
+	align-items:center;
+	border-radius:0;
+	box-shadow:none !important;
+}
+  
+.powercord-toast .header .dismiss {
+	right:10px;
+	position:absolute;
+	margin-left:0;
+}
+
+.powercord-toast .contents .inner {
+	color: rgba(255, 255, 255, .65);
+	border:none;
+	background:transparent;
+	text-align:left;
+	font-size: var(--size1);
+	padding:0 5px;
 }
