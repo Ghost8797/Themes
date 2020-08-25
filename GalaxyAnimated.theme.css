@@ -395,7 +395,6 @@
     margin-right: 142px;
 }
 
-
 /* Windows Buttons */
 .winButton-iRh8-Z {
     color: var(--main);
@@ -522,89 +521,19 @@
 }
 
 /* Scrollbars */
-.emojiPicker-3m1S-j .premiumPromo-yVfLiA,
-#autocomplete-popout .scroller::-webkit-scrollbar,
-#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
-#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
-.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
-    display: none;
-    background-color: var(--BG-image-set) !important;
-}
-
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
-    width: 5px;
-}
-
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    border-radius: 40px;
-}
-
-#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
-#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
-.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    border: none !important;
-    background-color: var(--BG-image-set) !important;
-    display: initial;
-}
-
-.friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
-.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
-.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece,
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track,
-.sb-menu-scroller:hover::-webkit-scrollbar-track-piece,
-.scrollerWrap-2su1QI::-webkit-scrollbar-track-piece,
-.scrollerWrap-2su1QI::-webkit-scrollbar-track,
-.scroller-2FKFPG::-webkit-scrollbar-track,
-.scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: var(--BG-image-set) !important;
-    border-color: transparent !important;
-}
-
-.friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
-.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
-.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scroller::-webkit-scrollbar-thumb,
-.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
-.chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb,
-.sb-menu-scroller::-webkit-scrollbar-thumb {
-    background-color: var(--main) !important;
-    border-color: transparent !important;
-    border-radius: 40px;
-}
-
-.scroller-2FKFPG::-webkit-scrollbar-track,
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    border-radius: 0px;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar {
-    width: 11px;
-}
-
-.scroller-2FKFPG::-webkit-scrollbar {
-    width: 12px;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-thumb,
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    visibility: hidden !important;
-    transition: .2s visibility linear;
-}
-
-.scroller-wrap .scroller:hover::-webkit-scrollbar-thumb,
-.scroller-wrap .scroller:hover::-webkit-scrollbar-track-piece {
-    visibility: visible !important;
-}
-
-.rolesList-22qj2L::-webkit-scrollbar {
-    height: 8px;
-    width: 12px;
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--main);
+
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: var(--border);
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
 }
 
 /* Home Button Settings */
