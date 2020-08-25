@@ -22,7 +22,7 @@
 
 :root {
     --theme-name: 'Galaxy Animated';
-    --theme-version: '1.4';
+	--theme-version: '1.4';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -89,7 +89,7 @@
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --middle-brightness: 0.65;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-    --right-brightness: 0.8;
+    --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
     --popout-modal-brightness: 0.9;
     /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
@@ -628,6 +628,10 @@
 /* Brightness Settings */
 #app-mount .chat-3bRxxu {
     background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+.membersWrap-2h-GB4 {
+      background: rgba(0, 0, 0, var(--right-brightness));  
 }
 
 #app-mount .sidebar-2K8pFh {
