@@ -81,7 +81,7 @@
     /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --left-brightness: 0.8;
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.65;
+    --middle-brightness: 0.6;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
