@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.5
+ * @version      1.6
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -11,18 +11,17 @@
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
 @import "https://www.themonster.xyz/styles/google-fonts.css";
-@import "https://monstrousdev.github.io/themes/addons/categoryNameFlair.css";
 @import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
 @import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
 
 /* Loading Screen */
-@keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading Galaxy Animated v1.5';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:var(--main);text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 0px 0px var(--hover);transform-origin:left center;background:var(--accent);animation:loader 5.5s linear,loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}
+@keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading Galaxy Animated v1.6';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:var(--main);text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 0px 0px var(--hover);transform-origin:left center;background:var(--accent);animation:loader 5.5s linear,loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}
 
 :root {
     --theme-name: 'Galaxy Animated';
-    --theme-version: '1.5';
+	--theme-version: '1.6';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -516,8 +515,12 @@
     border-bottom: 3px solid;
     border-image: linear-gradient(90deg, transparent, var(--main), transparent);
     border-image-slice: 1;
-    margin-top: -7px;
+    margin-top: -2px;
     text-align: center;
+}
+
+.containerDefault-3GGEv_ {
+  background-color: transparent !important;
 }
 
 /* Scrollbars */
