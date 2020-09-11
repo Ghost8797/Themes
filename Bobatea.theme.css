@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      1.3
+ * @version      1.4
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -51,7 +51,7 @@
   border-bottom: 3px solid;
   border-image: linear-gradient(90deg, transparent, var(--color4), var(--color3), transparent);
   border-image-slice: 1;
-  margin-top: -7px;
+  margin-top: -2px;
   text-align: center;
 }
 
