@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.6
+ * @version      1.7
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -17,11 +17,11 @@
 @import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
 
 /* Loading Screen */
-@keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading Galaxy Animated v1.6';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:var(--main);text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 0px 0px var(--hover);transform-origin:left center;background:var(--accent);animation:loader 5.5s linear,loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}
+@keyframes loaderFade{0%{opacity:0;pointer-events:all}10%{opacity:1;pointer-events:all}90%{opacity:1;pointer-events:all}100%{opacity:0;pointer-events:none;display:none}}@keyframes loader{0%{transform:translate(-50%,-50%) scaleX(0);transform-origin:left center}100%{transform:translate(-50%);transform-origin:left center}}.full-motion body::before{content:'Loading Galaxy Animated v1.7';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:inset 0 0 0 100vmax rgba(255,255,255,.14),inset 0 0 0 100vmax var(--lv1),0 0 0 100vmax rgba(255,255,255,.05),0 0 0 100vmax var(--lv1);color:var(--main);text-align:center;line-height:50px;font-size:var(--size1);animation:loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}.full-motion body::after{content:'';top:50%;left:50%;width:250px;height:4px;position:fixed;z-index:3000;transform:translate(-50%,-50%);box-shadow:0 0 0px 0px var(--hover);transform-origin:left center;background:var(--accent);animation:loader 5.5s linear,loaderFade 5.5s linear forwards;opacity:0;pointer-events:none}
 
 :root {
     --theme-name: 'Galaxy Animated';
-	--theme-version: '1.6';
+	--theme-version: '1.7';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -54,11 +54,11 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://www.dropbox.com/s/4r0clouyubqk3xq/ezgif-2-5c3337ed99f3.gif?dl=1');
+    --background-image: url('https://www.dropbox.com/s/xmx8nddu749uzbf/ezgif.com-optimize%20%282%29.gif?dl=1');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
-    --background-image-size: cover;
+    --background-image-size: contain;
     /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
     --background-image-position: center;
     /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
