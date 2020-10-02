@@ -264,6 +264,11 @@
     }
 }
 
+/* Menu Popout Background */
+.menu-3sdvDG{
+    background: var(--dark);
+}
+
 /* Server Menu Border*/
 .clickable-2ap7je {
     border: 2px;
