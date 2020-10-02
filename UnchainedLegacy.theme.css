@@ -198,6 +198,11 @@
 
 }
 
+/* Mention Bar Color */
+.mentioned-xhSam7:before {
+    background-color: var(--main);
+}
+
 /* Menu Popout Background */
 .menu-3sdvDG{
     background: var(--dark);
