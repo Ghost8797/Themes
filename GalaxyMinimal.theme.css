@@ -172,6 +172,10 @@
     --size6: .35rem;
     --letter-spacing: -.02rem;
 }
+/* Menu Popout Background */
+.menu-3sdvDG{
+    background: var(--dark);
+}
 
 /* Top Bar */
 .container-1r6BKw.themed-ANHk51 {
