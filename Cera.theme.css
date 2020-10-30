@@ -123,7 +123,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://media1.tenor.com/images/9a875d613e10d7aea823e4b30e5dcc4a/tenor.gif');
+    --background-image: url('https://cdn.discordapp.com/attachments/771164333249658894/771803552224903198/image0.png');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -334,7 +334,7 @@
 }
 
 /* Background Settings */
-#app-mount {
+#app-mount:before {
     content: "";
     background: var(--background-image);
     background-position: var(--background-image-position, center);
