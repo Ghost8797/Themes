@@ -1,0 +1,825 @@
+/**
+ * @name         Baron Bunny
+ * @description  
+ * @author       Ghost8797#4706
+ * @version      1.0
+ * @source       
+ */
+
+/* Imports */
+@import "https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300";
+@import "https://monstrousdev.github.io/themes/addons/user-tags.css";
+@import "https://monstrousdev.github.io/themes/addons/filter.css";
+@import "https://www.themonster.xyz/styles/google-fonts.css";
+@import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
+@import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
+
+/* Loading Screen */
+@keyframes loaderFade {
+    0% {
+        opacity: 0;
+        pointer-events: all
+    }
+
+    10% {
+        opacity: 1;
+        pointer-events: all
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+        display: none
+    }
+}
+
+@keyframes loader {
+    0% {
+        transform: translate(-50%, -50%) scaleX(0);
+        transform-origin: left center
+    }
+
+    100% {
+        transform: translate(-50%);
+        transform-origin: left center
+    }
+}
+
+.full-motion body::before {
+    content: 'Loading Baron Bunny v1.0';
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 4px;
+    position: fixed;
+    z-index: 3000;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .14), inset 0 0 0 100vmax var(--lv1), 0 0 0 100vmax rgba(255, 255, 255, .05), 0 0 0 100vmax var(--lv1);
+    color: var(--main);
+    text-align: center;
+    line-height: 50px;
+    font-size: var(--size1);
+    animation: loaderFade 5.5s linear forwards;
+    opacity: 0;
+    pointer-events: none
+}
+
+.full-motion body::after {
+    content: '';
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 4px;
+    position: fixed;
+    z-index: 3000;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0px 0px var(--hover);
+    transform-origin: left center;
+    background: var(--accent);
+    animation: loader 5.5s linear, loaderFade 5.5s linear forwards;
+    opacity: 0;
+    pointer-events: none
+}
+
+:root {
+    --theme-name: 'Baron Bunny';
+    --theme-version: '1.0';
+    --main: cyan;
+    --hover: cyan;
+    --border: darkcyan;
+    --dark: #0c0e0f;
+    --medium: #101214;
+    --light: #131517;
+    --online: #43b581;
+    --idle: #faa61a;
+    --dnd: #f04747;
+    --offline: #636b75;
+    --invisible: #747f8d;
+    --streaming: #643da7;
+    --home-color: var(--HomeButtonImg);
+    --home-size: 64px;
+    --spoiler-blur: 5px;
+    --shadow: rgba(0, 0, 0, .4);
+    --alert-display: block;
+    --accent: var(--main);
+    --TB-tr-roundness: var(--window-roundness);
+    --tint: rgba(var(--tint-colour), var(--tint-brightness));
+    --white-half: rgba(255, 255, 255, 0.025);
+    --white: rgba(255, 255, 255, 0.05);
+    --white-double: rgba(255, 255, 255, 0.1);
+    --white-triple: rgba(255, 255, 255, 0.15);
+    --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+    --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
+    --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
+    --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
+    --text-shadow: 1;
+    --chat-embed: var(--background-secondary);
+
+    /* Background image variables */
+    --background-image: url('https://media1.tenor.com/images/9a875d613e10d7aea823e4b30e5dcc4a/tenor.gif');
+    /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --background-image-blur: 0px;
+    /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+    --background-image-size: contain;
+    /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
+    --background-image-position: center;
+    /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+
+    /* Popout & Modal variables */
+    --popout-modal-image: var(--background-image);
+    /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --popout-modal-blur: 0px;
+    /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+    --popout-modal-size: cover;
+    /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+    --popout-modal-position: center;
+    /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+
+    /* Home image variables */
+    --home-button-image: url('https://cdn.discordapp.com/attachments/771164333249658894/771779398906806292/Talent_Explosive_Puppet.png');
+    /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+    --home-button-size: cover;
+    /* Size of the home button image | DEFAUT: cover */
+    --home-button-position: center;
+    /* Position of home button image | DEAFULT: center */
+
+    /* Brightness variables */
+    --serverlist-brightness: 0.8;
+    /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --left-brightness: 0.8;
+    /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+    --middle-brightness: 0.6;
+    /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+    --right-brightness: 0.5;
+    /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+    --popout-modal-brightness: 0.9;
+    /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+    --top-brightness: 0.9;
+
+    /* Tint variables */
+    --tint-colour: 255, 51, 159;
+    /* Colour of tint | DEAFULT: 255,51,159 */
+    --tint-brightness: 0;
+    /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+    /* Other variables */
+    --window-padding: 0px;
+    /* Spacing around the Discord window | DEFAULT: 20px */
+    --window-roundness: 0px;
+    /* Roundness of Discord | DEFAULT: 10px */
+    --scrollbar-colour: rgba(255, 255, 255, 0.05);
+    /* DEFAULT: rgba(255,255,255,0.05) */
+    --link-colour: #00b0f4;
+    /* DEFAULT: #00b0f4 */
+    --show-gift-gif-buttons: none;
+    /* Show buttons: block | Hide buttons: none | DEFAULT: none */
+    --header-primary: #fff;
+    --header-secondary: #bbb;
+    --text-normal: #fff;
+    --text-default: #ddd;
+    --text-muted: #aaa;
+    --text-link: #00b0f4;
+    --channels-default: #ddd;
+    --interactive-normal: #bbb;
+    --interactive-hover: #eee;
+    --interactive-active: #fff;
+    --interactive-muted: #777;
+    --background-primary: transparent;
+    --background-secondary: rgba(0, 0, 0, 0.3);
+    --background-secondary-alt: transparent;
+    --background-tertiary: transparent;
+    --background-accent: #4f545c;
+    --background-floating: transparent;
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(255, 255, 255, 0.05);
+    --background-modifier-active: rgba(255, 255, 255, 0.07);
+    --background-modifier-selected: rgba(255, 255, 255, 0.1);
+    --background-modifier-accent: rgba(255, 255, 255, 0.1);
+    --background-mentioned: rgba(250, 166, 26, 0.05);
+    --background-mentioned-hover: rgba(250, 166, 26, 0.08);
+    --background-message-hover: rgba(4, 4, 5, 0.07);
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: #fff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: rgba(255, 255, 255, 0.05);
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.3);
+    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+    --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+    --text-link: var(--link-colour);
+    --rainbow: rainbow;
+    --lv1: #0c0e0f;
+    /*Fonts*/
+    --sizelg: 1.25rem;
+    --size0: 1.15rem;
+    --size1: .925rem;
+    --size2: .8rem;
+    --size3: .75rem;
+    --size4: .7rem;
+    --size5: .5rem;
+    --size6: .35rem;
+    --letter-spacing: -.02rem;
+}
+
+@keyframes rainbow {
+    0% {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0)
+    }
+
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg)
+    }
+}
+/*Version Info/Message Bar */
+.wordmark-2iDDfm {
+    opacity: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    padding-left: 12px;
+}
+
+.wordmark-2iDDfm svg {
+    display: none;
+}
+
+.wordmark-2iDDfm:before,
+.wordmark-2iDDfm:after {
+    font-size: 15px;
+}
+
+.wordmark-2iDDfm:before {
+    content: var(--theme-name);
+    color: var(--main);
+}
+
+.wordmark-2iDDfm:after {
+    content: 'v'var(--theme-version);
+    color: var(--hover);
+    margin-left: 5px;
+}
+
+/* Friends List */
+.theme-dark .container-1D34oG {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+/* Emoji and GIF popout */
+.drawerSizingWrapper-17Mss4 {
+    background: var(--dark);
+}
+
+/* Nitro Popout */
+.small-3iVZYw {
+    background: var(--dark);
+}
+
+.panningAnimation-38NjY9 {
+    background: var(--dark);
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+/* Server Menu Background */
+.styleFixed-sX-yHV {
+    background: var(--dark);
+}
+
+/* Pinned Messages Popout */
+.messagesPopoutWrap-1MQ1bW {
+    background: var(--dark) ;
+}
+
+.messageGroupWrapper-o-Zw7G {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+/* Mentions Popout */
+.container-3iAQ-0 {
+    border: 2px;
+    border-left: 2px solid var(--main);
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+/* Upload Popout */
+.theme-dark .uploadModal-2ifh8j {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--popout-modal-brightness));
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border: 2px;
+    border-top: 2px solid var(--main);
+}
+
+.fontSize16Padding-3Wk7zP {
+    color: var(--main);
+}
+
+/* Nitro Page */
+.applicationStore-1pNvnv {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+/* Library */
+.container-3Mxszk {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+/* Settings Background */
+.contentRegion-3nDuYy {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+.sidebarRegionScroller-3MXcoP {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--left-brightness));
+}
+
+
+/* Chat Color */
+.messageContent-2qWWxC {
+    color: var(--main);
+}
+
+
+.inner-MADQqc {
+    border: 2px solid var(--border);
+    margin-right: 150px;
+}
+
+
+.messages-3amgkR {
+    margin-right: 150px;
+}
+
+.messagesWrapper-1sRNjr {
+    margin-right: 142px;
+}
+
+
+.title-3qD0b- {
+    border-bottom: 2px solid var(--border);
+}
+
+.container-1r6BKw, .container-1r6BKw * {
+    color: var(--main);
+}
+.container-2Rl01u {
+    border-bottom: 2px solid var(--border);
+    height: 46px;
+}
+
+.clickable-2ap7je .header-2o-2hj {
+    color: var(--main);
+}
+
+.menu-3sdvDG {
+    background: var(--medium);
+}
+
+/* Windows Buttons */
+.winButton-iRh8-Z {
+    color: var(--main);
+}
+
+/* Channel Hover/Border */
+.content-3at_AU {
+    position: relative
+}
+
+.content-3at_AU:after {
+    content: "";
+    height: 2px;
+    width: 98.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 7.5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--main) 80%);
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.content-3at_AU:hover {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
+.wrapper-1ucjTd:hover .content-3at_AU::after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--border) 80%);
+    transform: translateY(0);
+}
+
+/* Dm Select/Hover Settings */
+.layout-2DM8Md {
+    position: relative
+}
+
+.layout-2DM8Md:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--border) 80%);
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.layout-2DM8Md:hover {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.selected-aXhQR6 .layout-2DM8Md {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.layout-2DM8Md:hover:after,
+.selected-aXhQR6 .layout-2DM8Md:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--border) 80%);
+    transform: translateX(0)
+}
+
+/* Channel Settings */
+.name-IbjUBS {
+    color: var(--main);
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--main), transparent);
+    border-image-slice: 1;
+    margin-top: -2px;
+    text-align: center;
+}
+
+.containerDefault-3GGEv_ {
+    background-color: transparent !important;
+}
+
+.name-3_Dsmg, .icon-1_QxNX, .name-3_Dsmg, .icon-1_QxNX, .cozy-3raOZG .header-23xsNx {
+    color: cyan;
+}
+
+.modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg {
+    color: darkcyan;
+}
+
+/* Background Settings */
+#app-mount {
+    content: "";
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    position: absolute;
+    height: calc(100vh + (var(--background-image-blur) * 2));
+    width: calc(100vw + (var(--background-image-blur) * 2));
+}
+
+.isUnread-3Ef-o9 {
+    height: 10px;
+}
+
+.icon-3Gkjwa {
+    color: var(--main);
+}
+/* Scrollbars */
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: var(--main);
+
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: var(--border);
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+}
+
+/* Home Button Settings */
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+    background: var(--gradient);
+    background-color: transparent;
+}
+
+#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    background: var(--home-button-image);
+    background-size: var(--home-button-size, cover);
+    background-position: var(--home-button-position, center);
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+/* Brightness Settings */
+#app-mount .chat-3bRxxu {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+.membersWrap-2h-GB4 {
+    background: rgba(0, 0, 0, var(--right-brightness));
+}
+
+#app-mount .sidebar-2K8pFh {
+    border-radius: 0;
+    background: rgba(0, 0, 0, var(--left-brightness));
+    border-right: 2px solid var(--border);
+}
+
+#app-mount .sidebar-2K8pFh .container-PNkimc,
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o,
+#app-mount .sidebar-2K8pFh .scroller-1JbKMe {
+    background-color: transparent;
+}
+
+.guilds-1SWlCJ {
+    background: rgba(0, 0, 0, var(--serverlist-brightness));
+}
+
+#app-mount .base-3dtUhz:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+    z-index: 1;
+    top: 48px;
+    pointer-events: none;
+    user-select: none;
+}
+
+#app-mount .layers-3iHuyZ {
+    margin: var(--window-padding);
+    overflow: hidden;
+    border-radius: var(--window-roundness);
+}
+
+#app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
+    background-color: transparent;
+}
+
+#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN {
+    background-color: rgba(0, 0, 0, var(--serverlist-brightness));
+}
+
+#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+    display: none;
+}
+
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+    background: var(--white);
+}
+
+#app-mount .guilds-1SWlCJ .folder-21wGz3 {
+    background: transparent;
+}
+
+/*9.h. Toasts*/
+
+body .bd-toasts {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bd-toasts .bd-toast::before {
+    content: var(--toast-content);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    color: var(--main);
+    background: rgba(0, 0, 0, .2);
+    font-size: var(--size1);
+    text-align: left;
+    ;
+}
+
+.bd-toasts .bd-toast::after {
+    content: 'This notice will close in a few seconds.';
+    font-size: var(--size2);
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.bd-toasts .bd-toast {
+    --toast-content: 'Notice';
+    overflow: hidden;
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    background-color: var(--lv1) !important;
+    box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
+    border: 1px solid var(--lv1);
+    border-left: 2px solid var(--accent);
+    border-radius: 0;
+    height: auto;
+    color: var(--main);
+    font-size: var(--size1);
+    font-weight: 500;
+}
+
+.bd-toasts .bd-toast.icon {
+    padding-left: 55px !important;
+}
+
+.bd-toasts .bd-toast.icon {
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 10px 45px;
+}
+
+.bd-toasts .toast-success {
+    border-left: 2px solid var(--success);
+    --toast-content: 'Success';
+}
+
+.bd-toasts .toast-info {
+    border-left: 2px solid var(--information);
+    --toast-content: 'Information';
+}
+
+.bd-toasts .toast-danger,
+.bd-toasts .toast-error {
+    border-left: 2px solid var(--danger);
+    --toast-content: 'Error';
+}
+
+.bd-toasts .toast-warn,
+.bd-toasts .toast-warning {
+    border-left: 2px solid var(--caution);
+    --toast-content: 'Warning';
+}
+
+.friendnotifications-dnd-toast,
+.friendnotifications-idle-toast,
+.friendnotifications-mobile-toast,
+.friendnotifications-offline-toast,
+.friendnotifications-online-toast,
+.friendnotifications-streaming-toast {
+    background-color: var(--lv1) !important;
+}
+
+.bd-toasts .friendnotifications-online-toast {
+    border-left-color: var(--success);
+}
+
+.bd-toasts .friendnotifications-offline-toast {
+    border-left-color: var(--unavailable);
+}
+
+.bd-toasts .friendnotifications-idle-toast {
+    border-left-color: var(--caution);
+}
+
+.bd-toasts .friendnotifications-dnd-toast {
+    border-left-color: var(--danger);
+}
+
+.bd-toasts .friendnotifications-streaming-toast {
+    border-left-color: var(--twitch-purple);
+}
+
+.bd-toasts .toast-inner {
+    margin-left: 15px;
+    text-align: left;
+    text-indent: none;
+    padding-bottom: 15px
+}
+
+.bd-toasts .toast-inner .toast-avatar {
+    border-radius: var(--user-roundness);
+    margin-right: -10px;
+}
+
+.powercord-toast {
+    border: none;
+    border-radius: 0;
+    bottom: 10px;
+    right: 10px;
+    border-left: 2px solid var(--accent);
+    box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
+    z-index: 3000;
+}
+
+.powercord-toast[data-toast-type=info] .icon {
+    color: var(--accent) !important;
+}
+
+.powercord-toast .header {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px 20px;
+    padding-right: 40px;
+    color: rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, .2);
+    color: rgba(255, 255, 255, .65);
+    font-size: var(--size1);
+    font-weight: 500;
+    align-items: center;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.powercord-toast .header .dismiss {
+    right: 10px;
+    position: absolute;
+    margin-left: 0;
+}
+
+.powercord-toast .contents .inner {
+    color: rgba(255, 255, 255, .65);
+    border: none;
+    background: transparent;
+    text-align: left;
+    font-size: var(--size1);
+    padding: 0 5px;
+}
