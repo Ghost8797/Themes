@@ -2,7 +2,7 @@
  * @name         Baron Bunny
  * @description  
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Baron Bunny v1.0';
+    content: 'Loading Baron Bunny v1.1';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Baron Bunny';
-    --theme-version: '1.0';
+    --theme-version: '1.1';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -123,7 +123,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://media1.tenor.com/images/9a875d613e10d7aea823e4b30e5dcc4a/tenor.gif');
+    --background-image: url('https://cdn.discordapp.com/attachments/771164333249658894/772458249622257704/ezgif.com-video-to-gif1.gif');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
