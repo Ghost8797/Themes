@@ -2,7 +2,7 @@
  * @name         Baron Bunny
  * @description  
  * @author       Ghost8797#4706
- * @version      1.1
+ * @version      1.2
  * @source       
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Baron Bunny v1.1';
+    content: 'Loading Baron Bunny v1.2';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Baron Bunny';
-    --theme-version: '1.1';
+    --theme-version: '1.2';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -123,11 +123,11 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/771164333249658894/772458249622257704/ezgif.com-video-to-gif1.gif');
+    --background-image: url('https://www.dropbox.com/s/aornxq8lvgnyfc1/ezgif.com-video-to-gif%282%29.gif?dl=1');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
-    --background-image-size: contain;
+    --background-image-size: cover;
     /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
     --background-image-position: center;
     /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -240,21 +240,6 @@
     --letter-spacing: -.02rem;
 }
 
-@keyframes rainbow {
-    0% {
-        -webkit-filter: hue-rotate(0);
-        -moz-filter: hue-rotate(0);
-        -ms-filter: hue-rotate(0);
-        filter: hue-rotate(0)
-    }
-
-    100% {
-        -webkit-filter: hue-rotate(360deg);
-        -moz-filter: hue-rotate(360deg);
-        -ms-filter: hue-rotate(360deg);
-        filter: hue-rotate(360deg)
-    }
-}
 /*Version Info/Message Bar */
 .wordmark-2iDDfm {
     opacity: 1;
@@ -285,6 +270,17 @@
     content: 'v'var(--theme-version);
     color: var(--hover);
     margin-left: 5px;
+}
+
+/* Background Settings */
+#app-mount:before {
+    content: "";
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    position: absolute;
+    height: calc(100vh + (var(--background-image-blur) * 2));
+    width: calc(100vw + (var(--background-image-blur) * 2));
 }
 
 /* Friends List */
@@ -391,7 +387,6 @@
 .messageContent-2qWWxC {
     color: var(--main);
 }
-
 
 .inner-MADQqc {
     border: 2px solid var(--border);
@@ -532,17 +527,6 @@
 
 .modeMuted-3osy7j .icon-1_QxNX, .modeMuted-3osy7j .name-3_Dsmg {
     color: darkcyan;
-}
-
-/* Background Settings */
-#app-mount {
-    content: "";
-    background: var(--background-image);
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    position: absolute;
-    height: calc(100vh + (var(--background-image-blur) * 2));
-    width: calc(100vw + (var(--background-image-blur) * 2));
 }
 
 .isUnread-3Ef-o9 {
