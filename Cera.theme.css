@@ -2,7 +2,7 @@
  * @name         Cera
  * @description  
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      2.0
  * @source       
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Cera v1.0';
+    content: 'Loading Cera v2.0';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Cera';
-    --theme-version: '1.0';
+    --theme-version: '2.0';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -123,11 +123,11 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/771164333249658894/771803552224903198/image0.png');
+    --background-image: url('http://getwallpapers.com/wallpaper/full/0/9/0/349027.jpg');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
-    --background-image-size: contain;
+    --background-image-size: cover;
     /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
     --background-image-position: center;
     /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -481,6 +481,20 @@
     background-color: transparent;
     background-image: linear-gradient(120deg, var(--main) 85%, var(--border) 80%);
     transform: translateY(0);
+}
+
+/* Channel Settings */
+.container-2ax-kl {
+    color: var(--main);
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, transparent, var(--main), transparent);
+    border-image-slice: 1;
+    margin-top: -2px;
+    text-align: center;
+}
+
+.containerDefault-3GGEv_ {
+    background-color: transparent !important;
 }
 
 /* Dm Select/Hover Settings */
