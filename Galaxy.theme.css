@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      8.1
+ * @version      8.2
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy v8.1';
+    content: 'Loading Galaxy v8.2';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +91,7 @@
 
 :root {
     --theme-name: 'Galaxy';
-    --theme-version: '8.1';
+    --theme-version: '8.2';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -571,7 +571,7 @@
 }
 
 /* Channel Settings */
-.name-IbjUBS {
+.container-2ax-kl {
     color: var(--main);
     border-bottom: 3px solid;
     border-image: linear-gradient(90deg, transparent, var(--main), transparent);
