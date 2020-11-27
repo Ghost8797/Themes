@@ -2,7 +2,7 @@
  * @name         Baron Bunny
  * @description  
  * @author       Ghost8797#4706
- * @version      1.2
+ * @version      1.3
  * @source       
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Baron Bunny v1.2';
+    content: 'Loading Baron Bunny v1.3';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Baron Bunny';
-    --theme-version: '1.2';
+    --theme-version: '1.3';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -508,7 +508,7 @@
 }
 
 /* Channel Settings */
-.name-IbjUBS {
+.container-2ax-kl {
     color: var(--main);
     border-bottom: 3px solid;
     border-image: linear-gradient(90deg, transparent, var(--main), transparent);
