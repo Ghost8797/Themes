@@ -2,7 +2,7 @@
  * @name         Galaxy Minimal
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.6
+ * @version      1.7
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy Minimal v1.6';
+    content: 'Loading Galaxy Minimal v1.7';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Galaxy Minimal';
-    --theme-version: '1.6';
+    --theme-version: '1.7';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -417,35 +417,13 @@
 }
 
 /* Channel Hover/Border */
-.content-3at_AU {
+.content-1x5b-n {
     position: relative
 }
 
-.content-3at_AU:after {
+.content-1x5b-n:after {
     content: "";
     height: 2px;
-    width: 98.5%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 7.5px;
-    position: absolute;
-    background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
-    transform: translateX(-250px);
-    transition: all .2s ease
-}
-
-.content-3at_AU:hover {
-    background-image: linear-gradient(120deg, black 85%, var(--light) 80%) !important;
-}
-
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
-    background-image: linear-gradient(120deg, black 85%, var(--light) 80%) !important;
-}
-
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,
-.wrapper-1ucjTd:hover .content-3at_AU::after {
-    content: "";
     width: 100%;
     border-radius: 50px;
     bottom: 0;
@@ -453,8 +431,30 @@
     position: absolute;
     background-color: transparent;
     background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
-    transform: translateY(0);
+    transform: translateX(-250px);
+    transition: all .2s ease
 }
+
+.content-1x5b-n:hover {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.modeSelected-346R90 .content-1x5b-n {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.content-1x5b-n:hover:after,
+.modeSelected-346R90 .content-1x5b-n:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
+    transform: translateX(0)
+}
+
 
 /* Dm Select/Hover Settings */
 .layout-2DM8Md {
