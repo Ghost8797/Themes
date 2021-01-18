@@ -2,7 +2,7 @@
  * @name         Unchained Legacy
  * @description  Custom made theme for Unchained Legacy
  * @author       Ghost8797#4706
- * @version      1.2
+ * @version      1.3
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Unchained Legacy v1.2';
+    content: 'Loading Unchained Legacy v1.3';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +91,7 @@
 
 :root {
     --theme-name: 'Unchained Legacy';
-    --theme-version: '1.2';
+    --theme-version: '1.3';
     --main: #00ff99;
     --hover: #00b36b;
     --border: #00995c;
@@ -572,6 +572,23 @@
     height: 100%;
     width: 100%;
     transition: 0.2s ease;
+}
+
+/* DM And Server Hover */
+.layer-v9HyYc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+
+}
+
+/* VC Popout */
+.container-2dqNWc {
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+
 }
 
 /* Brightness Settings */
