@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      8.3
+ * @version      8.4
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy v8.3';
+    content: 'Loading Galaxy v8.4';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +91,7 @@
 
 :root {
     --theme-name: 'Galaxy';
-    --theme-version: '8.3';
+    --theme-version: '8.4';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -619,6 +619,23 @@
     height: 100%;
     width: 100%;
     transition: 0.2s ease;
+}
+
+/* DM And Server Hover */
+.layer-v9HyYc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+
+}
+
+/* VC Popout */
+.container-2dqNWc {
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+
 }
 
 /* Brightness Settings */
