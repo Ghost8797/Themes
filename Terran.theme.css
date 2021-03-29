@@ -2,7 +2,7 @@
  * @name         Terran
  * @description  Custom made theme for TerranEctomy
  * @author       Ghost8797#4706
- * @version      2.3
+ * @version      2.4
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -598,22 +598,17 @@
 }
 
 /* Home Button Settings */
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-    background: var(--gradient);
+.wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
     background-color: transparent;
-    color: transparent;
+    background-position: var(--home-button-position, center);
+    background-repeat: no-repeat;
+    background-image: var(--home-button-image);
+    background-size: var(--home-button-size, cover);
+    background-clip: border-box
 }
 
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
-    content: "";
-    border-radius: 50%;
-    position: absolute;
-    background: var(--home-button-image);
-    background-size: var(--home-button-size, cover);
-    background-position: var(--home-button-position, center);
-    height: 100%;
-    width: 100%;
-    transition: 0.2s ease;
+.homeIcon-FuNwkv {
+    height: 0px;
 }
 
 /* DM And Server Hover */
