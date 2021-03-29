@@ -2,7 +2,7 @@
  * @name         Galaxy
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      8.4
+ * @version      8.5
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy v8.4';
+    content: 'Loading Galaxy v8.5';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +91,7 @@
 
 :root {
     --theme-name: 'Galaxy';
-    --theme-version: '8.4';
+    --theme-version: '8.5';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -603,13 +603,16 @@
 }
 
 /* Home Button Settings */
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background: var(--gradient);
     background-color: transparent;
-    color: transparent;
 }
 
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
+.homeIcon-FuNwkv {
+ height: 0px;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     content: "";
     border-radius: 50%;
     position: absolute;
