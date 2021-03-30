@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy v8.5';
+    content: 'Loading Galaxy v8.6';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +91,7 @@
 
 :root {
     --theme-name: 'Galaxy';
-    --theme-version: '8.5';
+    --theme-version: '8.6';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
