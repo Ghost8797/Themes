@@ -45,7 +45,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Bobatea v2.2';
+    content: 'Loading Bobatea v2.3';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -82,7 +82,7 @@
 
 :root {
     --theme-name: 'Bobatea';
-    --theme-version: '2.2';
+    --theme-version: '2.3';
     --Color1: #ffb9df;
     --Color2: #1b0af1;
     --Color3: #efe993;
