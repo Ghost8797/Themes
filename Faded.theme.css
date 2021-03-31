@@ -2,7 +2,7 @@
  * @name         Faded
  * @description  Custom made theme for Faded_Jager
  * @author       Ghost8797#4706
- * @version      5.2
+ * @version      5.3
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Faded v5.2';
+    content: 'Loading Faded v5.3';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 }
 :root {
     --theme-name: 'Faded';
-    --theme-version: '5.2';
+    --theme-version: '5.3';
     --main: #00ccff;
     --hover: #007a99;
     --dark: #0c0e0f;
@@ -576,21 +576,17 @@
 }
 
 /* Home Button Settings */
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
-    background: var(--gradient);
+.wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
     background-color: transparent;
+    background-position: var(--home-button-position, center);
+    background-repeat: no-repeat;
+    background-image: var(--home-button-image);
+    background-size: var(--home-button-size, cover);
+    background-clip: border-box
 }
 
-#app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .wrapper-1BJsBx:before {
-    content: "";
-    border-radius: 50%;
-    position: absolute;
-    background: var(--home-button-image);
-    background-size: var(--home-button-size, cover);
-    background-position: var(--home-button-position, center);
-    height: 100%;
-    width: 100%;
-    transition: 0.2s ease;
+.homeIcon-FuNwkv {
+    height: 0px;
 }
 
 /* DM And Server Hover */
