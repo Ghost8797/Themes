@@ -2,7 +2,7 @@
  * @name         Faded
  * @description  Custom made theme for Faded_Jager
  * @author       Ghost8797#4706
- * @version      5.3
+ * @version      5.4
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Faded v5.3';
+    content: 'Loading Faded v5.4';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 }
 :root {
     --theme-name: 'Faded';
-    --theme-version: '5.3';
+    --theme-version: '5.4';
     --main: #00ccff;
     --hover: #007a99;
     --dark: #0c0e0f;
@@ -122,7 +122,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/716136044327731211/813984534684762162/Star-Wars-Sequel-Trilogy.jpg');
+    --background-image: url('https://cdn.discordapp.com/attachments/716136044327731211/842902664689745920/thumb-1920-1136691.jpeg');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -154,7 +154,7 @@
     /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
     --left-brightness: 0.8;
     /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.8;
+    --middle-brightness: 0.6;
     /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
     --right-brightness: 0;
     /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
@@ -264,6 +264,11 @@
     content: 'v'var(--theme-version);
     color: var(--main);
     margin-left: 5px;
+}
+
+/* URL Link Color */
+.markup-2BOw-j a {
+    color: var(--main);
 }
 
 /* Upload Popout */
