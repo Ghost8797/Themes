@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      2.4
+ * @version      2.5
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -45,7 +45,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Bobatea v2.4';
+    content: 'Loading Bobatea v2.5';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -82,7 +82,7 @@
 
 :root {
     --theme-name: 'Bobatea';
-    --theme-version: '2.4';
+    --theme-version: '2.5';
     --Color1: #ffb9df;
     --Color2: #1b0af1;
     --Color3: #efe993;
@@ -388,6 +388,17 @@
     width: calc(100vw + (var(--background-image-blur) * 2));
 }
 
+/* User Popout */
+.popout-2iWAc- {
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+}
+
+.popoutBanner-19WKGg {
+    background: var(--dark) !important;
+}
+
 /* User Panel */
 .panels-j1Uci_ {
     background-color: transparent;
@@ -469,6 +480,7 @@
 .messageContent-2qWWxC {
     color: var(--Chat);
     font-family: "emilys-candy";
+    font-size: 1rem !important;
 }
 
 /*Message Box */
