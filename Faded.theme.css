@@ -2,7 +2,7 @@
  * @name         Faded
  * @description  Custom made theme for Faded_Jager
  * @author       Ghost8797#4706
- * @version      5.4
+ * @version      5.5
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Faded v5.4';
+    content: 'Loading Faded v5.5';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 }
 :root {
     --theme-name: 'Faded';
-    --theme-version: '5.4';
+    --theme-version: '5.5';
     --main: #00ccff;
     --hover: #007a99;
     --dark: #0c0e0f;
@@ -563,6 +563,18 @@
 .icon-3Gkjwa {
     color: var(--main);
 }
+
+/* User Popout */
+.popout-2iWAc- {
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+}
+
+.popoutBanner-19WKGg {
+    background: var(--dark) !important;
+}
+
 /* Scrollbars */
 .auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--main);
