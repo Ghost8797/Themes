@@ -2,8 +2,7 @@
  * @name         Cera
  * @description  
  * @author       Ghost8797#4706
- * @version      2.4
- * @source       
+ * @version      2.5
  */
 
 /* Imports */
@@ -53,7 +52,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Cera v2.4';
+    content: 'Loading Cera v2.5';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +89,7 @@
 
 :root {
     --theme-name: 'Cera';
-    --theme-version: '2.4';
+    --theme-version: '2.5';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -343,6 +342,18 @@
     height: calc(100vh + (var(--background-image-blur) * 2));
     width: calc(100vw + (var(--background-image-blur) * 2));
 }
+
+/* User Popout */
+.popout-2iWAc- {
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+}
+
+.popoutBanner-19WKGg {
+    background: var(--dark) !important;
+}
+
 
 /* Friends List */
 .theme-dark .container-1D34oG {
@@ -841,7 +852,6 @@ body .bd-toasts {
     padding-right: 40px;
     color: rgba(255, 255, 255, .8);
     background: rgba(0, 0, 0, .2);
-    color: rgba(255, 255, 255, .65);
     font-size: var(--size1);
     font-weight: 500;
     align-items: center;
