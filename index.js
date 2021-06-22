@@ -1,10 +1,13 @@
+const keepAlive = require("./server.js");
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.login('');
 
+keepAlive();
+
 client.once('ready', () => {
-	console.log('Ready!');
+	console.log('Bot Started!');
 });
 
 client.on('message', message => {
@@ -18,7 +21,8 @@ client.on('message', message => {
 	if (message.content.includes('Revenant')) {
 		message.guild.channels.cache.find(ch => ch.name === 'general');
 		message.member.roles.add(WordRole);
-    message.channel.send('Dont curse us you fool, you moron');
+		message.delete();
+		message.channel.send('Dont curse us you fool, you moron');
 		return;
 	}
 });
@@ -28,7 +32,20 @@ client.on('message', message => {
 	if (message.content.includes('revenant')) {
 		message.guild.channels.cache.find(ch => ch.name === 'general');
 		message.member.roles.add(WordRole);
-    message.channel.send('Dont curse us you fool, you moron');
+		message.delete();
+		message.channel.send('Dont curse us you fool, you moron');
 		return;
+	}
+});
+
+client.on('message', message => {
+	if(message.content === '!ghosts') {
+		const embed = new Discord.MessageEmbed()
+			.setTitle('Phasmophobia Ghosts')
+			.setDescription('Ghosts and their Information')
+			.setImage('https://i.imgur.com/mh3PYrS.png')
+			.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
+			.setColor(0x0ee6f0);
+		message.channel.send(embed);
 	}
 });
