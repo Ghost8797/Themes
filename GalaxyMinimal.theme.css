@@ -1,8 +1,8 @@
 /**
- * @name         Terran
- * @description  Custom made theme for TerranEctomy
+ * @name         Galaxy Minimal
+ * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      2.4
+ * @version      2.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -12,7 +12,6 @@
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
 @import "https://www.themonster.xyz/styles/google-fonts.css";
 @import "https://monstrousdev.github.io/themes/addons/categoryNameFlair.css";
-@import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
 @import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
@@ -54,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Terran 2.4';
+    content: 'Loading Galaxy Minimal v2.1';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,8 +89,8 @@
 }
 
 :root {
-    --theme-name: 'Terran';
-    --theme-version: '2.4';
+    --theme-name: 'Galaxy Minimal';
+    --theme-version: '2.1';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -116,17 +115,9 @@
     --white: rgba(255, 255, 255, 0.05);
     --white-double: rgba(255, 255, 255, 0.1);
     --white-triple: rgba(255, 255, 255, 0.15);
-    /*
-    --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
-    --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
-    --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
-    --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
-    --text-shadow: 1;
-    --chat-embed: var(--background-secondary);
-    */
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/616501998300299268/724877787076231218/Terran-Logo_2.png');
+    --background-image: url('https://i.pinimg.com/originals/86/dc/94/86dc944461bbed7d5971b2ec7ad31012.jpg');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
@@ -135,61 +126,14 @@
     --background-image-position: center;
     /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
-    /* Popout & Modal variables */
-    --popout-modal-image: var(--background-image);
-    /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-    --popout-modal-blur: 0px;
-    /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
-    --popout-modal-size: cover;
-    /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
-    --popout-modal-position: center;
-    /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
-
     /* Home image variables */
-    --home-button-image: url('https://static-cdn.jtvnw.net/jtv_user_pictures/567bff01-fcdf-477c-8b81-c5479ea7db5e-profile_image-70x70.png');
+    --home-button-image: url('https://cdn.discordapp.com/attachments/696376899491856437/726779642924498944/concept1.png');
     /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --home-button-size: cover;
     /* Size of the home button image | DEFAUT: cover */
     --home-button-position: center;
     /* Position of home button image | DEAFULT: center */
 
-    /* Brightness variables */
-    --serverlist-brightness: 0.8;
-    /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --left-brightness: 0.8;
-    /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
-    --middle-brightness: 0.6;
-    /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-    --right-brightness: 0.8;
-    /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-    --popout-modal-brightness: 0.8;
-    /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
-
-    /* Gradient variables */
-    --gradient-primary: 0, 0, 0;
-    /* DEFAULT: 103,58,183 */
-    --gradient-secondary: 170, 127, 9;
-    /* DEFAULT: 63,81,181 */
-    --gradient-direction: 320deg;
-    /* DEFAULT: 320deg */
-
-    /* Tint variables */
-    --tint-colour: 255, 51, 159;
-    /* Colour of tint | DEAFULT: 255,51,159 */
-    --tint-brightness: 0;
-    /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-
-    /* Other variables */
-    --window-padding: 20px;
-    /* Spacing around the Discord window | DEFAULT: 20px */
-    --window-roundness: 10px;
-    /* Roundness of Discord | DEFAULT: 10px */
-    --scrollbar-colour: rgba(255, 255, 255, 0.05);
-    /* DEFAULT: rgba(255,255,255,0.05) */
-    --link-colour: #00b0f4;
-    /* DEFAULT: #00b0f4 */
-    --show-gift-gif-buttons: none;
-    /* Show buttons: block | Hide buttons: none | DEFAULT: none */
     --header-primary: #fff;
     --header-secondary: #bbb;
     --text-normal: #fff;
@@ -216,26 +160,6 @@
     --background-mentioned: rgba(250, 166, 26, 0.05);
     --background-mentioned-hover: rgba(250, 166, 26, 0.08);
     --background-message-hover: rgba(4, 4, 5, 0.07);
-    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
-    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
-    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
-    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
-    --logo-primary: #fff;
-    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    --channeltextarea-background: rgba(255, 255, 255, 0.05);
-    --activity-card-background: #202225;
-    --textbox-markdown-syntax: #8e9297;
-    --deprecated-card-bg: rgba(0, 0, 0, 0.3);
-    --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
-    --deprecated-store-bg: #36393f;
-    --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-    --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
-    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
-    --text-link: var(--link-colour);
     --lv1: #0c0e0f;
     /*Fonts*/
     --sizelg: 1.25rem;
@@ -247,7 +171,22 @@
     --size5: .5rem;
     --size6: .35rem;
     --letter-spacing: -.02rem;
+}
+/* Menu Popout Background */
+.menu-3sdvDG{
+    background: var(--dark);
+}
 
+/* Top Bar */
+.container-1r6BKw.themed-ANHk51 {
+    border: 2px;
+    border-bottom: 2px solid var(--border);
+}
+
+.searchBar-6Kv8R2 {
+    border: 2px;
+    border-bottom: 2px solid var(--border);
+    height: 46px;
 }
 
 /* Server Menu Border*/
@@ -303,7 +242,7 @@
 .wordmark-2iDDfm {
     opacity: 1;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, var(--middle-brightness));
     padding: 0;
     display: flex;
     align-items: center;
@@ -331,17 +270,18 @@
     margin-left: 5px;
 }
 
+
 /* Upload Popout */
 .theme-dark .uploadModal-2ifh8j {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--popout-modal-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
     border: 2px;
     border-top: 2px solid var(--main);
 }
@@ -354,33 +294,33 @@
 .applicationStore-1pNvnv {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 /* Library */
 .container-3Mxszk {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 /* Settings Background */
 .contentRegion-3nDuYy {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 .sidebarRegionScroller-3MXcoP {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--left-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 /* Background Settings */
 #app-mount:before {
     content: "";
-    background: var(--background-image);
+    background: var(--dark);
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
     position: absolute;
@@ -388,11 +328,22 @@
     width: calc(100vw + (var(--background-image-blur) * 2));
 }
 
+/* User Popout */
+.popout-2iWAc- {
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+}
+
+.popoutBanner-19WKGg {
+    background: var(--dark) !important;
+}
+
 /* Friends List */
 .theme-dark .container-1D34oG {
     background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--transparent));
 }
 
 /* Emoji and GIF popout */
@@ -441,15 +392,6 @@
     border-bottom: 2px solid var(--main);
 }
 
-/*Chat Background */
-.messages-3amgkR {
-    margin-right: 150px;
-}
-
-.messagesWrapper-1sRNjr {
-    margin-right: 142px;
-}
-
 /* Windows Buttons */
 .winButton-iRh8-Z {
     color: var(--main);
@@ -472,7 +414,6 @@
     border-top: 2px solid var(--main);
     border-right: 2px solid var(--main);
     border-bottom: 2px solid var(--main);
-    margin-right: 120px;
 }
 
 .scrollableContainer-2NUZem {
@@ -546,11 +487,11 @@
 }
 
 .layout-2DM8Md:hover {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+    background-image: linear-gradient(120deg, black 85%, var(--light) 80%) !important;
 }
 
 .selected-aXhQR6 .layout-2DM8Md {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+    background-image: linear-gradient(120deg, black 85%, var(--light) 80%) !important;
 }
 
 .layout-2DM8Md:hover:after,
@@ -565,7 +506,7 @@
     transform: translateX(0)
 }
 
-/* Category Settings */
+/* Channel Settings */
 .container-2ax-kl {
     color: var(--main);
     border-bottom: 3px solid;
@@ -596,6 +537,7 @@
     background-clip: padding-box;
     border-radius: 8px;
 }
+
 
 /* Home Button Settings */
 .wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
@@ -630,12 +572,12 @@
 
 /* Brightness Settings */
 #app-mount .chat-3bRxxu {
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background-color: rgba(0, 0, 0, var(--transparent));
 }
 
 #app-mount .sidebar-2K8pFh {
     border-radius: 0;
-    background: rgba(0, 0, 0, var(--left-brightness));
+    background-color: rgba(0, 0, 0, var(--transparent));
     border: 2px;
     border-right: 2px solid var(--border);
 }
@@ -647,7 +589,7 @@
 }
 
 .guilds-1SWlCJ {
-    background: rgba(0, 0, 0, var(--serverlist-brightness));
+    background-color: rgba(0, 0, 0, var(--transparent));
 }
 
 #app-mount .base-3dtUhz:before {
@@ -673,7 +615,7 @@
 }
 
 #app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN {
-    background-color: rgba(0, 0, 0, var(--serverlist-brightness));
+    background-color: rgba(0, 0, 0, var(--transparent));
 }
 
 #app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
