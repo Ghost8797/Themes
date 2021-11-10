@@ -2,7 +2,7 @@
  * @name         Faded
  * @description  Custom made theme for Faded_Jager
  * @author       Ghost8797#4706
- * @version      5.5
+ * @version      5.6
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -54,7 +54,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Faded v5.5';
+    content: 'Loading Faded v5.6;
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 }
 :root {
     --theme-name: 'Faded';
-    --theme-version: '5.5';
+    --theme-version: '5.6';
     --main: #00ccff;
     --hover: #007a99;
     --dark: #0c0e0f;
@@ -595,6 +595,10 @@
 /* Home Button Settings */
 .wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
     background-color: transparent;
+}
+
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-position: var(--home-button-position, center);
     background-repeat: no-repeat;
     background-image: var(--home-button-image);
@@ -602,7 +606,7 @@
     background-clip: border-box
 }
 
-.homeIcon-FuNwkv {
+.homeIcon-AaowEC {
     height: 0px;
 }
 
