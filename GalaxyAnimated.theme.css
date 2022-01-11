@@ -2,7 +2,7 @@
  * @name         Galaxy Animated
  * @description  Custom made for Project Daedalus
  * @author       Ghost8797#4706
- * @version      2.4
+ * @version      2.5
  * @source       https://github.com/Ghost8797/Galaxy
  */
 
@@ -53,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy Animated v2.4';
+    content: 'Loading Galaxy Animated v2.5';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -90,7 +90,7 @@
 
 :root {
     --theme-name: 'Galaxy Animated';
-    --theme-version: '2.4';
+    --theme-version: '2.5';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -264,54 +264,6 @@
     }
 }
 
-/* Menu Popout Background */
-.menu-3sdvDG{
-    background: var(--dark);
-}
-
-/* Server Menu Border*/
-.clickable-2ap7je {
-    border: 2px;
-    border-bottom: 2px solid var(--border);
-    height: 46px;
-}
-
-
-/* Top Bar */
-.container-1r6BKw.themed-ANHk51 {
-    border: 2px;
-    border-bottom: 2px solid var(--border);
-}
-
-.searchBar-6Kv8R2 {
-    border: 2px;
-    border-bottom: 2px solid var(--border);
-    height: 46px;
-}
-
-/* Unread/New Messages */
-.unreadPill-2HyYtt,
-.unreadPillCap-3_K2q2 {
-    position: static;
-    height: 13px;
-}
-
-.divider-JfaTT5 {
-    z-index: 1;
-    height: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    position: relative;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    pointer-events: none;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 /* Linked Channel */
 #app-mount .wrapper-3WhCwL {
     background: transparent;
@@ -319,7 +271,7 @@
 }
 
 /*Version Info/Message Bar */
-.wordmark-2iDDfm {
+.wordmark-2u86JB {
     opacity: 1;
     width: 100%;
     background: rgba(0, 0, 0, var(--middle-brightness));
@@ -330,74 +282,28 @@
     padding-left: 12px;
 }
 
-.wordmark-2iDDfm svg {
+.wordmark-2u86JB svg {
     display: none;
 }
 
-.wordmark-2iDDfm:before,
-.wordmark-2iDDfm:after {
+.wordmark-2u86JB:before,
+.wordmark-2u86JB:after {
     font-size: 15px;
 }
 
-.wordmark-2iDDfm:before {
+.wordmark-2u86JB:before {
     content: var(--theme-name);
     color: var(--main);
 }
 
-.wordmark-2iDDfm:after {
+.wordmark-2u86JB:after {
     content: 'v'var(--theme-version);
     color: var(--hover);
     margin-left: 5px;
 }
 
-/* Upload Popout */
-.theme-dark .uploadModal-2ifh8j {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--popout-modal-brightness));
-}
-
-.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
-    border: 2px;
-    border-top: 2px solid var(--main);
-}
-
-.fontSize16Padding-3Wk7zP {
-    color: var(--main);
-}
-
-/* Nitro Page */
-.applicationStore-1pNvnv {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
-}
-
-/* Library */
-.container-3Mxszk {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
-}
-
-/* Settings Background */
-.contentRegion-3nDuYy {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--middle-brightness));
-}
-
-.sidebarRegionScroller-3MXcoP {
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-    background: rgba(0, 0, 0, var(--left-brightness));
-}
-
 /* Background Settings */
-#app-mount {
+#app-mount:before {
     content: "";
     background: var(--background-image);
     background-position: var(--background-image-position, center);
@@ -407,257 +313,33 @@
     width: calc(100vw + (var(--background-image-blur) * 2));
 }
 
-/* User Popout */
-.popout-2iWAc- {
-    background: var(--background-image);
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-}
-
-.popoutBanner-19WKGg {
-    background: var(--dark) !important;
-}
-
-/* Friends List */
-.theme-dark .container-1D34oG {
-    background-position: var(--background-image-position, center);
+.theme-dark .container-2cd8Mz {
+        background-position: var(--background-image-position, center);
     background-size: var(--background-image-size, cover);
     background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
-/* Emoji and GIF popout */
-.drawerSizingWrapper-17Mss4 {
-    background: var(--dark);
-}
-
-/* Nitro Popout */
-.small-3iVZYw {
-    background: var(--dark);
-}
-
-.panningAnimation-38NjY9 {
-    background: var(--dark);
-    border: 2px;
-    border-left: 2px solid var(--main);
-    border-top: 2px solid var(--main);
-    border-right: 2px solid var(--main);
-    border-bottom: 2px solid var(--main);
-}
-
-/* Server Menu Background */
-.styleFixed-sX-yHV {
-    background: var(--dark);
-}
-
-/* Pinned Messages Popout */
-.messagesPopoutWrap-1MQ1bW {
-    background: var(--dark) ;
-}
-
-.messageGroupWrapper-o-Zw7G {
-    border: 2px;
-    border-left: 2px solid var(--main);
-    border-top: 2px solid var(--main);
-    border-right: 2px solid var(--main);
-    border-bottom: 2px solid var(--main);
-}
-
-/* Mentions Popout */
-.container-3iAQ-0 {
-    border: 2px;
-    border-left: 2px solid var(--main);
-    border-top: 2px solid var(--main);
-    border-right: 2px solid var(--main);
-    border-bottom: 2px solid var(--main);
-}
-
-/*Chat Background */
-.messages-3amgkR {
-    margin-right: 150px;
-}
-
-.messagesWrapper-1sRNjr {
-    margin-right: 142px;
-}
-
-/* Windows Buttons */
-.winButton-iRh8-Z {
-    color: var(--main);
-}
-
-/* Title Settings */
-.clickable-3rdHwn .icon-22AiRD {
-    color: var(--main);
-}
-
-/* Chat Color */
-.messageContent-2qWWxC {
-    color: var(--main);
-}
-
-/*Message Box */
-.inner-MADQqc {
-    border: 2px;
-    border-left: 2px solid var(--main);
-    border-top: 2px solid var(--main);
-    border-right: 2px solid var(--main);
-    border-bottom: 2px solid var(--main);
-    margin-right: 120px;
-}
-
-.scrollableContainer-2NUZem {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    background-color: transparent;
-    background: var(--BG-image-set);
-    background-position: center;
-    background-size: cover;
-    max-height: 144px;
-    border-radius: 8px;
-}
-
-/* Channel Hover/Border */
-.content-1x5b-n {
-    position: relative
-}
-
-.content-1x5b-n:after {
-    content: "";
-    height: 2px;
-    width: 100%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
-    transform: translateX(-250px);
-    transition: all .2s ease
-}
-
-.content-1x5b-n:hover {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
-}
-
-.modeSelected-346R90 .content-1x5b-n {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
-}
-
-.content-1x5b-n:hover:after,
-.modeSelected-346R90 .content-1x5b-n:after {
-    content: "";
-    width: 100%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 0;
-    background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
-    transform: translateX(0)
-}
-
-/* Dm Select/Hover Settings */
-.layout-2DM8Md {
-    position: relative
-}
-
-.layout-2DM8Md:after {
-    content: "";
-    height: 2px;
-    width: 100%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
-    transform: translateX(-250px);
-    transition: all .2s ease
-}
-
-.layout-2DM8Md:hover {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
-}
-
-.selected-aXhQR6 .layout-2DM8Md {
-    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
-}
-
-.layout-2DM8Md:hover:after,
-.selected-aXhQR6 .layout-2DM8Md:after {
-    content: "";
-    width: 100%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 0;
-    background-color: transparent;
-    background-image: linear-gradient(120deg, var(--main) 85%, #daa30b 80%);
-    transform: translateX(0)
-}
-
-/* Category Settings */
-.container-2ax-kl {
-    color: var(--main);
-    border-bottom: 3px solid;
-    border-image: linear-gradient(90deg, transparent, var(--main), transparent);
-    border-image-slice: 1;
-    margin-top: -2px;
-    text-align: center;
-}
-
-.containerDefault-3GGEv_ {
-    background-color: transparent !important;
-}
-
-/* Scrollbars */
-.auto-Ge5KZx::-webkit-scrollbar-thumb {
-    background-color: var(--main);
-
-}
-
-.auto-Ge5KZx::-webkit-scrollbar-track {
-    background-color: var(--border);
-}
-
-.auto-Ge5KZx::-webkit-scrollbar-thumb,
-.auto-Ge5KZx::-webkit-scrollbar-track {
-    border: 5px solid transparent;
-    background-clip: padding-box;
-    border-radius: 8px;
-}
-
 /* Home Button Settings */
-.wrapper-25eVIn .wrapper-1BJsBx .childWrapper-anI2G9 {
-    background-color: transparent;
-    background-position: var(--home-button-position, center);
-    background-repeat: no-repeat;
-    background-image: var(--home-button-image);
-    background-size: var(--home-button-size, cover);
-    background-clip: border-box
+div[data-list-item-id="guildsnav___home"] {
+	background: var(--home-button-image) top center/100% no-repeat;
 }
+
+#app-mount [data-list-item-id="guildsnav___home"]>div {
+	color: transparent;
+	background-color: transparent;
+}
+
 
 .homeIcon-FuNwkv {
     height: 0px;
 }
 
-/* DM And Server Hover */
-.layer-v9HyYc {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), var(--background-image);
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-
-}
-
-/* VC Popout */
-.container-2dqNWc {
-    content: "";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image);
-    background-position: var(--background-image-position, center);
-    background-size: var(--background-image-size, cover);
-
-}
-
 /* Brightness Settings */
-#app-mount .chat-3bRxxu {
+#app-mount  .chatContent-3KubbW {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+#app-mount  .container-ZMc96U {
     background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
@@ -717,6 +399,145 @@
 
 #app-mount .guilds-1SWlCJ .folder-21wGz3 {
     background: transparent;
+}
+
+.panels-3wFtMD {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border-top: 2px solid var(--main);
+    border-right: 2px solid var(--main); 
+}
+
+.guilds-2JjMmN {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border: 2px solid;
+    border-right: 2px solid var(--main);
+}
+
+.scroller-1ox3I2 {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border-right: 2px solid var(--main); 
+}
+
+/* Dm Select/Hover Settings */
+.layout-1qmrhw {
+    position: relative
+}
+
+.layout-1qmrhw:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.layout-1qmrhw:hover {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.selected-1-Z6gm .layout-1qmrhw {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.layout-1qmrhw:hover:after,
+.selected-1-Z6gm .layout-1qmrhw:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
+    transform: translateX(0)
+}
+
+/* Channel Hover/Border */
+.content-1gYQeQ {
+    position: relative
+}
+
+.content-1gYQeQ:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.content-1gYQeQ:hover {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ {
+    background-image: linear-gradient(120deg, black 85%, var(--medium) 80%) !important;
+}
+
+.content-1gYQeQ:hover:after,
+.modeSelected-3DmyhH .content-1gYQeQ:after {
+    content: "";
+    width: 100%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(120deg, var(--main) 85%, var(--hover) 80%);
+    transform: translateX(0)
+}
+
+.wrapper-1BJsBx {
+    transition: background-color .1s ease-out,color .1s ease-out;
+}
+
+/* Scrollbars */
+.auto-2K3UW5::-webkit-scrollbar-thumb {
+    background-color: var(--main);
+
+}
+
+.auto-2K3UW5::-webkit-scrollbar-track {
+    background-color: var(--border);
+}
+
+.auto-2K3UW5::-webkit-scrollbar-thumb,
+.auto-2K3UW5::-webkit-scrollbar-track {
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+}
+
+/* Chat Color */
+.cozy-VmLDNB .messageContent-2t3eCI {
+    color: var(--main);
+}
+
+/* Settings Background */
+.contentRegion-3HkfJJ {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+.sidebarRegionScroller-FXiQOh {
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background: rgba(0, 0, 0, var(--left-brightness));
+}
+
+/* DM Border */
+.scroller-WSmht3 {
+        border-right: 2px solid var(--main); 
 }
 
 /*9.h. Toasts*/
@@ -870,7 +691,6 @@ body .bd-toasts {
     padding-right: 40px;
     color: rgba(255, 255, 255, .8);
     background: rgba(0, 0, 0, .2);
-    color: rgba(255, 255, 255, .65);
     font-size: var(--size1);
     font-weight: 500;
     align-items: center;
