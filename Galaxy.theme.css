@@ -2,7 +2,7 @@
  * @name         Galaxy Revamped
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      1.0
+ * @version      1.1
  * @source       https://github.com/Ghost8797/Themes  
  */
  
@@ -12,7 +12,6 @@
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
 @import "https://www.themonster.xyz/styles/google-fonts.css";
 @import "https://monstrousdev.github.io/themes/addons/categoryNameFlair.css";
-@import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
 @import url('https://ghost8797.github.io/Themes/RadialStatusX.theme.css');
@@ -54,7 +53,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Galaxy Revamped v1.0';
+    content: 'Loading Galaxy Revamped v1.1';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -91,7 +90,7 @@
 
 :root {
     --theme-name: 'Galaxy Revamped';
-    --theme-version: '1.0';
+    --theme-version: '1.1';
     --main: #f2b50d;
     --hover: #daa30b;
     --border: #916d08;
@@ -304,6 +303,12 @@
     color: var(--hover);
     margin-left: 5px;
 }
+
+/* Menu Popout Background */
+.menu-3sdvDG{
+    background: var(--dark);
+}
+
 
 /* Background Settings */
 #app-mount:before {
@@ -541,6 +546,15 @@ div[data-list-item-id="guildsnav___home"] {
 /* DM Border */
 .scroller-WSmht3 {
         border-right: 2px solid var(--main); 
+}
+/* Popout Menu Background */
+.scroller-1bVxF5 {
+    background-color: var(--medium);
+}
+
+/* Chat Box Border */
+.channelTextArea-1FufC0 {
+    border: 2px solid var(--main);
 }
 
 /*9.h. Toasts*/
