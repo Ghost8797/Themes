@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      2.7
+ * @version      2.8
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -45,7 +45,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Bobatea v2.7';
+    content: 'Loading Bobatea v2.8';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -82,7 +82,7 @@
 
 :root {
     --theme-name: 'Bobatea';
-    --theme-version: '2.7';
+    --theme-version: '2.8';
     --Color1: #ffb9df;
     --Color2: #1b0af1;
     --Color3: #efe993;
