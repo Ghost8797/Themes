@@ -122,7 +122,7 @@
     --chat-embed: var(--background-secondary);
 
     /* Background image variables */
-    --background-image: url('https://cdn.discordapp.com/attachments/716136044327731211/1012560476460290198/spiderman_dc_background.jpg?size=4096');
+    --background-image: url('https://cdn.discordapp.com/attachments/716136044327731211/1012560476460290198/spiderman_dc_background.jpg');
     /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --background-image-blur: 0px;
     /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
