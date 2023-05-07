@@ -2,7 +2,7 @@
  * @name         Bobatea
  * @description  Custom made for the babybear
  * @author       Ghost8797#4706
- * @version      2.9
+ * @version      2.10
  */
 
 @import url('https://fonts.googleapis.com/css?family=Emilys+Candy');
@@ -45,7 +45,7 @@
 }
 
 .full-motion body::before {
-    content: 'Loading Bobatea v2.9';
+    content: 'Loading Bobatea v2.10';
     top: 50%;
     left: 50%;
     width: 250px;
@@ -82,7 +82,7 @@
 
 :root {
     --theme-name: 'Bobatea';
-    --theme-version: '2.9';
+    --theme-version: '2.10';
     --Color1: #ffb9df;
     --Color2: #1b0af1;
     --Color3: #efe993;
@@ -146,7 +146,7 @@
     /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
     /* Home image variables */
-    --home-button-image: url('https://cdn.discordapp.com/attachments/702702557478256812/844091067266891796/image0.jpg');
+    --home-button-image: url('https://cdn.discordapp.com/attachments/861291534782562324/1102860727477338122/oooo.jpg');
     /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
     --home-button-size: cover;
     /* Size of the home button image | DEFAUT: cover */
