@@ -2,7 +2,7 @@
  * @name         Cera
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      2.8
+ * @version      2.9
  * @source       https://github.com/Ghost8797/Themes  
  */
  
@@ -18,7 +18,7 @@
 :root {
     /* Theme Info */
     --theme-name: 'Cera';
-    --theme-version: '2.8';
+    --theme-version: '2.9';
 
     /* Main Colors */
     --main: cyan;
@@ -55,6 +55,7 @@
     --middle-brightness: 0.65;
     --right-brightness: 0.8;
     --popout-modal-brightness: 0.8;
+    --chat-bubble-brightness: 0.5;
 
     /* Gradients */
     --gradient-primary: 0, 0, 0;
@@ -191,7 +192,7 @@
 
 /* Chat Message Background */
 .messageListItem_d5deea {
-    background: rgba(0, 0, 0, var(--middle-brightness));
+    background: rgba(0, 0, 0, var(--chat-bubble-brightness));
     background-size: auto;
     border-radius: 25px;
     width: auto;
