@@ -141,6 +141,12 @@
     }
 }
 
+/* Chat Font */
+* {
+    font-family: Montserrat;
+    
+}
+
 /* Linked Channel */
 #app-mount .wrapper-3WhCwL {
     background: transparent;
