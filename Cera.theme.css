@@ -429,13 +429,17 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 /* Chat Box */
-.themedBackground_d0696b {
+.channelTextArea_a7d72e {
     border: 2px solid var(--main);
-    background: rgba(0, 0, 0, var(--middle-brightness));
+
 }
 
 .editor_a552a6 {
     color: var(--main); 
+}
+
+.inner_bdf0de {
+    background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
 /* Toasts Base Styles */
