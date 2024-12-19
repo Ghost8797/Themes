@@ -214,8 +214,10 @@
     background-size: var(--background-image-size, cover);
 }
 
-.subtitleContainer_a7d72e {
-    background: rgba(0, 0, 0, var(--middle-brightness));
+.theme-dark .themed_fc4f04  {
+    background: rgba(0, 0, 0, var(--middle-brightness));          
+    border-bottom: 2px solid var(--main);
+    border-left: 2px solid var(--main);
 }
 
 /* Home Button Settings */
@@ -233,14 +235,9 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 /* Brightness Settings */
-#app-mount .chatContent-3KubbW,
-#app-mount .container-ZMc96U,
-.panels_a4d4d9,
-.scroller_fea3ef,
-.scroller-1ox3I2,
-.form_a7d72e,
-.scrollerContent_e2e187 {
+.chatContent_a7d72e {
     background: rgba(0, 0, 0, var(--middle-brightness));
+    border-left: 2px solid var(--main);
 }
 
 .membersWrap-2h-GB4 {
@@ -472,7 +469,6 @@ div[data-list-item-id="guildsnav___home"] {
 .section_cd82a7:last-child {
     border: 2px solid var(--main);
 }
-
 
 /* Toasts Base Styles */
 body .bd-toasts {
