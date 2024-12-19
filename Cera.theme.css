@@ -469,6 +469,11 @@ div[data-list-item-id="guildsnav___home"] {
     width: auto;
 }
 
+.section_cd82a7:last-child {
+    border: 2px solid var(--main);
+}
+
+
 /* Toasts Base Styles */
 body .bd-toasts {
     top: 0 !important;
