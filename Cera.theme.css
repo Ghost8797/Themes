@@ -17,7 +17,7 @@
 :root {
     /* Theme Info */
     --theme-name: 'Cera';
-    --theme-version: '2.9';
+    --theme-version: '3.0';
 
     /* Main Colors */
     --main: cyan;
@@ -153,7 +153,7 @@
 }
 
 /* Version Info/Message Bar */
-.wordmark_a934d8 {
+.wordmarkWindows__421ed {
     opacity: 1;
     width: 100%;
     background: rgba(0, 0, 0, var(--middle-brightness));
@@ -163,21 +163,21 @@
     padding: 0 0 0 12px; /* Combined padding-left */
 }
 
-.wordmark_a934d8 svg {
+.wordmarkWindows__421ed svg {
     display: none;
 }
 
-.wordmark_a934d8:before,
-.wordmark_a934d8:after {
+.wordmarkWindows__421ed:before,
+.wordmarkWindows__421ed:after {
     font-size: 15px;
 }
 
-.wordmark_a934d8:before {
+.wordmarkWindows__421ed:before {
     content: var(--theme-name);
     color: var(--main);
 }
 
-.wordmark_a934d8:after {
+.wordmarkWindows__421ed:after {
     content: 'v' var(--theme-version); /* Added space after 'v' */
     color: var(--hover);
     margin-left: 5px;
@@ -188,7 +188,7 @@
     background: var(--dark);
 }
 
-/* Chat Message Background */
+/* Chat Message Background 
 .messageListItem_d5deea {
     background: rgba(0, 0, 0, var(--middle-brightness));
     background-size: auto;
@@ -214,8 +214,8 @@
     background-size: var(--background-image-size, cover);
 }
 
-.theme-dark .themed_fc4f04  {
-    background: rgba(0, 0, 0, var(--middle-brightness));          
+.theme-dark .themed_fc4f04 {
+    background: rgba(0, 0, 0, var(--middle-brightness)) !important;          
     border-bottom: 2px solid var(--main);
     border-left: 2px solid var(--main);
 }
@@ -235,7 +235,7 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 /* Brightness Settings */
-.chatContent_a7d72e {
+.chatContent_f75fb0 {
     background: rgba(0, 0, 0, var(--middle-brightness));
     border-left: 2px solid var(--main);
 }
@@ -296,6 +296,11 @@ div[data-list-item-id="guildsnav___home"] {
     margin: var(--window-padding);
     overflow: hidden;
     border-radius: var(--window-roundness);
+}
+
+.subtitleContainer_f75fb0 {
+    background: rgba(0, 0, 0, var(--middle-brightness));
+    border-left: 2px solid var(--main);  
 }
 
 /* DM Select/Hover Settings */
@@ -400,7 +405,7 @@ div[data-list-item-id="guildsnav___home"] {
 
 
 /* Chat Color */
-.cozy_f9f2ca .messageContent_f9f2ca {
+.messageContent_c19a55 {
     color: var(--main);
 }
 
@@ -426,7 +431,7 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 /* Chat Box */
-.channelTextArea_a7d72e {
+.channelTextArea__74017 {
     border: 2px solid var(--main);
 
 }
@@ -435,7 +440,7 @@ div[data-list-item-id="guildsnav___home"] {
     color: var(--main); 
 }
 
-.scrollableContainer_bdf0de {
+.scrollableContainer__74017 {
     background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
@@ -617,4 +622,3 @@ body .bd-toasts {
 .powercord-toast[data-toast-type=info] .icon {
     color: var(--accent) !important;
 }
-
