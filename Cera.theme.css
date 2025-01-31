@@ -17,7 +17,7 @@
 :root {
     /* Theme Info */
     --theme-name: 'Cera';
-    --theme-version: '3.0';
+    --theme-version: '3.1';
 
     /* Main Colors */
     --main: cyan;
@@ -445,34 +445,31 @@ div[data-list-item-id="guildsnav___home"] {
 }
 
 /* Friends List Background */
-.peopleColumn_c2739c {
+.peopleColumn__133bf {
     background: rgba(0, 0, 0, var(--middle-brightness)); 
 }
 
-.theme-dark .themed_fc4f04 {
+.theme-dark .themed__9293f {
     background: rgba(0, 0, 0, var(--middle-brightness));   
 }
 
 /* Friends list selected */
-.topPill_a0 .themed_a0.selected_a0.item_a0, .side_a0 .themed_a0.selected_a0.item_a0 {
+.topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
     background: rgba(0, 0, 0, var(--middle-brightness)); 
     border: 2px solid var(--main);
 }
 
 /* Friends List Active Now Background */
-.container_bf550a {
+.itemCard__7e549 {
     background: rgba(0, 0, 0, var(--middle-brightness));  
 }
 
-.itemCard_f02fcf {
+.section__00943:last-child {
     background: rgba(0, 0, 0, var(--middle-brightness));
     background-size: auto;
     border-radius: 25px;
-    width: auto;
-}
-
-.section_cd82a7:last-child {
     border: 2px solid var(--main);
+    width: auto;
 }
 
 /* Toasts Base Styles */
