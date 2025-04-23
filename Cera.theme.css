@@ -2,7 +2,7 @@
  * @name         Cera
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      4.0
+ * @version      4.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -21,6 +21,8 @@
 .theme-dark,
 .theme-light {
     
+    --theme-name: 'Cera';
+    --theme-version: '4.1';
     --main: cyan;
     --hover: cyan;
     --border: darkcyan;
@@ -33,9 +35,6 @@
     --offline: #636b75;
     --invisible: #747f8d;
     --streaming: #643da7;
-    --theme-name: 'Cera';
-    --theme-version: '4.0';
-
     --rgb-highlight: 0, 255, 255;                          /* 4, 217, 255; /* The main highlight color */
     --rgb-close-button: 224, 58, 62;                         /* The main "close this" or "deny" color */
     --rgb-online-color: 31, 92, 171;                         /* (31, 147, 80: default green) /* The color used in the "online" user status symbol */
@@ -246,14 +245,14 @@
 
 /* Version Info/Message Bar */
 .leading_c38106 {
-    opacity: 1;
-    width: 100%;
-    background: rgba(0, 0, 0, var(--middle-brightness));
-    display: flex;
-    align-items: center;
+    top: 0;
+    left: -70px;
     height: 22px;
-    padding: 0 0 0 12px; 
-    margin-left: -70px;
+    display: flex;
+    font-size: 15px;
+    pointer-events: none; /* allow dragging */
+    z-index: 10; /* stays visible above */
+    background: transparent !important; /* no background blocking drag */
 }
 
 .leading_c38106 svg {
@@ -2007,3 +2006,4 @@ span[class*="timestampInline_"] {
     /*selected channel text*/
     color: white;
 }
+
