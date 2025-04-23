@@ -614,7 +614,7 @@
 .themedBackground__74017,
 .searchResult__02a39,
 .popoverReactionHoverBar_f84418 {
-    background: transparent;
+    background: var(--light);
 }
 
 .avatarWithText__972a0 & .content__20a53 {
