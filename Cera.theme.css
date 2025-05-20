@@ -2,7 +2,7 @@
  * @name         Cera
  * @description  Custom made theme for Project Daedalus
  * @author       Ghost8797#4706
- * @version      4.2
+ * @version      4.2.1
  * @source       https://github.com/Ghost8797/Themes  
  */
 
@@ -19,7 +19,7 @@
 :root {
   /* APP ELEMENTS */
   --theme-name: 'Cera';
-  --theme-version: '4.2';  
+  --theme-version: '4.2.1';  
   --main: cyan;
   --hover: cyan;
   --border: darkcyan;
@@ -27,6 +27,7 @@
   --medium: #101214;
   --light: #131517;
   --app-bg: url(http://getwallpapers.com/wallpaper/full/0/9/0/349027.jpg);
+  --home-button-image: url('https://cdn.discordapp.com/icons/771164332649087008/e12e723166063ee442826465afff1abb.webp?size=128');
   --app-blur: 2px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -159,6 +160,19 @@
 /* Chat Font */
 * {
     font-family: Montserrat;
+    
+}
+
+/* Home Button Image */
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 svg {
+    display: none;
+}
+
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--home-button-image) !important;
     
 }
 
